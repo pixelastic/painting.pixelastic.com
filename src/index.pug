@@ -1,9 +1,11 @@
 extends /_includes/layouts/core
 
 block meta
-  - meta.title = "Custom title"
-  - meta.description = "Custom description"
+  //- - meta.title = "Custom title"
+  //- - meta.description = "Custom description"
   //- see also: meta.twitter, meta.image and meta.url
 
 block content
-  p This is your website
+  for post in data.posts
+    .bg-white.border-gray-5.border-001.rounded.shadow.p-2.my-1
+      .markdown!=markdown(post)
