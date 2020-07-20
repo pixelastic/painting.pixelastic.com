@@ -3,7 +3,7 @@ const read = require('firost/lib/read');
 const pMap = require('golgoth/lib/pMap');
 
 module.exports = async () => {
-  const filepaths = await glob('./src/_posts/*.md');
+  const filepaths = await glob('./src/*/index.md');
   const posts = await pMap(filepaths, read);
   return posts;
 };

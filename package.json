@@ -5,13 +5,15 @@
     "norska": "0.14.5"
   },
   "devDependencies": {
-    "aberlaas": "1.11.0"
+    "aberlaas": "1.11.0",
+    "dedent": "0.7.0"
   },
   "files": [],
   "license": "MIT",
   "main": "lib/main.js",
   "name": "painting.pixelastic.com",
   "scripts": {
+    "post:new": "node ./scripts/post-new.js",
     "build": "./scripts/build",
     "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
