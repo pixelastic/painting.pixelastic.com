@@ -4,9 +4,9 @@ tags: miniature
 date: 2019-08-03
 ---
 
-![image-20200720145445427](image-20200720145445427.png)
-
 This is a group shot of what I was working on at that time. I picked up a few of the female miniatures from Zombicide Green Horde as well as some men.
+
+![image-20200720145445427](image-20200720145445427.png)
 
 The thing in the back is an attempt at making a lava elemental out of a Gormiti miniature. It didn't came out as well as I initially imagined.
 

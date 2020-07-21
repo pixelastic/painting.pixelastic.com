@@ -9,8 +9,15 @@ html(lang='en')
   body.bg-gray-4
     .container.mx-auto
       .flrnw.flc.p-4
-        a.text-7.hover_blue.bold.transition-colors(href=url.pathToRoot) Pixelastic's Painting Log
-      .flcnw.flcch
-        block content
+        a.text-5.md_text-7.hover_blue.bold.transition-colors(href=url.pathToRoot) Pixelastic's Painting Log
+      .flrw.flrch
+        .fla.flcnw.flcch
+          block content
+        .fln.min-w-20p
+          .bg-white.border-gray-5.border-001.rounded.shadow.p-2.my-1
+            .text-4.bold Tags
+            for tag in _.keys(data.posts.byTag)
+              - const count = data.posts.byTag[tag].length
+              p=`${tag} (${count})`
 
   +norska_scripts

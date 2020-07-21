@@ -1,0 +1,7 @@
+extends /_includes/layouts/core
+
+block meta
+
+block content
+  for post in data.paginatedPosts
+    +post(post, { basePath: post.slug })

@@ -1,6 +1,7 @@
 mixin post(post, options = {})
   .bg-white.border-gray-5.border-001.rounded.shadow.p-2.my-1
-    .prose.md_prose-xl
-      h1
-        a(href=`${url.pathToRoot}${post.slug}/`)=post.title
-      .markdown!=markdown(post.body, options)
+    h1.text-6.bold.hover_blue.transition-colors.underline.underline-transparent.hover_underline-blue
+      a(href=`${url.pathToRoot}${post.slug}/`)=post.title
+    .text-2.italic.opacity-50p=post.displayDate
+    .prose.md_prose-lg.lg_prose-xl.pt-1!=markdown(post.body, options)
+  //- .fln.bg-white.border-gray-5.border-001.rounded.shadow.p-2.my-1
