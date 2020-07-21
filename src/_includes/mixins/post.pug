@@ -1,0 +1,6 @@
+mixin post(post, options = {})
+  .bg-white.border-gray-5.border-001.rounded.shadow.p-2.my-1
+    .prose.md_prose-xl
+      h1
+        a(href=`${url.pathToRoot}${post.slug}/`)=post.title
+      .markdown!=markdown(post.body, options)

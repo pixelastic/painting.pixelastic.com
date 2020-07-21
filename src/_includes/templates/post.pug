@@ -1,0 +1,8 @@
+extends /_includes/layouts/core
+
+block meta
+  - meta.title = data.post.title
+  - meta.description = data.post.excerpt
+
+block content
+  +post(data.post)

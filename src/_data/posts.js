@@ -1,9 +1,9 @@
 const glob = require('firost/lib/glob');
-const read = require('firost/lib/read');
 const pMap = require('golgoth/lib/pMap');
+const readMarkdown = require('../../lib/readMarkdown.js');
 
 module.exports = async () => {
   const filepaths = await glob('./src/*/index.md');
-  const posts = await pMap(filepaths, read);
+  const posts = await pMap(filepaths, readMarkdown);
   return posts;
 };
