@@ -1,6 +1,6 @@
 mixin post(post, options = {})
   +brick
     h1.text-6.bold
-      +link(href=${post.slug}=post.title
+      +link(href=post.slug)=post.title
     .text-2.italic.opacity-50p=post.displayDate
-    .prose.md_prose-lg.lg_prose-xl.pt-1!=markdown(post.body, options)
+    .prose.md_prose-lg.lg_prose-lg.pt-1!=markdown(post.body, options)

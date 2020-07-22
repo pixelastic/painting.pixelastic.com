@@ -1,5 +1,6 @@
 const getPosts = require('../../lib/getPosts.js');
 
 module.exports = async () => {
-  return await getPosts();
+  const posts = await getPosts();
+  return posts.allWithoutWip[0];
 };
