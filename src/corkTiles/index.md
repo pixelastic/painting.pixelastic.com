@@ -69,3 +69,7 @@ Below are more pictures of the various games we play with them:
 ![image-20200722113305685](image-20200722113305685.png)
 
 ![image-20200722113318905](image-20200722113318905.png)
+
+![image-20200722140841226](image-20200722140841226.png)
+
+![image-20200722141008882](image-20200722141008882.png)
