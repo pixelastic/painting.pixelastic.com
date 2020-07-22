@@ -1,5 +1,7 @@
 mixin post(post, options = {})
-  +brick
+  +brick.relative
+    - const editUrl = `https://github.com/pixelastic/painting.pixelastic.com/edit/master/src/${post.slug}/index.md`
+    a.absolute.top-1.right-1.gray-5.pointer.hover_gray-8.transition-color(href=editUrl, target="_blank") Found a typo?
     h1.text-6.bold
       +link(href=post.slug)=post.title
     .flrnw.text-2
