@@ -7,7 +7,13 @@
 
 @import '_styles/fonts.css';
 
-/* Removes top margin on the first image of the prose */
-.prose p:first-child img {
-  margin-top: 0px;
+.prose {
+  /* Removes top margin on the first image */
+  p:first-child img {
+    @apply mt-0;
+  }
+  /* Center images */
+  img {
+    @apply mx-auto;
+  }
 }
