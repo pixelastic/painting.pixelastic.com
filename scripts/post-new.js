@@ -12,7 +12,7 @@ const captureOutput = require('firost/lib/captureOutput');
   const content = dedent`
   ---
   title: ${title}
-  tags: terrain, miniature, wip
+  tags: terrain, miniature, tools, accesories, wip
   date: 0000-00-00
   ---
 
