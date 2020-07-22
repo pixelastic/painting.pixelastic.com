@@ -1,4 +1,5 @@
 const pMap = require('golgoth/lib/pMap');
+const pProps = require('golgoth/lib/pProps');
 const getPosts = require('./lib/getPosts.js');
 const paginate = require('./lib/paginate.js');
 module.exports = {
@@ -7,16 +8,16 @@ module.exports = {
   },
   hooks: {
     async afterHtml({ createPage }) {
-      const { all, allWithoutWip } = await getPosts();
+      const { all, allWithoutWip, byTag } = await getPosts();
 
-      // Create one page for each post
+      // Post details
       await pMap(all, async (post) => {
         const template = '_includes/templates/post.pug';
         const destination = `${post.slug}/index.html`;
         await createPage(template, destination, { post });
       });
 
-      // Create paginated pages
+      // Homepage pagination
       await paginate(
         allWithoutWip,
         '_includes/templates/paginate.pug',
@@ -28,6 +29,22 @@ module.exports = {
         },
         { createPage }
       );
+
+      // Tags paginations
+      await pProps(byTag, async (posts, tagName) => {
+        await paginate(
+          posts,
+          '_includes/templates/paginate.pug',
+          (n) => {
+            const prefix = `tags/${tagName}`;
+            if (n === 0) {
+              return `${prefix}/index.html`;
+            }
+            return `${prefix}/page-${n + 1}/index.html`;
+          },
+          { createPage }
+        );
+      });
     },
   },
 };
