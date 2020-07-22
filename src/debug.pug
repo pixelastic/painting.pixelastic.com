@@ -3,5 +3,5 @@ extends /_includes/layouts/core
 block meta
 
 block content
-  for post in data.posts.all
+  for post in [data.posts.all[0]]
     +post(post, { basePath: post.slug })
