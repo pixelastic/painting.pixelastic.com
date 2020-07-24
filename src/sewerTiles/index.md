@@ -1,7 +1,7 @@
 ---
 title: Sewer Tiles
-tags: terrain, miniature, wip
-date: 0000-00-00
+tags: terrain
+date: 2019-02-15
 ---
 
 I made some sewer tiles from a set of square coasters.
