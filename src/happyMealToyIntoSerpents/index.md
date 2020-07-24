@@ -1,7 +1,7 @@
 ---
 title: Happy Meal toy into snakes
 tags: miniature
-date: 0000-00-00
+date: 2019-03-12
 ---
 
 I found the following toy in a garage sale. It's a Happy Meal toy (from MacDonalds), where you have to grab a plastic key from two plastic handles.
