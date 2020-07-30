@@ -1,7 +1,7 @@
 ---
 title: Stronghand Garrison
 tags: miniature
-date: 2020-07-30
+date: 2020-07-31
 ---
 
 ![image-20200730020304736](image-20200730020304736.png)
