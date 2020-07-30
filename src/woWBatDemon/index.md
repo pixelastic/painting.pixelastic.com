@@ -1,6 +1,6 @@
 ---
 title: WoW Bat Demon
-tags: terrain, miniature, wip
+tags: miniature
 date: 2020-07-30
 ---
 
