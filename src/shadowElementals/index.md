@@ -1,8 +1,12 @@
 ---
 title: Shadow Elementals
-tags: miniature, wip
+tags: miniature
 date: 2020-02-20
 ---
+
+![image-20200730012901115](image-20200730012901115.png)
+
+Here are shadow elementals made out of various fire-themed HeroClix miniatures. I intend to use them whenever my players set foot in the Shadow Plane in my current campaign.
 
 ![image-20200722142956610](image-20200722142956610.png)
 

@@ -1,8 +1,14 @@
 ---
 title: Noble Family NPCs
-tags: miniature, wip
+tags: miniature
 date: 2020-02-20
 ---
+
+![image-20200730013017507](image-20200730013017507.png)
+
+Here are some of the prominent noble NPCs in my current Ptolus-inspired campaign.
+
+Seeing this picture made me realize that I should cleanup the bases a bit, like painting a clear black rim around them, not letting the drybrush show.
 
 I rummaged through my box of HeroClix miniatures to find some specific ones that could represent some of the important NPCs of my current campaign.
 

@@ -5,15 +5,17 @@ const path = require('path');
 const run = require('firost/lib/run');
 const exists = require('firost/lib/exists');
 const captureOutput = require('firost/lib/captureOutput');
+const dayjs = require('golgoth/lib/dayjs');
 
 (async () => {
   const title = process.argv.slice(2).join(' ');
+  const today = dayjs().format('YYYY-MM-DD');
 
   const content = dedent`
   ---
   title: ${title}
-  tags: terrain, miniature, tools, accesories, wip
-  date: 0000-00-00
+  tags: terrain, miniature, wip
+  date: ${today}
   ---
 
 

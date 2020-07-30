@@ -1,8 +1,14 @@
 ---
 title: Playmobil cove
-tags: terrain, wip
+tags: terrain
 date: 2020-03-15
 ---
+
+![image-20200730011508984](image-20200730011508984.png)
+
+I tried to make some terrain pieces out of playmobil parts. Mostly just apply modeling paste on top to give them some texture and repainting them. I plan to use them in my mega dungeon game, where my players are exploring a swamp full of forgotten barrows.
+
+
 
 ![image-20200722150748985](image-20200722150748985.png)
 
@@ -21,3 +27,7 @@ And a patch of sand... I thought I could maybe paint that as a small pond. I hav
 ![image-20200722151037300](image-20200722151037300.png)
 
 Here they are, textured, waiting for the paste to dry.
+
+![image-20200730011619343](image-20200730011619343.png)
+
+This is the current state of the pond. Does not look better in reality than what you can see on the picture. I plan on testing a water effect on it, and adding some grass around it.

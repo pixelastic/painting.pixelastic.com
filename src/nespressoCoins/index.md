@@ -1,8 +1,10 @@
 ---
 title: Nespresso Coins
-tags: terrain, wip
+tags: terrain
 date: 2020-04-06
 ---
+
+![image-20200730011442582](image-20200730011442582.png)
 
 I made fake coins out of used Nespresso Capsules.
 

@@ -1,12 +1,12 @@
 ---
 title: Flesh Ghouls
-tags: miniature, wip
+tags: miniature
 date: 2020-02-18
 ---
 
+![image-20200730013148891](image-20200730013148891.png)![image-20200730013201353](image-20200730013201353.png)
 
-
-I gathered a bunch of minis that might pass for ghouls. Emaciated humans or mutated humanoid.
+I gathered a bunch of minis that might pass for ghouls. Emaciated humans or mutated humanoid and painted them with pale flesh with a red wash on top. Some of them actually turned out pretty scary.
 
 ![image-20200722143131490](image-20200722143131490.png)![image-20200722143140444](image-20200722143140444.png)
 
