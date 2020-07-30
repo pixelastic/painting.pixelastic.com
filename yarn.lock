@@ -1203,6 +1203,11 @@
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-2.1.1.tgz#ceff6a28a5b4867c2dd4a1ba513de278ccbe8bb1"
   integrity sha512-/aPsuoj/1Dw/kzhkgz+ES6TxG0zfTMGLwuK2ZG00k/iJzYHTLCE8mVU8EPqEOp/lmxPoq1C1C9RYToRKb2KEfg==
 
+"@sindresorhus/is@^3.0.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-3.1.0.tgz#d8735532635bea69ad39119df5f0f10099bd09dc"
+  integrity sha512-n4J+zu52VdY43kdi/XdI9DzuMr1Mur8zFL5ZRG2opCans9aiFwkPxHYFEb5Xgy7n1Z4K6WfI4FpqUqsh3E8BPQ==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
   resolved "https://registry.npmjs.org/@sinonjs/commons/-/commons-1.8.1.tgz#e7df00f98a203324f6dc7cc606cad9d4a8ab2217"
@@ -3816,6 +3821,11 @@ dayjs@1.8.28:
   resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.8.28.tgz#37aa6201df483d089645cb6c8f6cef6f0c4dbc07"
   integrity sha512-ccnYgKC0/hPSGXxj7Ju6AV/BP4HUkXC2u15mikXT5mX9YorEaoi1bEKOmAqdkJHN4EEkmAf97SpH66Try5Mbeg==
 
+dayjs@1.8.31:
+  version "1.8.31"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.31.tgz#0cd1114c2539dd5ad9428be0c38df6d4bb40b9d3"
+  integrity sha512-mPh1mslned+5PuIuiUfbw4CikHk6AEAf2Baxih+wP5fssv+wmlVhvgZ7mq+BhLt7Sr/Hc8leWDiwe6YnrpNt3g==
+
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
   resolved "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -5764,6 +5774,25 @@ golgoth@1.3.0:
     query-string "6.13.1"
     time-span "4.0.0"
 
+golgoth@1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-1.3.2.tgz#75f13cc7ec6ab14fa41334594ebb2971a4711141"
+  integrity sha512-FoeKdyvYALzOyi8Z4MHJmUAk9oi47271nsPtfWkBKL5X2KWBqx83ARNIf+PKVG77heD6R9437/O/d4gkeCSvQQ==
+  dependencies:
+    chalk "4.1.0"
+    dayjs "1.8.31"
+    esm "3.2.25"
+    flat "5.0.0"
+    got "11.5.1"
+    lodash "4.17.19"
+    p-all "3.0.0"
+    p-map "4.0.0"
+    p-map-series "2.1.0"
+    p-props "4.0.0"
+    pify "5.0.0"
+    query-string "6.13.1"
+    time-span "4.0.0"
+
 gonzales-pe@^4.2.3, gonzales-pe@^4.3.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/gonzales-pe/-/gonzales-pe-4.3.0.tgz#fe9dec5f3c557eead09ff868c65826be54d067b3"
@@ -5785,6 +5814,23 @@ got@11.3.0:
     decompress-response "^6.0.0"
     get-stream "^5.1.0"
     http2-wrapper "^1.0.0-beta.4.5"
+    lowercase-keys "^2.0.0"
+    p-cancelable "^2.0.0"
+    responselike "^2.0.0"
+
+got@11.5.1:
+  version "11.5.1"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.5.1.tgz#bf098a270fe80b3fb88ffd5a043a59ebb0a391db"
+  integrity sha512-reQEZcEBMTGnujmQ+Wm97mJs/OK6INtO6HmLI+xt3+9CvnRwWjXutUvb2mqr+Ao4Lu05Rx6+udx9sOQAmExMxA==
+  dependencies:
+    "@sindresorhus/is" "^3.0.0"
+    "@szmarczak/http-timer" "^4.0.5"
+    "@types/cacheable-request" "^6.0.1"
+    "@types/responselike" "^1.0.0"
+    cacheable-lookup "^5.0.3"
+    cacheable-request "^7.0.1"
+    decompress-response "^6.0.0"
+    http2-wrapper "^1.0.0-beta.5.0"
     lowercase-keys "^2.0.0"
     p-cancelable "^2.0.0"
     responselike "^2.0.0"
@@ -6203,7 +6249,7 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-http2-wrapper@^1.0.0-beta.4.5:
+http2-wrapper@^1.0.0-beta.4.5, http2-wrapper@^1.0.0-beta.5.0:
   version "1.0.0-beta.5.2"
   resolved "https://registry.npmjs.org/http2-wrapper/-/http2-wrapper-1.0.0-beta.5.2.tgz#8b923deb90144aea65cf834b016a340fc98556f3"
   integrity sha512-xYz9goEyBnC8XwXDTuC/MZ6t+MrKVQZOk4s7+PaDkwIsQd8IwqvM+0M6bA/2lvG8GHXcPdf+MejTUeO2LCPCeQ==
@@ -8135,7 +8181,7 @@ lodash@4.17.15:
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
-lodash@^4.11.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.16, lodash@^4.17.19, lodash@^4.2.1:
+lodash@4.17.19, lodash@^4.11.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.16, lodash@^4.17.19, lodash@^4.2.1:
   version "4.17.19"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
@@ -9192,10 +9238,10 @@ norska-cloudinary@^0.14.3:
     norska-config "^0.14.3"
     norska-helper "^0.14.3"
 
-norska-cms@^0.14.7:
-  version "0.14.7"
-  resolved "https://registry.npmjs.org/norska-cms/-/norska-cms-0.14.7.tgz#27c3fc2b3130ca3f29a41dcf88e1406c6fc8b7b4"
-  integrity sha512-KN6bh2UtYRXPaTiYAqWJlxf7wPT31RARYaw26bcvIMud1P/l6mNxxsUn5TqhdxlJQAxV28FesxsZi7ppP5wzUg==
+norska-cms@^0.14.8:
+  version "0.14.8"
+  resolved "https://registry.yarnpkg.com/norska-cms/-/norska-cms-0.14.8.tgz#0a4d8c23912d7f878cf6e74d9af448f201c13a9d"
+  integrity sha512-ywkxGLl7hFjUq33hNygD8QsIatlKQL/RRUSmdM2mOHBjWfJJhK6jZmkWviB6q5YmZh5OXvEHCtRbBiHvMAckLA==
   dependencies:
     connect-livereload "0.6.1"
     express "4.17.1"
@@ -9205,7 +9251,7 @@ norska-cms@^0.14.7:
     multer "1.4.2"
     nodemon "2.0.4"
     norska-config "^0.14.3"
-    norska-css "^0.14.7"
+    norska-css "^0.14.8"
     norska-helper "^0.14.3"
     open "7.1.0"
 
@@ -9218,10 +9264,10 @@ norska-config@^0.14.3:
     golgoth "1.3.0"
     norska-helper "^0.14.3"
 
-norska-css@^0.14.7:
-  version "0.14.7"
-  resolved "https://registry.npmjs.org/norska-css/-/norska-css-0.14.7.tgz#cf0129986982087f900465d723a725f2df5a112f"
-  integrity sha512-cJHSjUV40EiZfWWXjsZ5jjegGkTxHozM0PxQpq9k/YOWqZWsSijleO+LIIjP7c83V2J+Ydl65VKeHo2Hnet+Tw==
+norska-css@^0.14.8:
+  version "0.14.8"
+  resolved "https://registry.yarnpkg.com/norska-css/-/norska-css-0.14.8.tgz#5a04170ab8bee8e23b1dc66a5f247f9acd751867"
+  integrity sha512-EOBS03mULXrcP0Lp6MQ00Y7TFtl27Qq2+eOfnRYmARkdY2ReR4NFoi6C2YVBqlG9DKToRoOCSq9rLJpBqurVuA==
   dependencies:
     "@fullhuman/postcss-purgecss" "1.3.0"
     autoprefixer "9.8.5"
@@ -9234,7 +9280,7 @@ norska-css@^0.14.7:
     postcss-import "12.0.1"
     postcss-nested "4.2.3"
     purge-from-html "1.0.3"
-    tailwind-config-norska "0.4.1"
+    tailwind-config-norska "0.4.2"
     tailwindcss "1.5.1"
 
 norska-data@^0.14.3:
@@ -9330,10 +9376,10 @@ norska-revv@^0.14.3:
     norska-helper "^0.14.3"
     rev-hash "^3.0.0"
 
-norska@0.14.7:
-  version "0.14.7"
-  resolved "https://registry.npmjs.org/norska/-/norska-0.14.7.tgz#74e49ac945b1967c83e2d278767bd92387d4172d"
-  integrity sha512-4E4qEPrnfPz2PRnhy51q1FWWfkDcYH1plXp7q3KnOHJSQ9n7OUJ1tLqXtxsEdJiTcpWJg0SFPRSuoFEGiprzbA==
+norska@0.14.8:
+  version "0.14.8"
+  resolved "https://registry.yarnpkg.com/norska/-/norska-0.14.8.tgz#5443976ca694a61bbcc8409ef10d51b3c49fa1ef"
+  integrity sha512-eO/OWTOuNNuoAHaNQezJeZuxE/B1dVmKY/IOiOjt7ojxoXZyfaM3Vp5/RXbb33hUYIKoPonHjcEhLCLtP+ChBg==
   dependencies:
     firost "1.11.1"
     golgoth "1.3.0"
@@ -9341,9 +9387,9 @@ norska@0.14.7:
     minimist "1.2.5"
     norska-assets "^0.14.6"
     norska-cloudinary "^0.14.3"
-    norska-cms "^0.14.7"
+    norska-cms "^0.14.8"
     norska-config "^0.14.3"
-    norska-css "^0.14.7"
+    norska-css "^0.14.8"
     norska-frontend "^0.14.6"
     norska-helper "^0.14.3"
     norska-html "^0.14.6"
@@ -12280,10 +12326,10 @@ table@^5.2.3, table@^5.4.6:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwind-config-norska@0.4.1:
-  version "0.4.1"
-  resolved "https://registry.npmjs.org/tailwind-config-norska/-/tailwind-config-norska-0.4.1.tgz#43a9ffecad5156527c706354a2f3cf9a3aa86918"
-  integrity sha512-SamH2E6QIP5jPocqsRTfYbWPRFlFySDmXSSKpodHUffa9zjhpUsQhL9O50T6t8CtgkfMXc+KFRaopj7Hmw2xtw==
+tailwind-config-norska@0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/tailwind-config-norska/-/tailwind-config-norska-0.4.2.tgz#429a807dd485eabafbf46eb4fd1822ba1acea3b5"
+  integrity sha512-HGpPXPSIsrDUvsC6auJe6pq8B84gXwEGRCA8YDRbxK0cn+ifTZ27V/gEU4Hv9fcIdTFWPSPNu1N4jSDddrX1zA==
   dependencies:
     "@tailwindcss/typography" "0.2.0"
     golgoth "1.3.0"
