@@ -22,7 +22,7 @@ I'm starting to have a fair amount of painted minis for my games. I store them i
 
 So I started working on a piece of terrain whose main purpose was to display miniatures. I intended to store this in one of the cubes of my IKEA Kallax, so I needed something that would take advantage of the 33cm x 33cm x 33cm of the cube. I had never worked with insulation foam before (but watched a lot of BlackMagicCraft videos).
 
-![Temple of Bhaal | Baldur's Gate Wiki | Fandom](latest)
+![Temple of Bhaal](latest.png)
 
 I also wanted to build something that was reminiscent of the Temple of Bhaal, the room where you fight Sarevok, the final boss of Baldur's Gate. But because I needed to use as much vertical space as possible in my Kallax, I also needed some lower and upper levels. For the lower level I imagined some classic catacombs, and some elevated stairs for the upper level.
 
