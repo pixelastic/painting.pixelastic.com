@@ -4,8 +4,6 @@ tags: miniature
 date: 2020-08-27
 ---
 
-![image-20200723145643362](image-20200723145643362.png)
-
 ![image-20200723145651080](image-20200723145651080.png)
 
 This is a Jurassic Park promotional egg, I guess it's from MacDonalds as well. I wanted to paint it as some crackling egg releasing some kind of foul energy. I had never painted anything like this before, so I thought that having such a large miniature to try would be perfect.
