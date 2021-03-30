@@ -1,4 +1,6 @@
-const lazyload = require('norska/frontend/lazyload');
+const theme = require('norska/theme');
 const mediumZoom = require('medium-zoom').default;
-lazyload.init();
-mediumZoom('.prose img');
+(async () => {
+  await theme.init();
+  mediumZoom('.prose img');
+})();

@@ -1,11 +1,11 @@
 const dedent = require('dedent');
-const write = require('firost/lib/write');
-const _ = require('golgoth/lib/lodash');
+const write = require('firost/write');
+const _ = require('golgoth/lodash');
 const path = require('path');
-const run = require('firost/lib/run');
-const exists = require('firost/lib/exists');
-const captureOutput = require('firost/lib/captureOutput');
-const dayjs = require('golgoth/lib/dayjs');
+const run = require('firost/run');
+const exists = require('firost/exists');
+const captureOutput = require('firost/captureOutput');
+const dayjs = require('golgoth/dayjs');
 
 (async () => {
   const title = process.argv.slice(2).join(' ');

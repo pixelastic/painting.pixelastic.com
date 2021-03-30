@@ -1,11 +1,4 @@
-/* purgecss start ignore */
-@import 'tailwindcss/base';
-@import 'norska/reset';
-@import 'tailwindcss/components';
-/* purgecss end ignore */
-@import 'tailwindcss/utilities';
-
-@import '_styles/fonts.css';
+@import 'theme:style.css';
 
 .prose {
   /* Removes top margin on the first image */

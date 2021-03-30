@@ -1,7 +1,3 @@
-extends /_includes/layouts/core
-
-block meta
-
 block content
   for post in [data.debug]
     +post(post, { basePath: post.slug })
