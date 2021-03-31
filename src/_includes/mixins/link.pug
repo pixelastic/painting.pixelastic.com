@@ -1,0 +1,4 @@
+mixin link(attributes)
+  - attributes.href = `${url.pathToRoot}${attributes.href}`
+  a.transition-colors.underline.underline-transparent.hover_blue.hover_underline-blue&attributes(attributes)
+    block

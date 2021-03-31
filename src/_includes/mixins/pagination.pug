@@ -1,0 +1,13 @@
+mixin pagination(paginationData)
+  +brick
+    .flex.flex-row.justify-center.text-3
+      each page in paginationData
+        if page.isCurrentPage
+          .fln.flrnw.p-01
+            .fla.px-1.py-01=(page.pageIndex+1)
+        else
+          .fln.flrnw.p-01
+            a.fla.px-1.py-01.bg-gray.hover_bg-blue.white.transition.transition-colors.rounded(href=`${url.pathToRoot}${page.url}`)=(page.pageIndex+1)
+    //- for page in paginationData
+    //-   p=JSON.stringify(page)
+      //- p=JSON.stringify(item)

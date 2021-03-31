@@ -1,0 +1,32 @@
+include ../mixins/layout.pug
+include ../mixins/brick.pug
+include ../mixins/link.pug
+- const post = data.helper.postData(data, url)
+
++layout
+  +brick
+    .flex
+      h1.flex-auto.text-6.bold
+        +link(href=post.url)=post.title
+      .flex-none
+        .gray-5.pointer.hover_gray-8.transition-color(href=post.editUrl, target="_blank") Found a typo?
+    .flex
+      .flex-none.italic.opacity-50p=post.displayDate
+      .flex-none.ml-01 in
+      each tag in post.tags
+        .flex-none.mx-01
+          +link.inline.blue.mr-01(href=tag.url)=tag.name
+    //-   .fln.italic.opacity-50p=data.meta.displayDate
+
+    .prose.md_prose-lg.lg_prose-lg.pt-1
+      block content
+    //- .flrnw.text-2
+    //-   .fln.italic.opacity-50p=data.meta.displayDate
+    //-   //- .fln
+    //-   //-   .inline.opacity-50p.mx-01 in
+    //-   //-   each tag in post.tags
+    //-   //-     +link.inline.blue.mr-01(href=`${url.pathToRoot}tags/${tag}/`)=tag
+    //- .prose.md_prose-lg.lg_prose-lg.pt-1
+    //-   block content
+    //-   //- !=markdown(post.body, options)
+

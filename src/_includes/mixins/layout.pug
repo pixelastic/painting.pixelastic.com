@@ -1,0 +1,20 @@
+mixin layout()
+  doctype html
+  html(lang='en')
+    +norska_head
+    body.bg-gray-4
+      .container.mx-auto
+        .flex.justify-center.p-4
+          //- +link.text-5.md_text-7.bold(href=url.pathToRoot) Pixelastic's Painting Log
+        .flex.flex-col.flex-no-wrap.justify-center.max-w-prose.mx-auto.px-1.lg_flex-row.lg_max-w-none
+          .flex-initial
+            block
+          .flex-auto.min-w-14.w-100p.lg_flex-none.lg_w-auto.lg_ml-3
+            //- +brick
+            //-   +link.text-5.bold(href='tags') Tags
+            //-   .flex.flex-col
+            //-     for tag in data.tags
+            //-       .flex-initial.flex.flex-row
+            //-         +link.blue(href=tag.url)=tag.name
+            //-         .span.ml-01=`(${tag.count})`
+      +norska_scripts

@@ -1,37 +1,5 @@
-mixin brick(attributes)
-  .bg-white.border-gray-5.border-001.rounded.shadow.p-2.my-1&attributes(attributes)
-    block
-
-mixin link(attributes)
-  - attributes.href = `${url.pathToRoot}${attributes.href}`
-  a.transition-colors.underline.underline-transparent.hover_blue.hover_underline-blue&attributes(attributes)
-    block
-
-mixin pagination(paginationData)
-  +brick
-    .flex.flex-row.justify-center.text-3
-      each page in paginationData
-        if page.isCurrentPage
-          .fln.flrnw.p-01
-            .fla.px-1.py-01=(page.pageIndex+1)
-        else
-          .fln.flrnw.p-01
-            a.fla.px-1.py-01.bg-gray.hover_bg-blue.white.transition.transition-colors.rounded(href=`${url.pathToRoot}${page.url}`)=(page.pageIndex+1)
-    //- for page in paginationData
-    //-   p=JSON.stringify(page)
-      //- p=JSON.stringify(item)
-
-mixin post(post, options = {})
-  +brick.relative
-    - const editUrl = `https://github.com/pixelastic/painting.pixelastic.com/edit/master/src/${post.slug}/index.md`
-    a.absolute.top-1.right-1.gray-5.pointer.hover_gray-8.transition-color(href=editUrl, target="_blank") Found a typo?
-    h1.text-6.bold
-      +link(href=post.slug)=post.title
-    .flrnw.text-2
-      .fln.italic.opacity-50p=post.displayDate
-      .fln
-        .inline.opacity-50p.mx-01 in
-        each tag in post.tags
-          +link.inline.blue.mr-01(href=`${url.pathToRoot}tags/${tag}/`)=tag
-    .prose.md_prose-lg.lg_prose-lg.pt-1!=markdown(post.body, options)
-
+//- include ./_includes/mixins/layout.pug
+//- include ./_includes/mixins/brick.pug
+//- include /_includes/mixins/link.pug
+//- include /_includes/mixins/post.pug
+//- include /_includes/mixins/pagination.pug
