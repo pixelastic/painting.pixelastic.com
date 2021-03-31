@@ -2,6 +2,7 @@
 title: Bhaal Display Diorama
 tags: terrain
 date: 2020-08-29
+layout: post
 ---
 
 ![image-20200829223540132](image-20200829223540132.png)

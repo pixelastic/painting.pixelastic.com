@@ -2,6 +2,7 @@
 title: Cork tiles
 tags: terrain
 date: 2019-09-17
+layout: post
 ---
 
 ![image-20200722110823415](image-20200722110823415.png)

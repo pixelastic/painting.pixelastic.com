@@ -2,6 +2,7 @@
 title: Coaster Dungeon Tiles
 tags: terrain
 date: 2020-08-27
+layout: post
 ---
 
 ![image-20200723150739753](image-20200723150739753.png)
