@@ -1,13 +1,23 @@
-mixin post(post, options = {})
-  +brick.relative
-    - const editUrl = `https://github.com/pixelastic/painting.pixelastic.com/edit/master/src/${post.slug}/index.md`
-    a.absolute.top-0.right-0.mt-1.mr-1.gray-5.pointer.hover_gray-8.transition-color(href=editUrl, target="_blank") Found a typo?
-    h1.text-6.bold
-      +link(href=post.slug)=post.title
-    .flrnw.text-2
-      .fln.italic.opacity-50p=post.displayDate
-      .fln
-        .inline.opacity-50p.mx-01 in
-        each tag in post.tags
-          +link.inline.blue.mr-01(href=`${url.pathToRoot}tags/${tag}/`)=tag
-    .prose.md_prose-lg.lg_prose-lg.pt-1!=markdown(post.body, options)
+mixin post(post, markdownOptions = {})
+  .pt-4
+
+    //- Title
+    h1.bold.text-5.arial.teal
+      a.link(href=post.url)=post.title
+    .text-01.gray-7.sans=`Published ${post.displayDate}`
+
+    //- Body
+    .prose.md_prose-lg.lg_prose-xl.helvetica.lh-normal.pt-1!=markdown(post.body, markdownOptions)
+
+    //- Tags
+    .pt-1.flex
+      .flex.gray-6 Tags:
+      each tag in post.tags
+        .flex-none.mx-01
+          a.link.teal.mr-01(href=tag.url)=tag.name
+
+    //- Typo link
+    a.link(href=post.editUrl target="_blank") Edit this post on GitHub
+
+    //- Separator
+    hr.w-90p.mx-auto.border-b-001.border-teal.border-opacity-25p.my-4

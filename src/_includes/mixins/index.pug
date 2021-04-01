@@ -1,0 +1,12 @@
+//- We use this mixins/index.pug file instead of the default mixins.pug as there
+//- is currently a bug in norska where the content of mixins.pug is
+//- automatically appended to the source of each pug file
+//-
+//- Because pug files can be in subdirectory, this messes up the relative
+//- inclusion of other files.
+//-
+//- Instead, we define here all our other includes, and manually include that
+//- file in our layouts.
+include ./post.pug
+include ./dev_null.pug
+include ./layout.pug

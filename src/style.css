@@ -1,12 +1,29 @@
 @import 'theme:style.css';
 
+.link,
+.prose a {
+  @apply underline underline-transparent;
+  @apply transition-colors;
+  &:hover {
+    @apply underline-teal;
+  }
+}
+
 .prose {
   /* Removes top margin on the first image */
   p:first-child img {
     @apply mt-0;
   }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply arial;
+  }
   /* Center images */
   img {
-    @apply mx-auto;
+    @apply mx-auto rounded shadow-3;
   }
 }
