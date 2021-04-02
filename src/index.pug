@@ -1,4 +1,3 @@
 block content
-  - const latestPosts = data.helper.latestPosts(data.posts);
-  for post in latestPosts
+  for post in data.posts
     +post(post, { imgUrlPrefix: post.slug })

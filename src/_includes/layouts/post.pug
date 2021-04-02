@@ -4,5 +4,16 @@ include ../mixins/index.pug
   - const post = data.helper.findPostByUrl(data.posts, url)
   +post(post)
 
+  .flex
+    if post.previousPost
+      .flex.flex-col
+        .text-01 &lt; Previous post
+        a.flex.link.bold.teal(href=`${url.pathToRoot}${post.previousPost.url}`)=post.previousPost.title
+    .flex-auto
+    if post.nextPost
+      .flex.flex-col.text-right
+        .text-01 Next post &gt;
+        a.flex.link.bold.teal(href=`${url.pathToRoot}${post.nextPost.url}`)=post.nextPost.title
+
   +dev_null
     block content
