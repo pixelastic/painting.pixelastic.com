@@ -1,31 +1,3 @@
 block content
-  -
-    const postsPerPage = data.theme.postsPerPage
-    const postsOnThisPage = _.slice(data.posts, 0, postsPerPage)
-
-  //- All posts
-  for post in postsOnThisPage
-    +post(post, { imgUrlPrefix: post.slug })
-
-  mixin pagination-link(pageNumber, label, isCurrentPage)
-    .flex.w-4.h-4
-      if isCurrentPage
-        a.flex-auto.flex.flex-center.rounded.white.bg-teal.bold(href=`${url.pathToRoot}page-${pageNumber}/`)=label
-      else
-        a.flex-auto.flex.flex-center.hover_bg-teal.rounded.hover_white(href=`${url.pathToRoot}page-${pageNumber}/`)=label
-
-  //- Pagination
-  - const maxPage = Math.ceil(data.posts.length / postsPerPage)
-  - const currentPage = 1
-  .flex.flex-center
-    .flex
-      if currentPage > 1
-        +pagination-link(0, '«')
-        +pagination-link(currentPage-1, '‹')
-
-      for pageIndex in _.range(1, maxPage+1)
-        +pagination-link(pageIndex, pageIndex, pageIndex === currentPage)
-
-      if currentPage < maxPage
-        +pagination-link(currentPage+1, '›')
-        +pagination-link(maxPage, '»')
+  - const pageIndex = _.get(data, 'history.pageIndex', 1)
+  +post_list(pageIndex)

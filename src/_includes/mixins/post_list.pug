@@ -1,0 +1,32 @@
+mixin post_list(currentPageIndex)
+  - const postsPerPage = data.theme.postsPerPage
+  - const firstPostIndex = postsPerPage * (currentPageIndex - 1)
+  - const maxPage = Math.ceil(data.posts.length / postsPerPage)
+  - const postsOnThisPage = _.slice(data.posts, firstPostIndex, firstPostIndex + postsPerPage)
+
+  //- All posts
+  for post in postsOnThisPage
+    +post(post, { imgUrlPrefix: post.slug })
+
+  //- Pagination
+  .flex.flex-center
+    .flex
+      if currentPageIndex > 1
+        +pagination-link(1, '«')
+        +pagination-link(currentPageIndex - 1, '‹')
+
+      for pageIndex in _.range(1, maxPage+1)
+        +pagination-link(pageIndex, pageIndex, pageIndex === currentPageIndex)
+
+      if currentPageIndex < maxPage
+        +pagination-link(currentPageIndex + 1, '›')
+        +pagination-link(maxPage, '»')
+
+mixin pagination-link(pageNumber, label, isCurrentPage)
+  - const isFirstPage = pageNumber === 1;
+  - const linkUrl = isFirstPage ? url.pathToRoot : `${url.pathToRoot}page-${pageNumber}/`
+  .flex.w-4.h-4
+    if isCurrentPage
+      a.flex-auto.flex.flex-center.rounded.white.bg-teal.bold(href=linkUrl)=label
+    else
+      a.flex-auto.flex.flex-center.hover_bg-teal.rounded.hover_white(href=linkUrl)=label
