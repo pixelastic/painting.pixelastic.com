@@ -2,6 +2,7 @@
 title: Dark Young of Shub-Niggurath
 tags: miniature
 date: 2020-07-30
+layout: post
 ---
 
 ![image-20200730020820204](image-20200730020820204.png)

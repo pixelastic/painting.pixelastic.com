@@ -1,20 +1,28 @@
-// const pMap = require('golgoth/pMap');
+const pMap = require('golgoth/pMap');
 // const pProps = require('golgoth/pProps');
-// const getPosts = require('./lib/getPosts.js');
+const getPosts = require('./lib/getPosts.js');
 // const paginate = require('./lib/paginate.js');
+const themeConfig = require('./src/_data/theme.js');
+const _ = require('golgoth/lodash');
+
 module.exports = {
   cloudinary: {
     bucketName: 'pixelastic-painting',
   },
   hooks: {
-    // async afterHtml({ createPage }) {
-    // const { all, allWithoutWip, byTag } = await getPosts();
-    // Post details
-    // await pMap(all, async (post) => {
-    //   const template = '_includes/templates/post.pug';
-    //   const destination = `${post.slug}/index.html`;
-    //   await createPage(template, destination, { post });
-    // });
+    async afterHtml({ createPage }) {
+      // Generate all /page-X/ history
+      const posts = await getPosts();
+      const postsPerPage = _.get(themeConfig, 'postsPerPage');
+      const maxPage = Math.ceil(posts.length / postsPerPage);
+
+      await pMap(_.range(2, maxPage + 1), async (pageNumber) => {
+        const template = 'index.pug';
+        const destination = `page-${pageNumber}/index.html`;
+        const data = { hooks: { pageNumber } };
+        await createPage(template, destination, data);
+      });
+    },
     // Homepage pagination
     // await paginate(
     //   allWithoutWip,

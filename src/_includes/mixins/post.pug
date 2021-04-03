@@ -1,4 +1,5 @@
-mixin post(post, markdownOptions = {})
+mixin post(post)
+  - const markdownOptions = { imgUrlPrefix: `${url.pathToRoot}${post.slug}` }
   .pt-4
 
     //- Title

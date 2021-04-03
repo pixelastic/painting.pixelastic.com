@@ -1,25 +1,9 @@
-const glob = require('firost/glob');
+// This file is a wrapper around ./lib/getPosts.js because:
+// - getPosts is needed in norska.config.js hooks as well
+// - we load it using a forceReload require, so it's live reloaded
 const firostRequire = require('firost/require');
-const pMap = require('golgoth/pMap');
-const readPost = firostRequire('../../lib/readPost.js', { forceReload: true });
-const _ = require('golgoth/lodash');
+const getPosts = firostRequire('../../lib/getPosts.js', { forceReload: true });
 
-module.exports = async (options) => {
-  const { fromPath } = options;
-  const filepaths = await glob(fromPath('*/index.md'));
-
-  // Read all posts
-  let posts = await pMap(filepaths, readPost);
-
-  // Sort by date
-  posts = _.chain(posts).sortBy('date').reverse().value();
-
-  // Add previous/next
-  posts = _.map(posts, (post, index) => {
-    post.previousPost = posts[index - 1];
-    post.nextPost = posts[index + 1];
-    return post;
-  });
-
-  return posts;
+module.exports = async () => {
+  return await getPosts();
 };

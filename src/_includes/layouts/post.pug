@@ -1,9 +1,11 @@
 include ../mixins/index.pug
 
 +layout
+  //- Post details
   - const post = data.helper.findPostByUrl(data.posts, url)
   +post(post)
 
+  //- Previous / Next post
   .flex
     if post.previousPost
       .flex.flex-col
@@ -15,5 +17,6 @@ include ../mixins/index.pug
         .text-01 Next post &gt;
         a.flex.link.bold.teal(href=`${url.pathToRoot}${post.nextPost.url}`)=post.nextPost.title
 
+  //- Blackhole to swallow the initial markdown display
   +dev_null
     block content
