@@ -2,6 +2,7 @@
 title: Dracozombie
 tags: miniature
 date: 2020-01-11
+layout: post
 ---
 
 ![image-20200722121836234](image-20200722121836234.png)
@@ -33,4 +34,3 @@ Finally the orcs are defeated, but now the globe is breaking and the platforms s
 ![image-20200722141650169](image-20200722141650169.png)
 
 Separated by a broken bridge, our heroes try to win a mind contest with the Dragon while its hoard is slowly dripping into space.
-

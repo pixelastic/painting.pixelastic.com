@@ -2,6 +2,7 @@
 title: Flesh Ghouls
 tags: miniature
 date: 2020-02-18
+layout: post
 ---
 
 ![image-20200730013148891](image-20200730013148891.png)![image-20200730013201353](image-20200730013201353.png)

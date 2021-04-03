@@ -2,6 +2,7 @@
 title: Gormiti WIP
 tags: miniature
 date: 2019-12-18
+layout: post
 ---
 
 Here are a bunch of Gormiti miniatures I have started working on (glueing on a base, maybe even basecoat), but still haven't figured out what to do with them.

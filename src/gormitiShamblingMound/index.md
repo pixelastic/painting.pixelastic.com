@@ -2,6 +2,7 @@
 title: Gormiti Shambling Mound
 tags: miniature
 date: 2019-12-18
+layout: post
 ---
 
 ![image-20200730014252887](image-20200730014252887.png)

@@ -2,6 +2,7 @@
 title: Giant Bugs
 tags: miniature
 date: 2020-03-29
+layout: post
 ---
 
 ![image-20200722151518528](image-20200722151518528.png)

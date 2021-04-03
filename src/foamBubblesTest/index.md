@@ -2,6 +2,7 @@
 title: Foam bubbles test
 tags: terrain
 date: 2020-08-29
+layout: post
 ---
 
 ![image-20200829225107121](image-20200829225107121.png)

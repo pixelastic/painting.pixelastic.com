@@ -2,6 +2,7 @@
 title: Group Shot (August 2019)
 tags: miniature
 date: 2019-08-03
+layout: post
 ---
 
 This is a group shot of what I was working on at that time. I picked up a few of the female miniatures from Zombicide Green Horde as well as some men.

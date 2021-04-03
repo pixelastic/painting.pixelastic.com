@@ -2,6 +2,7 @@
 title: Duergar Squad
 tags: miniature
 date: 2020-01-16
+layout: post
 ---
 
 ![image-20200730013332534](image-20200730013332534.png)

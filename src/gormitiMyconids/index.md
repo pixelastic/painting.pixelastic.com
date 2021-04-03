@@ -2,6 +2,7 @@
 title: Gormiti Myconids
 tags: miniature
 date: 2019-11-18
+layout: post
 ---
 
 ![image-20200722152224627](image-20200722152224627.png)

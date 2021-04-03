@@ -2,6 +2,7 @@
 title: Gormiti painting practice
 tags: miniature
 date: 2019-08-28
+layout: post
 ---
 
 I bought a bag full of Gormiti plastic toys in a garage sale, so I could practice painting on them.

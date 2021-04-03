@@ -2,6 +2,7 @@
 title: Gormiti Umber Hulks
 tags: miniature
 date: 2019-12-18
+layout: post
 ---
 
 Here are the original miniatures:

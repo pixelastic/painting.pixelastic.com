@@ -2,6 +2,7 @@
 title: Gormiti Stone Golem
 tags: miniature
 date: 2019-12-18
+layout: post
 ---
 
 Below is the original miniature:
