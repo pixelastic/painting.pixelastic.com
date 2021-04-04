@@ -4,7 +4,7 @@ mixin post(post)
 
     //- Title
     h1.bold.text-5.arial.teal
-      a.link(href=post.url)=post.title
+      a.link(href=`${url.pathToRoot}${post.url}`)=post.title
     .text-01.gray-7.sans=`Published ${post.displayDate}`
 
     //- Body

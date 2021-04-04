@@ -1,7 +1,6 @@
 @import 'theme:style.css';
 
-.link,
-.prose a {
+.link {
   @apply underline underline-transparent;
   @apply transition-colors;
   &:hover {
@@ -14,13 +13,18 @@
   p:first-child img {
     @apply mt-0;
   }
+  /* Emphasis */
+  strong {
+    @apply gray-7;
+  }
+  /* Headers */
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    @apply arial;
+    @apply arial gray-8;
   }
   /* Center images */
   img {
