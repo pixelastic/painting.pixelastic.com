@@ -18,16 +18,21 @@
     @apply gray-7;
   }
   /* Headers */
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply arial gray-8;
+  h2 a {
+    @apply arial gray-8 no-underline;
   }
-  /* Center images */
+  h3 a {
+    @apply arial gray-7 no-underline;
+  }
+  h4 a {
+    @apply arial gray-7 no-underline;
+  }
+  /* Images */
   img {
     @apply mx-auto rounded shadow-3;
+    @apply pointer;
+    &:hover {
+      @apply shadow-5 opacity-90p;
+    }
   }
 }

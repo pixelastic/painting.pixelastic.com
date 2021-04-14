@@ -15,7 +15,9 @@ mixin post_list(currentPageNumber)
         +pagination-link(1, '«')
         +pagination-link(currentPageNumber - 1, '‹')
 
-      for pageNumber in _.range(1, maxPage + 1)
+      - const firstPage = Math.max(1, currentPageNumber - 3)
+      - const lastPage = Math.min(maxPage + 1, currentPageNumber + 3)
+      for pageNumber in _.range(firstPage, lastPage)
         +pagination-link(pageNumber, pageNumber, pageNumber === currentPageNumber)
 
       if currentPageNumber < maxPage
