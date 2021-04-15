@@ -1,0 +1,9 @@
+mixin post_list_links(posts)
+
+  ul
+    for post in posts
+      li
+        .flex.flex-row.debg.flex-cross-center
+          a.link.teal.mr-01(href=`${url.pathToRoot}${post.url}`)=post.title
+          .flex-1.text-01.opacity-75p=post.displayDate
+

@@ -1,0 +1,10 @@
+block content
+  - const tag = _.get(data, 'hooks.tag', {})
+
+  .pt-4
+    //- Title
+    h1.bold.text-5.arial.teal
+      a.link(href=`${url.pathToRoot}${tag.url}`)=`${tag.name} posts`
+
+    .prose
+      +post_list_links(tag.posts)

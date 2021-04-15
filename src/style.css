@@ -1,6 +1,6 @@
 @import 'theme:style.css';
 
-.link {
+.link, .prose a {
   @apply underline underline-transparent;
   @apply transition-colors;
   &:hover {
@@ -12,6 +12,9 @@
   /* Removes top margin on the first image */
   p:first-child img {
     @apply mt-0;
+  }
+  a {
+    @apply teal;
   }
   /* Emphasis */
   strong {

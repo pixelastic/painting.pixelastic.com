@@ -15,7 +15,7 @@ mixin post(post)
       .flex.gray-6 Tags:
       each tag in post.tags
         .flex-none.mx-01
-          a.link.teal.mr-01(href=tag.url)=tag.name
+          a.link.teal.mr-01(href=`${url.pathToRoot}${tag.url}`)=tag.name
 
     //- Typo link
     a.link(href=post.editUrl target="_blank") Edit this post on GitHub
