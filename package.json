@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "excerpt-html": "1.2.1",
+    "excerpt-html": "1.2.2",
     "firost": "2.10.0",
     "front-matter": "4.0.2",
     "golgoth": "2.0.0",
