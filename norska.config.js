@@ -9,9 +9,7 @@ const ENABLE_PAGINATION = true;
 const ENABLE_TAGS = true;
 
 module.exports = {
-  cloudinary: {
-    bucketName: 'pixelastic-painting',
-  },
+  cloudinary: 'pixelastic-painting',
   hooks: {
     async afterHtml({ createPage }) {
       const posts = await getPosts();
