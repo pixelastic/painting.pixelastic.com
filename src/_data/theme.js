@@ -1,3 +1,3 @@
 module.exports = {
-  postsPerPage: 2,
+  postsPerPage: 10,
 };
