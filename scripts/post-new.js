@@ -14,7 +14,7 @@ const dayjs = require('golgoth/dayjs');
   const content = dedent`
   ---
   title: ${title}
-  tags: terrain, miniature, wip
+  tags: terrain, miniature
   date: ${today}
   ---
 
