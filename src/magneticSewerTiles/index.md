@@ -23,8 +23,6 @@ By putting the screw always on the left and the magnet always on the right I'm s
 
 I tried various ways of carving the inner sewer part. I tried cutting small lines of foam, or larger ones. In the end I went with cutting 4 small lines as it was very fast and I plan to fill the sewer line with modeling paste anyway.
 
-
-
 ![image-20200829224806671](image-20200829224806671.png)
 
 I added some stone pattern on the sidewalks with the usual pen and utility knife technique.
@@ -84,3 +82,8 @@ I then added a dark green wash on the canals and a bit on the sidewalk. The resu
 So I applied another dark red was on the inner parts of the sidewalks, and finished with another light drybrush of light gray on top to blend the two.
 
 And here they are, some sewer tiles for when my players want to chase a mutated goblin that escaped from a carnival. All great stories start like this.
+
+Some more shots of the tiles with some minis for scale:
+
+![image-20210421225550453](image-20210421225550453.png)
+
