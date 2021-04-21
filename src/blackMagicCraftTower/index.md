@@ -6,11 +6,19 @@ date: 2021-04-21
 
 ![image-20210421225949479](image-20210421225949479.png)
 
-This is heavily inspired by the [modular mage tower](https://www.youtube.com/watch?v=DZK_kq6MIyw) build by Black Magic Craft. The premise is simple: cut the same shape over and over again and stack it at an angle to form the stairs, then apply texture to make it look like stone.
+This is heavily inspired by the [modular mage tower](https://www.youtube.com/watch?v=DZK_kq6MIyw) build by Black Magic Craft.
+
+![image-20210421232543369](image-20210421232543369.png)
+
+Draw the same shape over and over again on a large sheet of foam.
 
 ![image-20210421223929972](image-20210421223929972.png)
 
-Here are the first shapes. I used the first one as a template to then cut the next ones.
+Use a utility knife to cut those shapes out, and draw irregular stone patterns on the sides.
+
+![image-20210421232404478](image-20210421232404478.png)
+
+Glue them all on top of each other at an angle to make create a stair effect.
 
 ![image-20210421224002562](image-20210421224002562.png)
 
@@ -36,13 +44,27 @@ Well, this was a fun build and pretty easy to do. I should have applied the ston
 
 After I finished the build I decided that I should made a few others, so I could stack them to build a really high tower. I also decided that I should add a custom top level on each side, allowing more more versatility on what the last floor would look like.
 
-![Winds of Magic | Warhammer Wiki | Fandom](latest)
+![img](windsofmagic.png)
+
+
 
 I took inspiration from the winds of magic of the Warhammer world, and decided to build one tower top for each wind.
 
-![image-20210421224841530](image-20210421224841530.png)
+![image-20210421232617517](image-20210421232617517.png)
 
-Here is the first one. I tried to add some magnets to allow tower parts to click well together, but unfortunately it didn't work so well. The magnets were not correctly placed didn't really register with the other tower part. In the end I thing I removed them entirely.
+I created two more towers.
+
+![image-20210421232743033](image-20210421232743033.png)
+
+The same but face down (or up, or whatever).
+
+![image-20210421232834254](image-20210421232834254.png)
+
+![image-20210421232857888](image-20210421232857888.png)
+
+Some closeup of the hand drawn runess
+
+
 
 ![image-20210421225058420](image-20210421225058420.png)
 
