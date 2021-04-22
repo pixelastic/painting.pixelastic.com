@@ -5,7 +5,9 @@ date: 2020-02-18
 layout: post
 ---
 
-![image-20200722144050350](image-20200722144050350.png)This is Gormiti toy found in a second-hand shop for 1€. I had to check online to know what it was, but I could directly see it had repaint potential.
+![image-20200722144050350](image-20200722144050350.png)
+
+This is Gormiti toy found in a second-hand shop for 1€. I had to check online to know what it was, but I could directly see it had repaint potential.
 
 ![image-20200722141050546](image-20200722141050546.png)
 
