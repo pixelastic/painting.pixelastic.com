@@ -7,11 +7,11 @@ layout: post
 
 ![image-20210423222505536](image-20210423222505536.png)
 
-This is a hut, made from a yoghurt. So, a yoghut.
+This is a hut, made from a yogurt. So, a yoghut.
 
 ![image-20210423221238568](image-20210423221238568.png)
 
-I started with an empty yoghurt glued to a plastic lid. I traced a rough circular shape with a sharpie around it, and cut it with scissors. This was meant to give it some stability on the table.
+I started with an empty yogurt glued to a plastic lid. I traced a rough circular shape with a sharpie around it, and cut it with scissors. This was meant to give it some stability on the table.
 
 ![image-20210423221351145](image-20210423221351145.png)
 
@@ -27,7 +27,7 @@ I glued a some together to form a boarded up door.
 
 ![image-20210423221548628](image-20210423221548628.png)
 
-And glued all that on the initial yoghurt. The door was glued in the inside of the yoghurt while the other boards were glued on the outside.
+And glued all that on the initial yogurt. The door was glued in the inside of the yogurt while the other boards were glued on the outside.
 
 ![image-20210423221740634](image-20210423221740634.png)
 
