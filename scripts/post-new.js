@@ -8,6 +8,10 @@ const captureOutput = require('firost/captureOutput');
 const dayjs = require('golgoth/dayjs');
 
 (async () => {
+  if (process.argv.length < 3) {
+    console.info('Usage: yarn run post:new "Post title"');
+    process.exit(1);
+  }
   const title = process.argv.slice(2).join(' ');
   const today = dayjs().format('YYYY-MM-DD');
 
