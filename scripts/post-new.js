@@ -16,6 +16,7 @@ const dayjs = require('golgoth/dayjs');
   title: ${title}
   tags: terrain, miniature
   date: ${today}
+  layout: post
   ---
 
 

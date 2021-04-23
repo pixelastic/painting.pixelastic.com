@@ -2,6 +2,7 @@
 title: Simple pillars
 tags: terrain
 date: 2021-04-22
+layout: post
 ---
 
 ![image-20210422225411216](image-20210422225411216.png)

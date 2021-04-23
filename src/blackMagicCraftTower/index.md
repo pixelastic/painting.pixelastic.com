@@ -2,6 +2,7 @@
 title: Black Magic Craft Tower
 tags: terrain
 date: 2021-04-21
+layout: post
 ---
 
 ![image-20210421225949479](image-20210421225949479.png)
