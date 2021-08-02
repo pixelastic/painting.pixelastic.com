@@ -8,7 +8,7 @@
     "norska": "2.7.0"
   },
   "devDependencies": {
-    "aberlaas": "1.24.3",
+    "aberlaas": "1.24.6",
     "dedent": "0.7.0"
   },
   "files": [],
