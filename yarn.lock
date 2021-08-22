@@ -11347,7 +11347,7 @@ norska-theme-default@^2.8.0:
 
 norska@2.9.0:
   version "2.9.0"
-  resolved "https://registry.yarnpkg.com/norska/-/norska-2.9.0.tgz#a223481643b0c32a66bba330f09eb4b6f454271e"
+  resolved "https://registry.npmjs.org/norska/-/norska-2.9.0.tgz#a223481643b0c32a66bba330f09eb4b6f454271e"
   integrity sha512-ulh8UVogQ9Zd9y7xaars3z68J7ZXWtUbRYwcjNDDNwUOTJTbnZE/gMntf9H2MKW3jJhbztRRf255NPHGCPYEqw==
   dependencies:
     firost "2.16.2"
