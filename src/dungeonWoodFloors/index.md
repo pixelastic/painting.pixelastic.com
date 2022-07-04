@@ -1,5 +1,5 @@
 ---
-title: dungeon Wood Floors
+title: Dungeon Wood Floors
 tags: terrain
 date: 2022-07-04
 layout: post
