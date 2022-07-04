@@ -11,11 +11,13 @@ Similar to the [Stone Floors](https://painting.pixelastic.com/dungeonStoneRooms/
 
 Instead of multiple wooden tiles, I opted for full room boards.
 
-![image-20220704234837455](image-20220704234837455.png)
+![image-20220704235332536](image-20220704235332536.png)
 
-I started the boards in a similar fashion that the stone ones. But instead of adding cracks and stone texture, I went with a simple floorboard pattern. Each square is made of three planks, but the alternate order allows for visually distinguish them in play.
+I started the boards in a similar fashion that the stone ones. Each square is made of three planks, but the alternate order allows for visually distinguish them in play.
 
-For the wood texture, I used a pen and draw squiggles in the direction of the plank, to simulate wood grain. It has a bit of a cartoonish look, but in play it does look like a wooden floor.
+![image-20220704235350268](image-20220704235350268.png)
+
+For the wood texture, I used the tip of a used pen and draw squiggles in the direction of the plank, to simulate wood grain. It has a bit of a cartoonish look, but in play it does look like a wooden floor.
 
 ![image-20220704235055498](image-20220704235055498.png)
 
@@ -29,4 +31,10 @@ Lighter brown (almost orange) drybrush.
 
 Black wash.
 
-And a final light orange drybrush, that I forgot to take a picture of.
+![image-20220704235456827](image-20220704235456827.png)
+
+And same treatment applied to a larger piece.
+
+![image-20220704235525328](image-20220704235525328.png)
+
+The wash did warp the board a little, but one night under the weight of the PHB, DMG and MM fixed it back.
