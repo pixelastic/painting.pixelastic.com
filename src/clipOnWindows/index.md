@@ -5,7 +5,7 @@ date: 2022-07-05
 layout: post
 ---
 
-![image-20220626233933206](image-20220626233933206.db8b598a1f.jpeg)
+![image-20220705233030858](image-20220705233030858.png)
 
 The fight against their evil twin took place in a Mansion, and I wanted a way to visually symbolize the walls. I wanted a way to differentiate between the inner walls (separating two rooms), and the external walls (separating the mansion from the outside). 
 
