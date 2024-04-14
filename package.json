@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "aberlaas": "1.25.1",
-    "dedent": "0.7.0"
+    "dedent": "1.5.3"
   },
   "files": [],
   "license": "MIT",
