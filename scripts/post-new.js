@@ -28,9 +28,12 @@ const dayjs = require('golgoth/dayjs');
 
   const slug = _.camelCase(title);
   const filepath = path.resolve(`./src/${slug}/index.md`);
-  if (!(await exists(filepath))) {
-    await write(content, filepath);
+  if (await exists(filepath)) {
+    console.info('A post with that name already exists');
+    process.exit(1);
   }
+
+  await write(content, filepath);
 
   await captureOutput(async () => {
     await run(`typora ${filepath}`);
