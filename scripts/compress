@@ -5,7 +5,7 @@ set -e
 # So I added this quick hack to also compress jpg files on commit.
 
 # Get all staged files and filter for jpg files
-stagedJpgs=($(git diff --cached --name-only --diff-filter=ACM | grep -i '\.jpg$'))
+stagedJpgs=($(git diff --cached --name-only | grep -i '\.jpg$'))
 
 # Exit if no jpg files are staged
 if [[ ${#stagedJpgs[@]} -eq 0 ]]; then

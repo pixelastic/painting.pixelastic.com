@@ -18,6 +18,7 @@
     "post:new": "node ./scripts/post-new.js",
     "build": "./scripts/build",
     "build:prod": "./scripts/build-prod",
+    "compress": "./scripts/compress",
     "ci": "./scripts/ci",
     "cms": "./scripts/cms",
     "husky:precommit": "./scripts/husky-precommit",
