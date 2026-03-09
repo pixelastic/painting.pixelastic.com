@@ -5,6 +5,8 @@ date: 2026-03-08
 layout: post
 ---
 
+![image-20260309082826105](image-20260309082826105.png)
+
 ![image-20260308222821427](image-20260308222821427.png)
 
 Quick post about my DIY doors that I still use today! They're not the prettiest and they don't actually open, but they're solid and you can tell immediately what they are.
