@@ -38,3 +38,7 @@ I take some filling compound and moisten it slightly. Then I spread it around th
 ![image-20260309085418198](image-20260309085418198.png)
 
 Then with a dry paper towel, before the filler dries, I wipe all around the pillar. This leaves the filler only in the gaps between bricks (to look like mortar), while completely removing it from the brick surfaces.
+
+![image-20260310230744047](image-20260310230744047.png)
+
+Here's what it looks like after a quick coat of paint - first black undercoat and then a light dry brushing.
