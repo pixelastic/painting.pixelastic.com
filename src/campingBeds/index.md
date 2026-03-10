@@ -40,3 +40,23 @@ I took advantage of everything still being wet to fold it underneath, hoping it 
 ![2023-12-29 10.33.45](2023-12-29_10.33.45.jpg)
 
 Then we cover all that with Black Mod Podge so it seeps well into all the holes and solidifies it a bit more.
+
+![image-20260311000225844](image-20260311000225844.png)
+
+Here's a picture of the camp beds - they look like they're straight out of summer camp. I just did a white dry brush over them so the speed paints work better than on black.
+
+![image-20260311000734928](image-20260311000734928.png)
+
+![image-20260311000741099](image-20260311000741099.png)
+
+![image-20260311000748354](image-20260311000748354.png)
+
+![image-20260311000754923](image-20260311000754923.png)
+
+![image-20260311000802719](image-20260311000802719.png)
+
+When I did this project, I had just received my box of speedpaints. I took the opportunity to test different speedpaints on different bases to see what they would look like and check out the color differences.
+
+![image-20260311000903677](image-20260311000903677.png)
+
+I also changed up the pillow colors each time to add some variety.
