@@ -38,3 +38,15 @@ I painted it black with the modpodge thing, and added a drybrush on everything. 
 You can see on the front that some bricks are too well aligned. If I'd done this better, I wouldn't have ended up with three bricks creating that groove right down the middle. They just aligned that way unfortunately.
 
 I have to say, I didn't have much inspiration for this build. I just thought "I should be able to do something with these miniature pieces I have, let's give it a shot." So I just moved forward using techniques I already know, but the creative spark wasn't really there for this one.
+
+![image-20260311230233059](image-20260311230233059.png)
+
+I painted the different bricks after that, but honestly the quality isn't great. I lost interest in this scenery piece so I didn't put much effort into the painting. It's been sitting on my shelf unfinished for almost a year now.
+
+![image-20260311230531297](image-20260311230531297.png)
+
+Years later, I ended up pouring resin inside to fill the basin. I wanted to color it to make it a little bit blue, but it's no longer transparent at all now and you can't see the work I did at the bottom on the different tiles. 
+
+To prevent bubbles in the resin, I tried heating it with a hair dryer. Apparently I placed it way too close to my sculpture and it melted the foam bricks. That's why the bricks have a really weird shape and it didn't even make the bubbles disappear because there are some that are very visible on the surface. 
+
+So this is really a piece of terrain that I tried to make without too much inspiration, with plenty of mistakes, but at least it exists.
