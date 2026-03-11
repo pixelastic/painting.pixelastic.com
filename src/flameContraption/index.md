@@ -17,4 +17,7 @@ The piece on the side is from Mantic Crate scenery. It's normally for WWII skirm
 
 For the flame effects, I used hot glue gun glue and built it up around the plastic flame that was already on the fake candle.
 
-I've got a photo of the finished piece that I'll share in another post soon!
+![image-20260311230127820](image-20260311230127820.png)
+
+![image-20260311230143497](image-20260311230143497.png)
+
