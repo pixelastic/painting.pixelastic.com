@@ -3,12 +3,12 @@
     "excerpt-html": "1.2.2",
     "firost": "2.17.0",
     "front-matter": "4.0.2",
-    "golgoth": "2.1.0",
+    "golgoth": "2.4.0",
     "medium-zoom": "1.1.0",
     "norska": "2.10.0"
   },
   "devDependencies": {
-    "aberlaas": "1.25.1",
+    "aberlaas": "1.26.0",
     "dedent": "0.7.0"
   },
   "files": [],
