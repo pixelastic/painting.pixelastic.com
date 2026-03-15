@@ -32,3 +32,11 @@ I don't remember exactly which color corresponded to which version, but I tried 
 ![image-20260315213507514](image-20260315213507514.png)
 
 Obviously, as is often the case in campaigns, my players never actually made it to this dungeon. They were heading that way, but along the way they got jumped by a kobold patrol that really messed them up and scared them pretty badly. So they decided to put off exploring the dungeon and come back later. But then the adventure took them in completely different directions, and they just never ended up going back there.
+
+![image-20260315213805015](image-20260315213805015.png)
+
+![image-20260315213815361](image-20260315213815361.png)
+
+For the lizards, I documented the different speedpaints I used on them to test the various reds and blues. The basic speedpaint box has a lot of different reds and blues, and it's hard to get a sense of what each color looks like just by looking at the bottle. So I took photos of each one I tested.
+
+![image-20260315213942964](image-20260315213942964.png)
