@@ -295,6 +295,26 @@ Hope you liked the detailed build process. I learned a lot by doing this one. Th
 
 I used a almost all my spare skulls and bone things, but I figured that if I weren't going to use them to build a Necromancer tower, then I would never use them. So I learned that crafting material are meant to be used, not hoarded. Hopefully I will build even better stuff in the future, but there's no point in keeping build materials for later; just build with what you have right now.
 
+![image-20260317181544592](image-20260317181544592.png)
+
+Some beauty shots, taken years later.
+
+![image-20260317181605782](image-20260317181605782.png)
+
+![image-20260317181613401](image-20260317181613401.png)
+
+![image-20260317181624184](image-20260317181624184.png)
+
+![image-20260317181631900](image-20260317181631900.png)
+
+![image-20260317181640161](image-20260317181640161.png)
+
+![image-20260317181648679](image-20260317181648679.png)
+
+![image-20260317181701074](image-20260317181701074.png)
+
+![image-20260317181708951](image-20260317181708951.png)
+
 
 
 
