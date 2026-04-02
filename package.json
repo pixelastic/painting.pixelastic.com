@@ -15,6 +15,7 @@
   "license": "MIT",
   "name": "painting.pixelastic.com",
   "scripts": {
+    "writing-buddy": "claude-bin WORKFLOW.md",
     "post:new": "node ./scripts/post-new.js",
     "build": "./scripts/build",
     "build:prod": "./scripts/build-prod",
