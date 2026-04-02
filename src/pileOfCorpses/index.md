@@ -7,7 +7,7 @@ layout: post
 
 ![image-20260317192131446](image-20260317192131446.png)
 
-Here is one of the most disgusting terrains I've probably ever had to make, but it's for the introduction scene of the scenario in Briarstone. 
+Here is one of the most disgusting terrains I've probably ever had to make, but it's for the introduction scene of the scenario in Briarstone.
 
 The players have to climb a pile of corpses to be able to get out of the basement, and I wanted to make that element. So I gathered a bunch of old miniatures that I don't use and tried to make a pile out of them.
 
@@ -40,4 +40,3 @@ I started with the flesh parts using Necrotic Flesh. For everything else, I'll b
 ![image-20260317202829132](image-20260317202829132.png)
 
 ![image-20260317202839144](image-20260317202839144.png)
-
