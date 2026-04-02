@@ -5,7 +5,7 @@ date: 2021-05-06
 layout: post
 ---
 
-![image-20210506221834835](image-20210506221834835.png)
+![image-20260402110323480](image-20260402110323480.png)
 
 I recycled a second-hand Hello Kitty toy into this ruined house, ready for Mordheim.
 
@@ -136,4 +136,22 @@ Ready to be dropped into any Mordheim game.
 ![image-20210506221935173](image-20210506221935173.png)
 
 Family shot, with the little Sour Cream Hut.
+
+## Update
+
+I had the opportunity to take some nicer photos of this piece, so here they are!
+
+![image-20260402110345997](image-20260402110345997.png)
+
+![image-20260402110400784](image-20260402110400784.png)
+
+![image-20260402110415131](image-20260402110415131.png)
+
+![image-20260402110426964](image-20260402110426964.png)
+
+![image-20260402110435780](image-20260402110435780.png)
+
+![image-20260402110446321](image-20260402110446321.png)
+
+
 
