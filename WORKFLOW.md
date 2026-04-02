@@ -29,6 +29,39 @@ Image filenames follow Typora's default format: `image-YYYYMMDDHHMMSS.png`
 
 ---
 
+## Finding existing posts
+
+**Important**: Post directory names (slugs) are in ENGLISH, even when the user describes them in French.
+
+Examples:
+- User says "maison en ruine Hello Kitty" → look for `helloKittyRuinedHouse/`
+- User says "rats de Warhammer Quest" → look for `warhammerQuestRats/`
+- User says "décor de lave" → look for `lavaBases/` or similar
+
+**Search strategy**:
+1. All posts are in `src/<slug>/index.md`
+2. List posts with: `ls src/` or similar
+3. Search by English keywords in the slug names or file contents
+
+---
+
+## Common workflows
+
+### Creating a new post
+**Trigger**: User says "nouveau post" or "new post"
+→ Follow **Phase 1** below
+
+### Updating an existing post
+**Trigger**: User says "update", "modifier", "ajouter des photos" to an existing post
+
+1. Find the post in `src/` (remember: slugs are in English)
+2. Read `src/<slug>/index.md`
+3. Ask: **"J'ai trouvé le post. Veux-tu ouvrir Typora pour ajouter/modifier des images ? Ou les as-tu déjà ajoutées ?"**
+4. If images are ready → continue to **Phase 2**
+5. If user wants Typora → run `typora src/<slug>/index.md`, wait for confirmation
+
+---
+
 ## Frontmatter template
 
 ```markdown
