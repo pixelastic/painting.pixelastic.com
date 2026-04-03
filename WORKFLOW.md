@@ -97,7 +97,7 @@ Examples:
 
 ---
 
-## The 6 Phases
+## The 7 Phases
 
 ### [Phase 1 — Create the Post Scaffold](workflows/phase-1-scaffold.md)
 Create directory, frontmatter, open Typora
@@ -110,6 +110,9 @@ Parse French speech-to-text, group by image
 
 ### [Phase 4 — Translate and Build Draft](workflows/phase-4-translation.md)
 **Critical phase**: Translate to English, write intro/conclusion, assemble final markdown
+
+### [Phase 4.5 — SEO Enrichment](workflows/phase-4.5-seo-enrichment.md)
+Optimize title, write meta description, update frontmatter
 
 ### [Phase 5 — Review and Iterate](workflows/phase-5-review.md)
 Apply user corrections, iterate until approved

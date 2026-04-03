@@ -3,6 +3,7 @@ title: Sacrificial Altar Megablocks
 tags: terrain
 date: 2026-04-02
 layout: post
+description: "Found a Megablocks altar set at a secondhand shop. Tried to preserve the lighting mechanism but ended up sculpting a foam monolith instead."
 
 ---
 
