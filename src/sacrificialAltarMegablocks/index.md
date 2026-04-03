@@ -3,32 +3,32 @@ title: Sacrificial Altar Megablocks
 tags: terrain
 date: 2026-04-02
 layout: post
+
 ---
 
 <!-- Image 1 -->
 ![image-20260402110841762](image-20260402110841762.png)
 
-I found this Megablocks set at a second-hand store and thought it could work as terrain for tabletop RPGs. Sacrificial altars are a pretty common piece of scenery, and with a miniature next to it for scale, I figured it was worth trying to turn it into something usable.
+I picked up this Megablocks set at a secondhand shop. Sacrificial altars are a pretty common terrain piece, and the scale looked about right, so I figured I could turn it into something usable.
 
 <!-- Image 2 -->
 ![image-20260402110901122](image-20260402110901122.png)
 
-Here are the different pieces. The central altar stone actually moves, and when you slide it, it triggers a small switch underneath that lights up the flames at the top of the columns. I thought it would be cool to keep that feature working—having the flames light up when you move the stone.
+Here are all the different pieces. The central stone actually moves, and when it does, it triggers a little switch underneath that lights up the flames on top of the columns. I thought it would be cool to keep that feature working, so the flames would light up when you move the stone.
 
 <!-- Image 3 -->
 ![image-20260402110918260](image-20260402110918260.png)
 
-The mechanism was a bit broken, and I'm not an electronics expert. This is me trying to modify the system to get it working again. I spent a lot of time on this, but ultimately couldn't get it to function properly.
+The mechanism was a bit broken, and I'm not an electronics expert. I tried modifying the system to make it light up when the stone moves. I spent a lot of time on it but couldn't get it to actually work.
 
 <!-- Image 4 -->
 ![image-20260402110932121](image-20260402110932121.png)
 
-At this point I gave up on the lighting idea and just started carving a foam standing stone to place on top, making it into a proper sacrificial centerpiece.
+I completely gave up on that idea and started sculpting a standing stone out of foam to place on top instead. This would make a proper centerpiece for the altar.
 
 <!-- Image 5 -->
 ![image-20260402110938388](image-20260402110938388.png)
 
-I kept sculpting the standing stone. To get that flint-like, rough stone texture, I used my fingernail to tear off small bits of foam bit by bit—it gives a nice stone effect.
+I kept working on the standing stone. To get that flint-like stone texture, I used my fingernail to tear off small bits of foam bit by bit. It creates that stone effect.
 
-This project stayed in limbo for quite a while without being properly finished. I'll post updated photos later, because I did eventually complete it, but it's no longer attached to the green and brown base. I painted the two arches separately, which makes everything much more modular.
-
+This project stayed in limbo for quite a while without being finished. I eventually completed it, but took a completely different approach. I separated the arches from the green and brown base and painted them individually, which made everything much more modular.
