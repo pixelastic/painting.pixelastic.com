@@ -15,6 +15,8 @@
   "license": "MIT",
   "name": "painting.pixelastic.com",
   "scripts": {
+    "open:todo": "nautilus /home/tim/perso/Dropbox/backup/pictures/Painting",
+    "open:camera": "nautilus /home/tim/perso/Dropbox/Chargements appareil photo",
     "writing-buddy": "claude-bin WORKFLOW.md",
     "post:new": "node ./scripts/post-new.js",
     "build": "./scripts/build",
