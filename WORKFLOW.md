@@ -97,7 +97,7 @@ Examples:
 
 ---
 
-## The 7 Phases
+## The 8 Phases
 
 ### [Phase 1 — Create the Post Scaffold](workflows/phase-1-scaffold.md)
 Create directory, frontmatter, open Typora
@@ -111,7 +111,10 @@ Parse French speech-to-text, group by image
 ### [Phase 4 — Translate and Build Draft](workflows/phase-4-translation.md)
 **Critical phase**: Translate to English, write intro/conclusion, assemble final markdown
 
-### [Phase 4.5 — SEO Enrichment](workflows/phase-4.5-seo-enrichment.md)
+### [Phase 4.5 — Humanization](workflows/phase-4.5-humanization.md)
+Remove AI-generated writing patterns to make text sound natural and human-written
+
+### [Phase 4.6 — SEO Enrichment](workflows/phase-4.6-seo-enrichment.md)
 Optimize title, write meta description, update frontmatter
 
 ### [Phase 5 — Review and Iterate](workflows/phase-5-review.md)

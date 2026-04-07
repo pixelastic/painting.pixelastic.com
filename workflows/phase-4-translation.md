@@ -69,6 +69,11 @@ The speech-to-text is your source of ideas, not a script to follow word-for-word
 
 **Placement**: Directly after Image 1 (Image 1 serves as the header)
 
+**IMPORTANT**:
+- The intro goes AFTER the image 1 markdown, not before
+- No italic text in descriptions (only for special terms like Latin names)
+- Use first person "I usually paint", not "you usually paint"
+
 ### What to Include
 
 - What is this project?
@@ -201,6 +206,8 @@ layout: post
 1. **Image 1 is the header** - appears only ONCE
 2. **Intro goes after Image 1** - not before it
 3. **NO duplicate images**
+4. **NO italic text** - descriptions are regular text, not italics (unless special terms like Latin names)
+5. **First person voice** - "I usually paint", not "you usually paint"
 
 ---
 
