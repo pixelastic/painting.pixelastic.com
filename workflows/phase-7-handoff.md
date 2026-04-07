@@ -1,6 +1,6 @@
-# Phase 6 — Handoff for Publishing
+# Phase 7 — Handoff for Publishing
 
-**Trigger**: User approves the draft
+**Input (what the user has done)**: User has validated the SEO changes (or agent assumes it's ok)
 
 ---
 

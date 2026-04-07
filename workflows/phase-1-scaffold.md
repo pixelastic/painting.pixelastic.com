@@ -1,6 +1,6 @@
 # Phase 1 — Create the Post Scaffold
 
-**Trigger**: User says "nouveau post" or "new post" and describes the subject
+**Input (what the user has done)**: User says "nouveau post sur [subject]" or "new post about [subject]"
 
 ---
 

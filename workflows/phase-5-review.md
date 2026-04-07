@@ -1,6 +1,6 @@
 # Phase 5 — Review and Iterate
 
-**Trigger**: User reads the draft and gives feedback
+**Input (what the user has done)**: User has read the humanized draft and gives feedback (or says "c'est bon")
 
 ---
 
@@ -17,4 +17,4 @@
 
 ---
 
-**Next**: [Phase 6 — Handoff for Publishing](phase-6-handoff.md)
+**Next**: [Phase 6 — SEO Enrichment](phase-6-seo-enrichment.md)

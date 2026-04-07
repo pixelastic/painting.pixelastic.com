@@ -1,6 +1,6 @@
-# Phase 4.5 — SEO Enrichment
+# Phase 6 — SEO Enrichment
 
-**Trigger**: User has approved the content (Phase 4 & 5 completed). Ready to finalize for publishing.
+**Input (what the user has done)**: User has approved the content (said "c'est bon, ça me va" or similar)
 
 This phase enriches the frontmatter with optimized title and meta description.
 
@@ -238,4 +238,4 @@ Tell the user: **"J'ai mis à jour le frontmatter, ajouté les alt text sur X im
 
 ---
 
-**Next**: [Phase 5 — Review and Iterate](phase-5-review.md) or [Phase 6 — Handoff](phase-6-handoff.md)
+**Next**: [Phase 7 — Handoff](phase-7-handoff.md)

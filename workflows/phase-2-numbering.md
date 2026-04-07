@@ -1,6 +1,6 @@
 # Phase 2 — Number the Images
 
-**Trigger**: User says "c'est bon, j'ai mis toutes les images" or similar
+**Input (what the user has done)**: User has pasted images into Typora and says "c'est bon, j'ai mis toutes les images" or similar
 
 ---
 
@@ -27,4 +27,4 @@
 
 ---
 
-**Next**: [Phase 3 — Capture Descriptions](phase-3-capture.md)
+**Next**: [Phase 3 — Translation](phase-3-translation.md)
