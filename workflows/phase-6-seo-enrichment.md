@@ -31,8 +31,13 @@ Read the current `title` in the frontmatter and the post content.
 ### Process
 
 1. Analyze the post content
-2. Suggest 2-3 alternative titles if the current one could be improved
-3. Ask the user which they prefer
+2. Evaluate if the current title is good enough:
+   - If it follows the guidelines above → **Keep it, don't change it**
+   - If it clearly violates guidelines (too generic, has superlatives, missing subject) → **Change it automatically**
+3. **DO NOT ask the user to choose between alternatives**
+   - You are the SEO expert, make the decision yourself
+   - Only change the title if there's a clear improvement to be made
+   - When in doubt, keep the existing title
 
 ---
 
@@ -214,15 +219,14 @@ The central stone actually moves...
 
 ## Step 8: Present to User
 
-Show the user what was changed:
+Show the user what was done (concisely):
 
-1. **Title**: (kept/changed to "...")
-2. **Meta description added**: "..."
-3. **Alt text added**: X images with alt text
-4. **Internal links added**: X link(s) to [post names] (if found)
-5. **File updated**: `src/<slug>/index.md`
+- **Title**: kept ✓ (or "changed to '...'")
+- **Meta description**: added
+- **Alt text**: added to X images
+- **Internal links**: X link(s) added (or "none found")
 
-Tell the user: **"J'ai mis à jour le frontmatter, ajouté les alt text sur X images et X lien(s) interne(s). Regarde dans Typora si ça te va."**
+Tell the user: **"SEO enrichment terminé. Le fichier est prêt pour le commit."**
 
 ---
 
