@@ -35,13 +35,16 @@
    - **NO content at all** - just frontmatter + one blank line
    - The user will add images and content manually in Typora
 
-4. **Open in Typora**:
+4. **Open in Typora** (MANDATORY):
    ```bash
    typora src/<slug>/index.md > /dev/null 2>&1 &
    ```
    (Run in background, suppress output)
 
-   **This is the most important step** - the goal is to get Typora open ASAP
+   **This is the most important step** - ALWAYS open Typora automatically
+   - **DO NOT ask the user if they want Typora opened**
+   - **DO NOT wait for confirmation**
+   - Just open it immediately after creating the file
 
 5. **Tell the user**:
    **"Le dossier `<slug>` est prêt. Tu peux coller tes screenshots dans Typora. Dis-moi quand tu as fini."**
@@ -52,6 +55,7 @@
 
 ### DO NOT:
 - ❌ Ask the user to choose a slug or title
+- ❌ Ask the user if they want Typora opened
 - ❌ Search or read other posts first (wastes time)
 - ❌ Add placeholder text like `[Description de...]`
 - ❌ Add dummy images like `image-20260407-01.png`
@@ -61,7 +65,7 @@
 ### DO:
 - ✅ Make the slug/title decision immediately
 - ✅ Create an EMPTY index.md with only frontmatter
-- ✅ Open Typora as fast as possible
+- ✅ Open Typora automatically (no questions asked)
 - ✅ Trust that the user will paste real images in Typora
 
 ### Why?

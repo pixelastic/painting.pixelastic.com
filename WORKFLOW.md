@@ -61,6 +61,8 @@ Always apply these translations:
 | mousse | foam (material) |
 | décor | terrain / scenery |
 | campagne | campaign |
+| tuile | tile |
+| case | square |
 
 Add new terms as they come up.
 

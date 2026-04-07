@@ -19,13 +19,18 @@ This phase applies writing rules and removes AI-generated patterns to make the t
 
 Go through the entire text and apply these rules:
 
-### ❌ NEVER Use Em-Dashes (—)
+### ❌ NEVER Use Em-Dashes (—) or Spaced Hyphens ( - )
 
-Em-dashes are an AI writing tell. Always avoid them.
+Em-dashes and spaced hyphens are AI writing tells. Always avoid them.
 
-**Bad**:
+**Bad** (em-dash):
 ```
 I thought it would be cool to keep that feature working—having the flames light up
+```
+
+**Bad** (spaced hyphen):
+```
+The chapel - their safe zone where they can sleep properly and meet all the NPCs.
 ```
 
 **Good**:
@@ -33,15 +38,28 @@ I thought it would be cool to keep that feature working—having the flames ligh
 I thought it would be cool to keep that feature working, so the flames would light up when you move the stone.
 ```
 
-**Good** (alternative):
+**Good** (with colon):
 ```
-I thought it would be cool to keep that feature working. The flames would light up when you move the stone.
+The chapel: their safe zone where they can sleep properly and meet all the NPCs.
+```
+
+**Good** (with parentheses):
+```
+The chapel (their safe zone where they can sleep properly and meet all the NPCs).
+```
+
+**Good** (two sentences):
+```
+The chapel is their safe zone. They can sleep properly there and meet all the NPCs.
 ```
 
 When you need to connect ideas:
 - Use conjunctions: "so", "and", "but"
+- Use colons for explanations: "The chapel: their safe zone"
+- Use parentheses for clarifications: "The chapel (their safe zone)"
 - Use commas for closely related thoughts
 - Split into two sentences with smooth transitions
+- **NEVER use spaced hyphens ( - ) or em-dashes (—)**
 
 ### ✅ Vary Sentence Length
 
