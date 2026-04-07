@@ -206,7 +206,7 @@ layout: post
 1. **Image 1 is the header** - appears only ONCE
 2. **Intro goes after Image 1** - not before it
 3. **NO duplicate images**
-4. **NO italic text** - descriptions are regular text, not italics (unless special terms like Latin names)
+4. **NO italic text** - Write descriptions as regular paragraphs without `_underscores_` or `*asterisks*` (only use italic for special terms like Latin names)
 5. **First person voice** - "I usually paint", not "you usually paint"
 
 ---
