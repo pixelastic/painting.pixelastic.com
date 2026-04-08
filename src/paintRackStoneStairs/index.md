@@ -100,3 +100,7 @@ If I were to do it again, I would try an oil wash instead of my water based one.
 
 I would add more details, like discarded tools, forgotten camp fires and such, to give more character to the build.
 
+![image-20260408170239304](image-20260408170239304.png)
+
+Lonely goblin in his new home.
+

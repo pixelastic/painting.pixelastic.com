@@ -172,3 +172,32 @@ The sealing left some white marks here too...
 ![image-20210623215102387](image-20210623215102387.png)
 
 ![image-20210623220153286](image-20210623220153286.png)
+
+## Glamour shots
+
+A few years later, once all the tiles were completely finished, I took photos of the full set together. I had a small accident with these tiles where some parts started turning white when exposed to sunlight. I'm not sure what I used or what reaction happened, but I had to repaint certain areas multiple times.
+
+Years later, I don't use these at all anymore because I made a more modular system with 1x1 tiles that can be placed side by side. This project taught me a lot about foam, painting, and flocking. I probably wouldn't do things the same way today, but I was happy with the different materials and texture effects I managed to create.
+
+![image-20260408165506237](image-20260408165506237.png)
+
+![image-20260408165520109](image-20260408165520109.png)
+
+![image-20260408165531790](image-20260408165531790.png)
+
+![image-20260408165542982](image-20260408165542982.png)
+
+![image-20260408165549285](image-20260408165549285.png)
+
+![image-20260408165555117](image-20260408165555117.png)
+
+![image-20260408165601074](image-20260408165601074.png)
+
+![image-20260408165606991](image-20260408165606991.png)
+
+![image-20260408165613401](image-20260408165613401.png)
+
+![image-20260408165619897](image-20260408165619897.png)
+
+![image-20260408165625271](image-20260408165625271.png)
+
