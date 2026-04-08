@@ -36,11 +36,34 @@ This is expected and fine.
 
 ### Core Principles
 
-1. **Apply the glossary** (see main WORKFLOW.md)
+1. **Apply the glossary below**
 2. **Preserve technical precision**: Paint names, brand names stay as-is, never translated
    - Example: "Necrotic Flesh", "Speedpaints", "Megablocks"
 3. **Use first person voice**: "I usually paint", not "you usually paint"
 4. **Keep it straightforward**: Just translate the content, don't worry about style yet
+
+### Glossary FR → EN
+
+Always apply these translations:
+
+| French | English |
+|---|---|
+| boule d'aluminium | aluminium foil ball |
+| brossage à sec | drybrushing |
+| campagne | campaign |
+| case | square |
+| décor | terrain / scenery |
+| enduit de rebouchage | spackle |
+| figurine | miniature |
+| mousse | foam (material) |
+| mélange | mix |
+| papier de verre | sandpaper |
+| pistolet à colle | glue gun |
+| polystyrène | foam |
+| relief | texture |
+| socle | base |
+| sous-couche | primer |
+| tuile | tile |
 
 ### Important
 

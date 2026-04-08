@@ -43,31 +43,6 @@ Valid tags: `terrain`, `miniature`, `painting`, `wip` (use only one)
 
 ---
 
-## Glossary FR → EN
-
-Always apply these translations:
-
-| French | English |
-|---|---|
-| socle | base |
-| figurine | miniature |
-| enduit de rebouchage | spackle |
-| polystyrène | foam |
-| sous-couche | primer |
-| brossage à sec | drybrushing |
-| mélange | mix |
-| pistolet à colle | glue gun |
-| papier de verre | sandpaper |
-| mousse | foam (material) |
-| décor | terrain / scenery |
-| campagne | campaign |
-| tuile | tile |
-| case | square |
-
-Add new terms as they come up.
-
----
-
 ## Finding Existing Posts
 
 **Important**: Slugs are in ENGLISH, even when user describes in French.
