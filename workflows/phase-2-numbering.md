@@ -22,9 +22,15 @@
    - Build the new `index.md` content with HTML comments
    - Add `<!-- Image N -->` above each image reference
 
+   **C. Compress remaining images (Bash tool, background)**:
+   - Run `imgmin src/<slug>/*.{png,jpg}` with `run_in_background: true`
+   - This runs while the user describes images
+   - No need to wait or report completion
+
    **Why parallel?** These operations are independent:
    - A writes to filesystem (deletes files)
    - B prepares content for file write
+   - C runs in background during user narration
    - They can execute simultaneously for better performance
 
 3. **Update `index.md` once** with the numbered content from step 2B:
@@ -38,7 +44,7 @@
 ```
 
 4. **Tell the user**:
-   **"J'ai numéroté X images et supprimé Y images orphelines. Tu peux maintenant me décrire chaque image en français. Référence-les par leur numéro : 'sur l'image 1...', 'sur l'image 3...'. Quand tu as tout dit, envoie ton message."**
+   **"J'ai numéroté X images, supprimé Y images orphelines, et lancé la compression en background. Tu peux maintenant me décrire chaque image en français. Référence-les par leur numéro : 'sur l'image 1...', 'sur l'image 3...'. Quand tu as tout dit, envoie ton message."**
 
 ---
 
@@ -48,6 +54,7 @@ Use **multiple tool calls in a single message** for efficiency:
 1. `Read` index.md to extract image references
 2. In parallel:
    - `Bash` to delete orphan images
+   - `Bash` with `run_in_background: true` to compress remaining images with imgmin
    - Prepare numbered content mentally
 3. `Edit` index.md once with numbered content
 
