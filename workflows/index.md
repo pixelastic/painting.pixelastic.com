@@ -61,7 +61,7 @@ Examples:
 
 ### Creating a New Post
 **Trigger**: "nouveau post" or "new post"
-→ Follow [Phase 1](workflows/phase-1-scaffold.md)
+→ Follow [Phase 1](phase1-scaffold/index.md)
 
 ### Updating an Existing Post
 **Trigger**: "update", "modifier", "ajouter des photos"
@@ -69,36 +69,39 @@ Examples:
 1. Find post in `src/` (slugs are in English)
 2. Read `src/<slug>/index.md`
 3. Ask: **"J'ai trouvé le post. Veux-tu ouvrir Typora pour ajouter/modifier des images ? Ou les as-tu déjà ajoutées ?"**
-4. If images ready → [Phase 2](workflows/phase-2-numbering.md)
+4. If images ready → [Phase 2](phase2-numbering/index.md)
 5. If user wants Typora → `typora src/<slug>/index.md > /dev/null 2>&1 &`, then tell user it's open
 
 ---
 
-## The 8 Phases
+## The Phases
 
-### [Phase 1 — Create the Post Scaffold](workflows/phase-1-scaffold.md)
+A phase ends when the agent needs user input or validation.
+
+### [Phase 1 — Create the Post Scaffold](phase1-scaffold/index.md)
 Create directory, frontmatter, open Typora
+→ **Waits for user to add images in Typora**
 
-### [Phase 2 — Number the Images](workflows/phase-2-numbering.md)
-Add numbered comments, delete orphans
+### [Phase 2 — Number the Images](phase2-numbering/index.md)
+Add numbered comments, delete orphans, compress images in background
+→ **Waits for user to describe images in French**
 
-### [Phase 3 — Capture Descriptions](workflows/phase-3-capture.md)
-Parse French speech-to-text, group by image
+### [Phase 3 — Write the Draft](phase3-writing/index.md)
+This phase runs multiple sub-steps autonomously:
+1. [Parse and translate](phase3-writing/1-translation.md) - Parse French descriptions, translate to English with glossary, write intro/conclusion
+2. [Flow & polish](phase3-writing/2-flow-polish.md) - Merge choppy sentences, eliminate repetitions, add transitions
+3. [Humanization](phase3-writing/3-humanization.md) - Remove AI patterns including em-dashes
 
-### [Phase 4 — Translate and Build Draft](workflows/phase-4-translation.md)
-**Critical phase**: Translate to English, write intro/conclusion, assemble final markdown
+→ **Waits for user to review and approve the draft**
 
-### [Phase 4.5 — Humanization](workflows/phase-4.5-humanization.md)
-Remove AI-generated writing patterns to make text sound natural and human-written
+When user reviews, they can either:
+- Request changes → Agent applies them and waits again
+- Say "c'est bon" → Proceed to Phase 4
 
-### [Phase 4.6 — SEO Enrichment](workflows/phase-4.6-seo-enrichment.md)
-Optimize title, write meta description, update frontmatter
+### [Phase 4 — SEO Enrichment](phase4-seo/index.md)
+Only runs after user approves the draft. Optimizes title, writes meta description, updates frontmatter
 
-### [Phase 5 — Review and Iterate](workflows/phase-5-review.md)
-Apply user corrections, iterate until approved
-
-### [Phase 6 — Handoff for Publishing](workflows/phase-6-handoff.md)
-Final checks, user publishes manually
+→ **FIN - User commits the changes**
 
 ---
 

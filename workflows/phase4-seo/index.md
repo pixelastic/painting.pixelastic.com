@@ -1,4 +1,4 @@
-# Phase 6 — SEO Enrichment
+# Phase 4 — SEO Enrichment
 
 **Input (what the user has done)**: User has approved the content (said "c'est bon, ça me va" or similar)
 
@@ -242,4 +242,14 @@ Tell the user: **"SEO enrichment terminé. Le fichier est prêt pour le commit."
 
 ---
 
-**Next**: [Phase 7 — Handoff](phase-7-handoff.md)
+---
+
+## Completion
+
+Tell the user:
+
+**"Le SEO est optimisé. À toi de faire le commit maintenant."**
+
+---
+
+**FIN** - User commits the changes manually

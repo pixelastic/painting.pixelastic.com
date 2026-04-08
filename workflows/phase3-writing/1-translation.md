@@ -1,19 +1,4 @@
-# Phase 3 — Translation
-
-**Input (what the user has done)**: User has recorded their descriptions in French and sent a large message. The text may be unstructured (images referenced out of order, backtracking, details added afterward).
-
----
-
-## What to Expect
-
-The French text may be unstructured:
-- User may reference images out of order
-- May go back to a previous image
-- May add details they forgot
-
-This is expected and fine.
-
----
+# Phase 3.1 — Translation
 
 ## Step 1: Parse and Group Descriptions
 
@@ -69,7 +54,7 @@ Always apply these translations:
 
 - **NO italic text** in descriptions (only for special terms like Latin names)
 - Translate faithfully but naturally
-- Don't try to make it sound polished yet (that's Phase 4)
+- Don't try to make it sound polished yet (that comes later)
 
 ---
 
@@ -88,7 +73,7 @@ Always apply these translations:
 ### Keep It Simple
 
 - Write a straightforward intro
-- Don't overthink the style (that's Phase 4)
+- Don't overthink the style
 - Just set up the story
 
 ---
@@ -155,14 +140,4 @@ layout: post
 
 ---
 
-## Step 6: Present to User
-
-Tell the user:
-
-**"Voilà le draft traduit. Je vais maintenant le relire pour enlever les patterns AI."**
-
-Then proceed immediately to Phase 4 (Humanization).
-
----
-
-**Next**: [Phase 4 — Humanization](phase-4-humanization.md)
+**Next**: Continue to [2-flow-polish.md](2-flow-polish.md)

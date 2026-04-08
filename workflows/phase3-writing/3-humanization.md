@@ -19,9 +19,9 @@ This phase applies writing rules and removes AI-generated patterns to make the t
 
 Go through the entire text and apply these rules:
 
-### ❌ NEVER Use Em-Dashes (—) or Spaced Hyphens ( - )
+### ❌ FIND AND FIX Em-Dashes (—) and Spaced Hyphens ( - )
 
-Em-dashes and spaced hyphens are AI writing tells. Always avoid them.
+**CRITICAL**: Scan the entire text for em-dashes (—) and spaced hyphens ( - ). These are AI writing tells. You MUST rewrite every sentence that contains them.
 
 **Bad** (em-dash):
 ```
@@ -53,13 +53,14 @@ The chapel (their safe zone where they can sleep properly and meet all the NPCs)
 The chapel is their safe zone. They can sleep properly there and meet all the NPCs.
 ```
 
-When you need to connect ideas:
-- Use conjunctions: "so", "and", "but"
-- Use colons for explanations: "The chapel: their safe zone"
-- Use parentheses for clarifications: "The chapel (their safe zone)"
-- Use commas for closely related thoughts
-- Split into two sentences with smooth transitions
-- **NEVER use spaced hyphens ( - ) or em-dashes (—)**
+**How to fix them** - When you find an em-dash or spaced hyphen, rewrite using:
+- **Conjunctions**: "so", "and", "but"
+- **Colons** for explanations: "The chapel: their safe zone"
+- **Parentheses** for clarifications: "The chapel (their safe zone)"
+- **Commas** for closely related thoughts
+- **Two sentences** with smooth transitions
+
+**Action required**: Search for " - " (space-dash-space) and "—" (em-dash) in the text. Fix every occurrence.
 
 ### ✅ Vary Sentence Length
 
@@ -188,10 +189,11 @@ Scan the text for these **specific patterns only**:
 
 Go through the text **paragraph by paragraph**:
 
-1. **Read the paragraph** - Is it mostly good?
-2. **Find issues** - Em-dashes? Pompous adjectives? Generic phrases?
-3. **Minimal edit** - Remove or replace ONLY those words
-4. **Keep everything else** - Don't rewrite good sentences
+1. **Scan for em-dashes and spaced hyphens FIRST** - Search for " - " and "—". Fix every single one.
+2. **Read the paragraph** - Is it mostly good?
+3. **Find issues** - Pompous adjectives? Generic phrases?
+4. **Minimal edit** - Remove or replace ONLY those words
+5. **Keep everything else** - Don't rewrite good sentences
 
 ### Example Transformation:
 
@@ -239,14 +241,15 @@ I really enjoy painting Reaper Bones miniatures like this Coral Golem. These scu
 
 After editing, verify:
 
-1. ✅ Does it still sound like the person is talking?
-2. ✅ Are detailed explanations still there?
-3. ✅ Is honest self-criticism preserved?
-4. ✅ Are only the pompous/generic words removed?
-5. ✅ No em-dashes anywhere?
-6. ✅ Sentence length varies naturally?
-7. ❌ Did we accidentally make it too dry?
-8. ❌ Did we remove too many adjectives?
+1. ✅ **ZERO em-dashes (—) in the entire text?** Search for "—" to confirm.
+2. ✅ **ZERO spaced hyphens ( - ) in the entire text?** Search for " - " to confirm.
+3. ✅ Does it still sound like the person is talking?
+4. ✅ Are detailed explanations still there?
+5. ✅ Is honest self-criticism preserved?
+6. ✅ Are only the pompous/generic words removed?
+7. ✅ Sentence length varies naturally?
+8. ❌ Did we accidentally make it too dry?
+9. ❌ Did we remove too many adjectives?
 
 **If it sounds too dry**: Put back some personality. Better to have one "really" or "quite" than sound robotic.
 
@@ -267,9 +270,11 @@ After editing, verify:
 
 Tell the user:
 
-**"Voilà le draft humanisé. Lis-le et dis-moi ce que tu veux changer."**
+**"Voilà le draft complet. Lis-le et dis-moi ce que tu veux changer."**
 
-Then wait for user feedback (Phase 5: Review).
+Then wait for user feedback. The user will either:
+- Request changes → Apply them and wait again
+- Say "c'est bon" → Proceed to [Phase 4 — SEO](../phase4-seo/index.md)
 
 ---
 
@@ -346,4 +351,4 @@ When you slide the central stone, it triggers a switch that lights up the flames
 
 ---
 
-**Next**: [Phase 5 — Review and Iterate](phase-5-review.md)
+This is the end of Phase 3. Return to [phase3-writing/index.md](index.md) for next steps.
