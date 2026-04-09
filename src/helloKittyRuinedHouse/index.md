@@ -127,11 +127,7 @@ Same on the inside. I like the small tufts lodged between cracks of the tiles.
 
 ![image-20210506221812255](image-20210506221812255.png)
 
-And the final shots.
-
-![image-20210506221834835](image-20210506221834835.png)
-
-Ready to be dropped into any Mordheim game.
+And the final shots, ready to be dropped into any Mordheim game.
 
 ![image-20210506221935173](image-20210506221935173.png)
 
