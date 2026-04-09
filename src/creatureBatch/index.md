@@ -158,3 +158,23 @@ I can't remember where I got this. Maybe from a board game, I don't know. Same t
 This is some kind of pug with teeth. The miniature has really heavy mold lines - I didn't find it super interesting, it's too kitsch and cartoon, but in the end I still managed to paint it all. 
 
 Painting this many miniatures in a batch taught me a lot about Speedpaints, color choices, and which miniatures inspire me most. Some didn't work out as planned, but most turned out well. It also helped me streamline my paint collection to just the colors I actually use.
+
+<!-- Image 30 -->
+![Farm animal miniatures with realistic grass texture bases in progress](image-20260409155713725.png)
+
+I found some photos from when I was doing the bases for all the farm animals. 
+
+For realistic grass, I spread wood glue on the base with a damp brush. Without water it's too gel-like, but a wet brush makes it smooth. Then I apply a mix of fake grass, dried kitchen herbs, and modeling grass. It looks more natural than perfect lawn grass. After pressing it down firmly with my finger, I spray it with water and flow aid, then use a pipette to apply diluted glue on top. The flow aid makes everything spread by capillary action. Once dry, all the grass bits are glued into a hard surface where you don't see the glue.
+
+<!-- Image 31 -->
+![Stone elementals and colorful spiders from World of Warcraft board game](image-20260409155738457.png)
+
+Here are other miniatures you haven't seen before. On the left are stone elementals from the World of Warcraft board game. Good miniatures where you immediately understand what they are and that they're tough. The purple one turned out really well with just two Speedpaint colors. The [green ones I made a whole post about](../stoneElementalsColorTests/) to test green colors, but I find them pretty ugly.
+
+On the right are spiders, also from World of Warcraft. I didn't want natural tones since I already have too many spider miniatures. I gave them special colors to make them more interesting in games. The blue ones work as phase spiders that can disappear and reappear. The others look more venomous. I did stripes on the green one to evoke danger, and painted symbols on the spiders' backs for that dangerous look. [I painted a much larger spider](../spiderMatriarch/) with similar techniques later.
+
+<!-- Image 32 -->
+![Large collection of diverse painted miniatures including toys and cheap figures](image-20260409155724517.png)
+
+A big family photo of everything I painted. It's satisfying to see it all together like this. I spent very little time on each one, but displayed together it looks really good. Many are Kinder toys, plastic farm and zoo animals. Cheap stuff that costs almost nothing, not expensive miniatures. The perfect example is the cloaker at the top. It's just a manta ray toy mounted to look like it's flying and painted with bright colors, but it really looks like a cloaker.
+
