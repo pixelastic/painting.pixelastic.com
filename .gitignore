@@ -1,16 +1,27 @@
+# OS files
 .DS_Store
+Thumbs.db
+*~
+*.rej
+
+# Editor/IDE
 .claude/
 .envrc
+
+# Old Node.js build system (to be removed after migration)
 .sass-cache
 .yalc/
-Thumbs.db
 build/
 dist/
 node_modules/
 npm-debug.log
-tmp/
 yalc.lock
 yarn-error.log
-*~
-*.rej
+
+# Hugo build artifacts
+public/
+resources/_gen/
+
+# Deployment
 .netlify
+tmp/
