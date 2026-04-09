@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+set -e
+
+claude-bin workflows/index.md
