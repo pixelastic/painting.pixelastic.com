@@ -192,7 +192,25 @@ Review paragraph transitions. Add a transition ONLY if there's an obvious logica
 
 ---
 
-## Step 4: Apply Changes
+## Step 4: Split Dense Paragraphs
+
+**When to split:**
+- 6+ sentences in one paragraph
+- Multiple distinct topics/subjects
+- Clear break point exists (topic shift, time shift)
+
+**How:**
+Look for natural breaks between topics.
+
+**Don't split:**
+- 3-5 sentences that flow well
+- All sentences about same subject
+- Would create 1-sentence orphans
+- Intro or conclusion paragraphs
+
+---
+
+## Step 5: Apply Changes
 
 Go through the text **paragraph by paragraph**:
 
@@ -200,11 +218,12 @@ Go through the text **paragraph by paragraph**:
 2. Identify choppy sentences → merge if appropriate
 3. Identify repetitions → eliminate if appropriate
 4. Check transition to next paragraph → add connector ONLY if clear connection exists
-5. Re-read to ensure it still sounds natural
+5. Check if too long → split if 6+ sentences with clear breaks
+6. Re-read to ensure it still sounds natural
 
 ---
 
-## Step 5: Quality Check
+## Step 6: Quality Check
 
 After editing, verify:
 
@@ -219,7 +238,7 @@ After editing, verify:
 
 ---
 
-## Step 6: Present to User
+## Step 7: Present to User
 
 Tell the user:
 
