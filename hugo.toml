@@ -1,0 +1,38 @@
+baseURL = 'https://painting.pixelastic.com/'
+languageCode = 'en-us'
+title = 'Painting Pixelastic'
+
+# Preserve existing URL structure for SEO
+[permalinks]
+  posts = '/:contentbasename/'
+
+# Pagination (10 posts per page, matching old setup)
+[pagination]
+  pagerSize = 10
+
+# Taxonomies
+[taxonomies]
+  tag = 'tags'
+
+# Output formats
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML']
+  taxonomy = ['HTML']
+  term = ['HTML']
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow HTML in markdown
+  [markup.highlight]
+    style = 'monokai'
+
+# Theme
+theme = 'PaperMod'
+
+# Hugo Modules
+[module]
+  [[module.imports]]
+    path = 'github.com/adityatelange/hugo-PaperMod'
