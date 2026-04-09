@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+set -e
+
+local targetDirectory="$1"
+
+for imageFile in "$targetDirectory"/*.{png,jpg,jpeg,gif,webp}; do
+  local imageName=$(basename "$imageFile")
+
+  # Check if image is referenced in index.md
+  grep -q "$imageName" "${targetDirectory}/index.md" || rm "$imageFile"
+done

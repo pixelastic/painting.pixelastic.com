@@ -13,9 +13,8 @@
 2. **Execute in parallel** (use multiple tool calls in a single message):
 
    **A. Delete orphan images (Bash tool)**:
-   - List all image files in `src/<slug>/`
-   - Compare with referenced images from step 1
-   - Delete any files NOT referenced in `index.md`
+   - Run `yarn run agent:delete-orphaned-images src/<slug>/`
+   - This script removes any image files NOT referenced in `index.md`
    - These are copy-paste mistakes
 
    **B. Prepare numbered content (in memory)**:
@@ -53,7 +52,7 @@
 Use **multiple tool calls in a single message** for efficiency:
 1. `Read` index.md to extract image references
 2. In parallel:
-   - `Bash` to delete orphan images
+   - `Bash` to run `yarn run agent:delete-orphaned-images src/<slug>/`
    - `Bash` with `run_in_background: true` to compress remaining images with imgmin
    - Prepare numbered content mentally
 3. `Edit` index.md once with numbered content

@@ -16,6 +16,7 @@
   "name": "painting.pixelastic.com",
   "scripts": {
     "open:todo": "./scripts/open-todo",
+    "agent:delete-orphaned-images": "./scripts/agent/delete-orphaned-images",
     "open:camera": "./scripts/open-camera",
     "writing-buddy": "./scripts/writing-buddy",
     "post:new": "node ./scripts/post-new.js",
