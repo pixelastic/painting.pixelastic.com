@@ -2,7 +2,7 @@
 
 help:
 	@echo "Available commands:"
-	@echo "  make install    - Install all dependencies (Hugo)"
+	@echo "  make install    - Install all dependencies"
 	@echo "  make build      - Build the site for production"
 	@echo "  make serve      - Run local development server"
 	@echo "  make clean      - Clean build artifacts"
@@ -13,6 +13,12 @@ install:
 	@echo "✅ Hugo installed successfully!"
 	@echo ""
 	@hugo version
+	@echo ""
+	@echo "📦 Downloading Hugo modules (~4GB)..."
+	@echo ""
+	@hugo mod get
+	@echo ""
+	@echo "✅ All dependencies installed!"
 
 build:
 	@echo "🔨 Building site..."

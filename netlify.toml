@@ -1,4 +1,8 @@
 # Build website
+# TODO: Update build command to use Hugo directly (currently references non-existent yarn script)
+# TODO: Configure Go module caching to avoid downloading 189 dependencies on every build
+#       Without caching: 3-10 minutes per build
+#       With caching: ~30 seconds per build
 [build]
   command = "yarn run build:prod"
   publish = "./dist/"
