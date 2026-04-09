@@ -1,8 +1,10 @@
 # Painting Blog Post Workflow
 
-This is the master workflow for creating posts on painting.pixelastic.com.
+**DEFAULT: User wants to create a new post. Read and follow [Phase 1](phase1-scaffold/index.md) immediately.**
 
-Claude Code reads this file at the start of every session. Follow each phase in order. Ask for confirmation before moving to the next phase.
+Do NOT ask for title, tag, or date. Phase 1 will infer everything from the subject.
+
+Only do something else if user explicitly requests a different phase (update post, continue from phase X, etc.).
 
 ---
 
