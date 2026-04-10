@@ -1,11 +1,12 @@
-# Build website
-# TODO: Update build command to use Hugo directly (currently references non-existent yarn script)
-# TODO: Configure Go module caching to avoid downloading 189 dependencies on every build
-#       Without caching: 3-10 minutes per build
-#       With caching: ~30 seconds per build
+# Build website with Hugo
 [build]
-  command = "yarn run build:prod"
-  publish = "./dist/"
+  command = "make install && make build"
+  publish = "public"
+
+# Build environment
+[build.environment]
+  GO_VERSION = "1.24"
+  HUGO_VERSION = "0.160.1"
 
 # Terry Pratchett homage
 [[headers]]

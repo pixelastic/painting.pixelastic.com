@@ -1,7 +1,6 @@
 baseURL = 'https://painting.pixelastic.com/'
 languageCode = 'en-us'
 title = 'Painting Pixelastic'
-theme = 'PaperMod'
 
 # Preserve existing URL structure for SEO
 [permalinks]
