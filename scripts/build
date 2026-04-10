@@ -1,0 +1,15 @@
+#!/usr/bin/env zsh
+# Build the site for production
+
+# Initialize GVM (Go Version Manager)
+[[ -s ~/.gvm/scripts/gvm ]] && source ~/.gvm/scripts/gvm
+
+set -e
+
+echo "🎨 Building Tailwind CSS..."
+npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify
+
+echo "🔨 Building Hugo site..."
+hugo --minify
+
+echo "✅ Site built in ./public/"

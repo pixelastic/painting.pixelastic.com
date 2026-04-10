@@ -2,34 +2,19 @@
 
 help:
 	@echo "Available commands:"
-	@echo "  make install    - Install all dependencies"
+	@echo "  make install    - Install all dependencies (Hugo + npm)"
 	@echo "  make build      - Build the site for production"
 	@echo "  make serve      - Run local development server"
 	@echo "  make clean      - Clean build artifacts"
 
 install:
-	@echo "📦 Installing Hugo..."
-	@go install github.com/gohugoio/hugo@v0.160.1
-	@echo "✅ Hugo installed successfully!"
-	@echo ""
-	@hugo version
-	@echo ""
-	@echo "📦 Downloading Hugo modules (~4GB)..."
-	@echo ""
-	@hugo mod get
-	@echo ""
-	@echo "✅ All dependencies installed!"
+	@./scripts/install
 
 build:
-	@echo "🔨 Building site..."
-	@hugo --minify
-	@echo "✅ Site built in ./public/"
+	@./scripts/build
 
 serve:
-	@echo "🚀 Starting development server..."
-	@hugo server --buildDrafts --buildFuture
+	@./scripts/serve
 
 clean:
-	@echo "🧹 Cleaning build artifacts..."
-	@rm -rf public/ resources/
-	@echo "✅ Clean complete!"
+	@./scripts/clean

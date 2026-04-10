@@ -1,0 +1,24 @@
+#!/usr/bin/env zsh
+# Install all dependencies (Hugo + npm)
+
+# Initialize GVM (Go Version Manager)
+[[ -s ~/.gvm/scripts/gvm ]] && source ~/.gvm/scripts/gvm
+
+set -e
+
+echo "📦 Installing Hugo..."
+go install github.com/gohugoio/hugo@v0.160.1
+echo "✅ Hugo installed successfully!"
+echo ""
+hugo version
+echo ""
+
+echo "📦 Installing npm dependencies (Tailwind CSS)..."
+yarn install
+echo ""
+
+echo "📦 Downloading Hugo modules..."
+hugo mod get
+echo ""
+
+echo "✅ All dependencies installed!"

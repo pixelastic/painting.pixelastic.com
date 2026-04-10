@@ -8,19 +8,17 @@ Thumbs.db
 .claude/
 .envrc
 
-# Old Node.js build system (to be removed after migration)
-.sass-cache
-.yalc/
-build/
-dist/
+# Node
 node_modules/
 npm-debug.log
-yalc.lock
 yarn-error.log
 
-# Hugo build artifacts
+# Go
 public/
 resources/_gen/
+
+# Tailwind generated CSS
+assets/css/style.css
 
 # Deployment
 .netlify

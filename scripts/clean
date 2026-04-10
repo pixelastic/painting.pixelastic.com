@@ -1,0 +1,8 @@
+#!/usr/bin/env zsh
+# Clean build artifacts
+
+set -e
+
+echo "🧹 Cleaning build artifacts..."
+rm -rf public/ resources/ assets/css/style.css
+echo "✅ Clean complete!"

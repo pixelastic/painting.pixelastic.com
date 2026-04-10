@@ -1,0 +1,15 @@
+{
+  "name": "painting-pixelastic-com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "./scripts/setup",
+    "build": "./scripts/build",
+    "serve": "./scripts/serve",
+    "clean": "./scripts/clean"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "@tailwindcss/typography": "^0.5.10"
+  }
+}
