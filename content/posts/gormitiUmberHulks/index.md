@@ -1,6 +1,6 @@
 ---
 title: Gormiti Umber Hulks
-tags: miniature
+tags: ["miniature"]
 date: 2019-12-18
 layout: post
 ---

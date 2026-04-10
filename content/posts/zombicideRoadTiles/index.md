@@ -1,6 +1,6 @@
 ---
 title: "Zombicide Road Tiles"
-tags: terrain
+tags: ["terrain"]
 date: 2023-08-30
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: SkyLander Skeleton Hand
-tags: terrain
+tags: ["terrain"]
 date: 2022-07-06
 layout: post
 ---

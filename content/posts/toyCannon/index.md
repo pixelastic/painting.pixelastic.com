@@ -1,6 +1,6 @@
 ---
 title: Toy Cannon
-tags: terrain
+tags: ["terrain"]
 date: 2020-07-30
 layout: post
 ---

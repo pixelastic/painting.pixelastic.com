@@ -1,6 +1,6 @@
 ---
 title: Magnetic Sewer Tiles
-tags: terrain
+tags: ["terrain"]
 date: 2020-08-29
 layout: post
 ---

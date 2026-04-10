@@ -1,6 +1,6 @@
 ---
 title: "14x14 Floor Board"
-tags: terrain
+tags: ["terrain"]
 date: 2023-06-03
 layout: post
 ---

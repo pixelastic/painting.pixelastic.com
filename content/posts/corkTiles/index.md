@@ -1,6 +1,6 @@
 ---
 title: Cork tiles
-tags: terrain
+tags: ["terrain"]
 date: 2019-09-17
 layout: post
 ---

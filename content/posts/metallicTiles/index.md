@@ -1,6 +1,6 @@
 ---
 title: "Metallic Tiles"
-tags: terrain
+tags: ["terrain"]
 date: 2026-03-15
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Duergar Fortress Entrance
-tags: terrain
+tags: ["terrain"]
 date: 2020-02-18
 layout: post
 ---

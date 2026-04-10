@@ -1,6 +1,6 @@
 ---
 title: Hello Kitty Ruined House
-tags: terrain
+tags: ["terrain"]
 date: 2021-05-06
 layout: post
 ---

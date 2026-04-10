@@ -1,6 +1,6 @@
 ---
 title: "Paint Rack to Miniature Display Stairs WIP"
-tags: wip
+tags: ["wip"]
 date: 2026-04-07
 layout: post
 description: "Converted an old paint rack into tiered display stairs using plasticard and foam. Still unfinished after two years but sharing the WIP anyway."

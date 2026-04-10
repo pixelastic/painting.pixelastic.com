@@ -1,6 +1,6 @@
 ---
 title: Flower pot house
-tags: terrain
+tags: ["terrain"]
 date: 2022-04-01
 layout: post
 ---

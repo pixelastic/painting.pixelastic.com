@@ -1,6 +1,6 @@
 ---
 title: Spell and abilities tokens
-tags: terrain
+tags: ["terrain"]
 date: 2019-03-15
 layout: post
 ---

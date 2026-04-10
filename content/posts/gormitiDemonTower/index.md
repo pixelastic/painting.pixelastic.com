@@ -1,6 +1,6 @@
 ---
 title: Gormiti Demon Tower
-tags: terrain
+tags: ["terrain"]
 date: 2020-02-22
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Zombicide Stair Tiles"
-tags: terrain
+tags: ["terrain"]
 date: 2023-12-27
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Zombicide Ballistas
-tags: miniature, wip
+tags: ["miniature", "wip"]
 date: 2020-07-30
 layout: post
 ---

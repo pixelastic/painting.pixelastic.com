@@ -1,6 +1,6 @@
 ---
 title: Wyloch-style dungeon tiles
-tags: terrain
+tags: ["terrain"]
 date: 2022-03-23
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Vulli Tree
-tags: terrain, wip
+tags: ["terrain", "wip"]
 date: 2020-07-05
 layout: post
 ---

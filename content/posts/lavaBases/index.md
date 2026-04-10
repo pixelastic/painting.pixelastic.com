@@ -1,6 +1,6 @@
 ---
 title: "Lava Bases"
-tags: terrain
+tags: ["terrain"]
 date: 2026-03-20
 layout: post
 ---

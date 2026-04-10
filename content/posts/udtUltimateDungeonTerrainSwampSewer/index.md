@@ -1,6 +1,6 @@
 ---
 title: "UDT (Ultimate Dungeon Terrain): Swamp/Sewer"
-tags: terrain
+tags: ["terrain"]
 date: 2022-11-19
 layout: post
 ---

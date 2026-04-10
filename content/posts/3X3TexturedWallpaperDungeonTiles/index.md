@@ -1,6 +1,6 @@
 ---
 title: 3x3 textured wallpaper dungeon tiles
-tags: terrain
+tags: ["terrain"]
 date: 2021-06-26
 layout: post
 ---

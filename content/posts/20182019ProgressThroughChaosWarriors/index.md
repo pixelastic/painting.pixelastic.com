@@ -1,6 +1,6 @@
 ---
 title: 2018-2019 progress through Chaos Warriors
-tags: miniature
+tags: ["miniature"]
 date: 2019-08-27
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Angel Fountain"
-tags: terrain
+tags: ["terrain"]
 date: 2026-03-08
 layout: post
 ---

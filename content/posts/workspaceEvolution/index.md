@@ -1,6 +1,6 @@
 ---
 title: "Workspace Evolution 2021-2026"
-tags: painting
+tags: ["painting"]
 date: 2026-04-08
 layout: post
 description: "Photos showing how my miniature painting workspace evolved from 2021 to 2026. IKEA bins, modular storage boxes, paint organization, and lessons learned about what works."

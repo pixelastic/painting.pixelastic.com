@@ -1,6 +1,6 @@
 ---
 title: "Rainbow Ghouls"
-tags: terrain
+tags: ["terrain"]
 date: 2023-05-23
 layout: post
 ---

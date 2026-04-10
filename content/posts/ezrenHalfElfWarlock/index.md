@@ -1,6 +1,6 @@
 ---
 title: Ezren, Half-Elf Warlock
-tags: miniature
+tags: ["miniature"]
 date: 2019-12-23
 layout: post
 ---

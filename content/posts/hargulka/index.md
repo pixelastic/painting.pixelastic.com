@@ -1,6 +1,6 @@
 ---
 title: "Hargulka"
-tags: miniature
+tags: ["miniature"]
 date: 2026-03-15
 layout: post
 ---

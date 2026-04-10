@@ -1,6 +1,6 @@
 ---
 title: Street Gargoyle Statue
-tags: terrain
+tags: ["terrain"]
 date: 2021-08-22
 layout: post
 ---

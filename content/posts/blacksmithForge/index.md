@@ -1,6 +1,6 @@
 ---
 title: Blacksmith forge
-tags: terrain
+tags: ["terrain"]
 date: 2022-03-20
 layout: post
 ---

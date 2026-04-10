@@ -1,6 +1,6 @@
 ---
 title: Three-headed bird statue
-tags: terrain
+tags: ["terrain"]
 date: 2021-08-22
 layout: post
 ---

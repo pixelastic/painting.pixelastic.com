@@ -1,6 +1,6 @@
 ---
 title: Stalagmites
-tags: terrain
+tags: ["terrain"]
 date: 2022-07-05
 layout: post
 ---

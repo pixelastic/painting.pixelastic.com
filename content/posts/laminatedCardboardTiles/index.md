@@ -1,6 +1,6 @@
 ---
 title: "Laminated Cardboard Tiles"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-08
 layout: post
 description: "Cardboard tiles with laminated printable scenery from a print shop. Midjourney images with grid lines added in Gimp. Erasable, light, and cost 40 euros for the full roll."

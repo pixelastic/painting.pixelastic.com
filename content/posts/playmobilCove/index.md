@@ -1,6 +1,6 @@
 ---
 title: Playmobil cove
-tags: terrain
+tags: ["terrain"]
 date: 2020-03-15
 layout: post
 ---

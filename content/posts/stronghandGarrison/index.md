@@ -1,6 +1,6 @@
 ---
 title: Stronghand Garrison
-tags: miniature
+tags: ["miniature"]
 date: 2020-07-31
 layout: post
 ---

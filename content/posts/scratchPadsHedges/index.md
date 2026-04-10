@@ -1,6 +1,6 @@
 ---
 title: Scratch Pads Hedges
-tags: terrain
+tags: ["terrain"]
 date: 2021-05-04
 layout: post
 ---

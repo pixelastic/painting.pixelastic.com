@@ -1,6 +1,6 @@
 ---
 title: Wyrdstone Egg
-tags: miniature
+tags: ["miniature"]
 date: 2020-08-27
 layout: post
 ---

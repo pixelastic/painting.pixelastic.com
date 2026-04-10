@@ -1,6 +1,6 @@
 ---
 title: "Zombicide Dry Run"
-tags: terrain
+tags: ["terrain"]
 date: 2024-01-01
 layout: post
 ---

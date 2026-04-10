@@ -1,6 +1,6 @@
 ---
 title: "Paint Rack Stone Stairs"
-tags: terrain
+tags: ["terrain"]
 date: 2022-12-15
 layout: post
 ---

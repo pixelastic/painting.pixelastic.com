@@ -1,6 +1,6 @@
 ---
 title: "Cemetery Terrain"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-08
 layout: post
 description: "Made cemetery props including coffins, graves, and sarcophagi. Used wood for weight, foam for texture, and aluminum foil technique. Always useful for crypt scenarios."

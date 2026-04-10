@@ -1,6 +1,6 @@
 ---
 title: "Angry Bird Tiny Wooden House"
-tags: terrain
+tags: ["terrain"]
 date: 2022-12-12
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Necromancer Tower
-tags: terrain
+tags: ["terrain"]
 date: 2022-04-03
 layout: post
 ---

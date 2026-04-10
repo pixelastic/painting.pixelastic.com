@@ -1,6 +1,6 @@
 ---
 title: "Finished Projects Given Away"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-08
 layout: post
 description: "Archive of old projects I gave away: a cardboard village from our final Warhammer campaign, and early crafting experiments with foam, cork tiles, and sewer pieces."

@@ -1,6 +1,6 @@
 ---
 title: "Misc 2025"
-tags: wip
+tags: ["wip"]
 date: 2026-04-09
 layout: post
 description: "Small projects from 2025: donated old foam terrain, built Lego walls and Heroclix columns, made Playmobil rock scatter terrain, and repainted D&D miniatures to track progress."

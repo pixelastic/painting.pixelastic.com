@@ -1,6 +1,6 @@
 ---
 title: "Zombicide Walls"
-tags: terrain
+tags: ["terrain"]
 date: 2023-12-29
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Happy Meal toy into snakes
-tags: miniature
+tags: ["miniature"]
 date: 2019-03-12
 layout: post
 ---

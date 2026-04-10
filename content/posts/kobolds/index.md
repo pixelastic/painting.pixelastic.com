@@ -1,6 +1,6 @@
 ---
 title: "Kobolds"
-tags: miniatures
+tags: ["miniatures"]
 date: 2026-03-15
 layout: post
 ---

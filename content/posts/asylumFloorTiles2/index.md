@@ -1,6 +1,6 @@
 ---
 title: "Asylum Floor Tiles 2"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-08
 layout: post
 description: "Second batch of asylum tiles with refined technique for larger rooms. Bright colors toned down by oil wash. Orange tiles look like cake from oven."

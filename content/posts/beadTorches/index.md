@@ -1,6 +1,6 @@
 ---
 title: "Bead Torches"
-tags: terrain
+tags: ["terrain"]
 date: 2023-12-22
 layout: post
 ---

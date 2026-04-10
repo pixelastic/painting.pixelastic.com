@@ -1,6 +1,6 @@
 ---
 title: "Zombicide Sewer Tiles"
-tags: terrain
+tags: ["terrain"]
 date: 2023-12-26
 layout: post
 ---

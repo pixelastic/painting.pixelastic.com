@@ -1,6 +1,6 @@
 ---
 title: Toy Pirate Gun
-tags: terrain, wip
+tags: ["terrain", "wip"]
 date: 2020-07-12
 layout: post
 ---

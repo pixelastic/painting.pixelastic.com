@@ -1,6 +1,6 @@
 ---
 title: Ronan as an Iron Golem
-tags: miniature
+tags: ["miniature"]
 date: 2019-07-20
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Before/After Mansion Scatter"
-tags: terrain
+tags: ["terrain"]
 date: 2023-12-17
 layout: post
 ---

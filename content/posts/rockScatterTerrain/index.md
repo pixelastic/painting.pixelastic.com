@@ -1,6 +1,6 @@
 ---
 title: "Rock Scatter Terrain"
-tags: terrain
+tags: ["terrain"]
 date: 2026-03-09
 layout: post
 ---

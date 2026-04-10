@@ -1,6 +1,6 @@
 ---
 title: Mantic Games Terrain Crate #1
-tags: terrain
+tags: ["terrain"]
 date: 2020-01-10
 layout: post
 ---

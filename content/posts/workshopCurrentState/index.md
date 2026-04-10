@@ -1,6 +1,6 @@
 ---
 title: "Workshop Current State"
-tags: painting
+tags: ["painting"]
 date: 2026-04-09
 layout: post
 description: "Documenting my workshop in April 2026 before major renovations. Ikea kitchen furniture workstation, organized drawer units for miniatures and crafting supplies, portable Speedpaint markers."

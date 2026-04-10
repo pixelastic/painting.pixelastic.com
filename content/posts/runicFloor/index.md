@@ -1,6 +1,6 @@
 ---
 title: Runic Floor
-tags: terrain
+tags: ["terrain"]
 date: 2022-07-06
 layout: post
 ---

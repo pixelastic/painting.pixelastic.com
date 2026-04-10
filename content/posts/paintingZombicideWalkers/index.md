@@ -1,6 +1,6 @@
 ---
 title: "Painting Zombicide Walkers"
-tags: painting
+tags: ["painting"]
 date: 2024-01-02
 layout: post
 ---

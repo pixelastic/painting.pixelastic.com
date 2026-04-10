@@ -1,6 +1,6 @@
 ---
 title: Tavern Dressing with Kaplas
-tags: terrain
+tags: ["terrain"]
 date: 2022-07-07
 layout: post
 ---

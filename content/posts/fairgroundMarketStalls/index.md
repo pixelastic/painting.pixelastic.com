@@ -1,6 +1,6 @@
 ---
 title: "Fairground and Market Stalls"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-09
 layout: post
 description: "Built colorful tents and market stalls using Kapla blocks, crepe paper, and foam. Painted with Speedpaints for bright festive colors. First time making this type of scenery."

@@ -1,6 +1,6 @@
 ---
 title: "Monster Hunter Wyvern"
-tags: miniature
+tags: ["miniature"]
 date: 2026-04-08
 layout: post
 description: "Painted a Monster Hunter Tigrex Dragon toy as a wyvern miniature. Mounted it on a plastic rock with flocking for a plains environment. Good proxy for draconic creatures."

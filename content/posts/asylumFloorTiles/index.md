@@ -1,6 +1,6 @@
 ---
 title: "Asylum Floor Tiles"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-07
 layout: post
 description: "Made custom floor tiles for entire Briarstone Asylum from Strange Aeons campaign. Different tiles for each room using wood burning tool and aluminum foil texture."

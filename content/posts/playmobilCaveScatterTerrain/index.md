@@ -1,6 +1,6 @@
 ---
 title: Playmobil Cave Scatter Terrain
-tags: terrain
+tags: ["terrain"]
 date: 2020-07-28
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Mansion of Madness Chtonians
-tags: miniature
+tags: ["miniature"]
 date: 2020-07-12
 layout: post
 ---

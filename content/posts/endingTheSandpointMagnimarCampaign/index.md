@@ -1,6 +1,6 @@
 ---
 title: Ending the Sandpoint / Magnimar campaign
-tags: terrain
+tags: ["terrain"]
 date: 2022-06-26
 layout: post
 ---

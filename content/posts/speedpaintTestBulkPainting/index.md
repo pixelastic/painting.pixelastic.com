@@ -1,6 +1,6 @@
 ---
 title: "Speedpaint Test Bulk Painting"
-tags: painting
+tags: ["painting"]
 date: 2026-04-07
 layout: post
 description: "Batch painted diverse miniatures in evening to test speedpaint colors. Mix from Dungeons & Lasers, Heroclix, HeroQuest, Zombicide, and Reaper."

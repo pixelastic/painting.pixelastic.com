@@ -1,6 +1,6 @@
 ---
 title: Timber house from coffee box
-tags: terrain
+tags: ["terrain"]
 date: 2021-04-25
 layout: post
 ---

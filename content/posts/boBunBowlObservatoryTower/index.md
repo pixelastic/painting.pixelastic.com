@@ -1,6 +1,6 @@
 ---
 title: Bo Bun Bowl Observatory Tower
-tags: terrain
+tags: ["terrain"]
 date: 2021-04-27
 layout: post
 ---

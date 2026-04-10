@@ -1,6 +1,6 @@
 ---
 title: "Pile of corpses"
-tags: terrain
+tags: ["terrain"]
 date: 2026-03-17
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Dracozombie
-tags: miniature
+tags: ["miniature"]
 date: 2020-01-11
 layout: post
 ---

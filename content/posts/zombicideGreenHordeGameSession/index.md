@@ -1,6 +1,6 @@
 ---
 title: "Zombicide Green Horde Game Session"
-tags: painting
+tags: ["painting"]
 date: 2026-04-08
 layout: post
 ---

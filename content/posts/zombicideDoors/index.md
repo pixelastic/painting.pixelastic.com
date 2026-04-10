@@ -1,6 +1,6 @@
 ---
 title: "Zombicide Doors"
-tags: terrain
+tags: ["terrain"]
 date: 2023-12-30
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Zombicide 3D Storage"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-09
 layout: post
 description: "Organized 3D Zombicide Green Horde terrain in drawer shelves. Separate drawers for tiles, walls, hedges, doors. Counted max pieces needed per scenario."

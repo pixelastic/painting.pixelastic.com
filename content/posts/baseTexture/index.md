@@ -1,6 +1,6 @@
 ---
 title: "Base Texture"
-tags: miniature
+tags: ["miniature"]
 date: 2026-04-09
 layout: post
 description: "My technique for texturing miniature bases using spackle, sand, gravel mix, and PVA glue. Done in batches before priming for consistency across all miniatures."

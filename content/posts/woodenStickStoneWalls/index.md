@@ -1,6 +1,6 @@
 ---
 title: "Modular Stone Walls from Wooden Sticks"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-08
 layout: post
 description: "Found a wooden construction set at a garage sale. Wrapped the sticks in textured wallpaper to make low stone walls. Dimensions don't match my tiles perfectly but they work well enough."

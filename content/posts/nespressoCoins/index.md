@@ -1,6 +1,6 @@
 ---
 title: Nespresso Coins
-tags: terrain
+tags: ["terrain"]
 date: 2020-04-06
 layout: post
 ---

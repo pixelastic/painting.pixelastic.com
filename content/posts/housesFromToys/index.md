@@ -1,6 +1,6 @@
 ---
 title: Houses from Toys
-tags: terrain
+tags: ["terrain"]
 date: 2020-02-22
 layout: post
 ---

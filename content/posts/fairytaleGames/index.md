@@ -1,6 +1,6 @@
 ---
 title: "Fairytale Games"
-tags: miniature
+tags: ["miniature"]
 date: 2026-04-09
 layout: post
 description: "Found 33 dark fantasy fairy tale miniatures on Vinted for under 2 euros each. Large heroic scale works for monsters but tricky for PCs."

@@ -1,6 +1,6 @@
 ---
 title: Dungeon Dressing #1
-tags: terrain
+tags: ["terrain"]
 date: 2022-03-27
 layout: post
 ---

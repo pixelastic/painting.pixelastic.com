@@ -1,6 +1,6 @@
 ---
 title: Crates
-tags: terrain
+tags: ["terrain"]
 date: 2022-03-22
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Thugs"
-tags: painting
+tags: ["painting"]
 date: 2023-07-29
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Random Scatter: Pillars, Walls and Altars"
-tags: terrain
+tags: ["terrain"]
 date: 2023-08-19
 layout: post
 ---

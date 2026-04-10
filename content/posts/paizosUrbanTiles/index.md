@@ -1,6 +1,6 @@
 ---
 title: Paizo's Urban Tiles
-tags: terrain
+tags: ["terrain"]
 date: 2019-10-06
 layout: post
 ---

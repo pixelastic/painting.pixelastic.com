@@ -1,6 +1,6 @@
 ---
 title: Tarnopol Clocktower
-tags: terrain
+tags: ["terrain"]
 date: 2021-05-09
 layout: post
 ---

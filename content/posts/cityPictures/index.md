@@ -1,6 +1,6 @@
 ---
 title: "City Pictures"
-tags: terrain
+tags: ["terrain"]
 date: 2023-08-17
 layout: post
 ---

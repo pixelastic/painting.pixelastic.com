@@ -1,6 +1,6 @@
 ---
 title: Frozen Castle Warpstone
-tags: terrain
+tags: ["terrain"]
 date: 2021-06-24
 layout: post
 ---

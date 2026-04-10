@@ -1,6 +1,6 @@
 ---
 title: Duergar Squad
-tags: miniature
+tags: ["miniature"]
 date: 2020-01-16
 layout: post
 ---

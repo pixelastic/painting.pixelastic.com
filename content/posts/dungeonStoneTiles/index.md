@@ -1,6 +1,6 @@
 ---
 title: Dungeon Stone Tiles
-tags: terrain
+tags: ["terrain"]
 date: 2022-07-04
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Gormiti painting practice
-tags: miniature
+tags: ["miniature"]
 date: 2019-08-28
 layout: post
 ---

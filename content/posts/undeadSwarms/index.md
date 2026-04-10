@@ -1,6 +1,6 @@
 ---
 title: "Undead Swarms"
-tags: miniature
+tags: ["miniature"]
 date: 2026-04-08
 layout: post
 description: "Two types of undead swarms: bone golems and spider-skulls. Added spaghetti pieces to Reaper Bones bases for extra bone scatter effect."

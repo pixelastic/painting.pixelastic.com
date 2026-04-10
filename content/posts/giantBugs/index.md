@@ -1,6 +1,6 @@
 ---
 title: Giant Bugs
-tags: miniature
+tags: ["miniature"]
 date: 2020-03-29
 layout: post
 ---

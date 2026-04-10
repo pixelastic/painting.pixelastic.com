@@ -1,6 +1,6 @@
 ---
 title: Zombicide Orc Abomination
-tags: miniature
+tags: ["miniature"]
 date: 2020-07-30
 layout: post
 ---

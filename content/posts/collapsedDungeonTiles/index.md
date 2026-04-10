@@ -1,6 +1,6 @@
 ---
 title: "Collapsed Dungeon Tiles"
-tags: terrain
+tags: ["terrain"]
 date: 2023-12-08
 layout: post
 ---

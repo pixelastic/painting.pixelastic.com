@@ -1,6 +1,6 @@
 ---
 title: "Gormiti Treemen"
-tags: miniature
+tags: ["miniature"]
 date: 2026-04-08
 layout: post
 description: "Gormiti figures from garage sales turned into treemen. Painted with speedpaints for quick tabletop results, though some became sticky after varnishing."

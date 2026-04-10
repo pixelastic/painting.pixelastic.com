@@ -1,6 +1,6 @@
 ---
 title: "Floating Rock Platforms"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-09
 layout: post
 description: "Repurposed Pirates of the Caribbean toy pieces into green floating platforms for a Feywild encounter. Painted with layered drybrushing and reused for a desert canyon."

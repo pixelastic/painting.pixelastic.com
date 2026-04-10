@@ -1,6 +1,6 @@
 ---
 title: Kyra, Human Cleric
-tags: miniature
+tags: ["miniature"]
 date: 2020-03-28
 layout: post
 ---

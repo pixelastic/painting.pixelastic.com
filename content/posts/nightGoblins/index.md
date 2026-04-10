@@ -1,6 +1,6 @@
 ---
 title: Night Goblins
-tags: terrain
+tags: ["terrain"]
 date: 2022-11-05
 layout: post
 ---

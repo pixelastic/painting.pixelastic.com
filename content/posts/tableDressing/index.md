@@ -1,6 +1,6 @@
 ---
 title: "Table Dressing"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-09
 layout: post
 description: "Made removable trays from board game tokens and D&D bases with small items like bottles, food, and repurposed craft supplies. Modular scenery for market stalls."

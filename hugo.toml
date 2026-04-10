@@ -1,6 +1,7 @@
 baseURL = 'https://painting.pixelastic.com/'
 languageCode = 'en-us'
 title = 'Painting Pixelastic'
+theme = 'PaperMod'
 
 # Preserve existing URL structure for SEO
 [permalinks]
@@ -28,6 +29,20 @@ term = ['HTML']
 unsafe = true # Allow HTML in markdown
 [markup.highlight]
 style = 'monokai'
+
+# PaperMod theme settings
+[params]
+  description = "Blog about miniature painting"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowFullTextinRSS = true
+
+[params.homeInfoParams]
+  Title = "Painting Pixelastic"
+  Content = "Blog about miniature painting"
 
 # Hugo Modules
 [module]

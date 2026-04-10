@@ -1,6 +1,6 @@
 ---
 title: Zombicide Green Horde Tiles - Part 1
-tags: terrain
+tags: ["terrain"]
 date: 2021-04-29
 layout: post
 ---

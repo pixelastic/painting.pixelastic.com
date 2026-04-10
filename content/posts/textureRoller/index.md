@@ -1,6 +1,6 @@
 ---
 title: "Texture Roller"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-09
 layout: post
 description: "Made a custom tool for texturing foam with real gravel glued to a handle. Faster and easier on hands than aluminium foil ball method."
