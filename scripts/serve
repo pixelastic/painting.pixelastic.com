@@ -1,19 +1,18 @@
 #!/usr/bin/env zsh
-# Run local development server with Tailwind watch
+# Serve local website
 
-# Initialize GVM (Go Version Manager)
+# Initialize GVM
 [[ -s ~/.gvm/scripts/gvm ]] && source ~/.gvm/scripts/gvm
 
+# Stop on errors only once GVM is loaded
 set -e
 
-echo "🚀 Starting Tailwind CSS watch & Hugo dev server..."
-
-# Start Tailwind in watch mode in background
+# Tailwind
 npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch &
 TAILWIND_PID=$!
 
-# Start Hugo server (this blocks)
-hugo server --buildDrafts --buildFuture
+# Hugo
+hugo server --buildDrafts --buildFuture --openBrowser
 
-# Clean up Tailwind process on exit
+# Clean up
 kill $TAILWIND_PID 2>/dev/null || true
