@@ -2,57 +2,47 @@ baseURL = 'https://painting.pixelastic.com/'
 languageCode = 'en-us'
 title = 'Painting Pixelastic'
 
-# Build configuration for Tailwind CSS integration (official Hugo method)
+[params]
+description = "Blog about miniature painting"
+
 [build]
-  [build.buildStats]
-    enable = true
-
-# Cache busters - trigger CSS rebuild when these files change
-[[build.cachebusters]]
-  source = "assets/notwatching/hugo_stats\\.json"
-  target = "css"
+[build.buildStats]
+# Generate ./hugo_stats.json
+enable = true
 
 [[build.cachebusters]]
-  source = "(postcss|tailwind)\\.config\\.js"
-  target = "css"
+# Whenever assets/hugo_stats.json is updated, rebuild CSS
+target = "css"
+source = "assets/hugo_stats\\.json"
 
-# Module mounts for hugo_stats.json
 [module]
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  [[module.mounts]]
-    source = "hugo_stats.json"
-    target = "assets/notwatching/hugo_stats.json"
-    disableWatch = true
+# Make ./hugo_stats.json available as ./assets/hugo_stats.json
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "hugo_stats.json"
+target = "assets/hugo_stats.json"
+disableWatch = true
 
-# Preserve existing URL structure for SEO
 [permalinks]
 posts = '/:contentbasename/'
 
-# Pagination (10 posts per page, matching old setup)
 [pagination]
 pagerSize = 10
 
-# Taxonomies
 [taxonomies]
 tag = 'tags'
 
-# Output formats
 [outputs]
 home = ['HTML', 'RSS']
 section = ['HTML']
 taxonomy = ['HTML']
 term = ['HTML']
 
-# Markup settings
 [markup]
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = true # Allow HTML in markdown
 [markup.highlight]
 style = 'monokai'
-
-# Site parameters
-[params]
-  description = "Blog about miniature painting"
