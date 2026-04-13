@@ -7,19 +7,9 @@
 # Stop on errors only once GVM is loaded
 set -e
 
-# Tailwind (watch mode in background with polling)
-node_modules/.bin/tailwindcss \
-  -i ./assets/src/style.css \
-  -o ./assets/style.css \
-  --watch \
-  --poll &
-TAILWIND_PID=$!
-
-# Hugo dev server
+# Hugo dev server with integrated Tailwind CSS processing
+# Hugo will call css.TailwindCSS function and handle hot reload via cache busters
 hugo server \
   --buildDrafts \
   --buildFuture \
   --openBrowser
-
-# Clean up Tailwind process on exit
-kill $TAILWIND_PID 2>/dev/null || true

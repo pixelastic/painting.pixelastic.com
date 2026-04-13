@@ -7,44 +7,89 @@
 
 {{- $paginator := .Paginate $pages }}
 
-{{- range $index, $page := $paginator.Pages }}
+{{- /* Hero section */ -}}
+<section class="mb-12">
+  <h1 class="text-3xl sm:text-4xl font-bold text-foreground mb-4 text-balance font-heading">
+    {{ .Site.Title }}
+  </h1>
+  <p class="text-lg text-muted-foreground max-w-2xl leading-relaxed">
+    Documenting my journey through miniature painting, terrain building, and tabletop adventures. One brushstroke at a time.
+  </p>
+</section>
 
-<article class="mb-12 pb-8 border-4 border-green-500">
-  <header class="mb-4">
-    <h2 class="text-2xl font-heading font-bold">
-      <a href="{{ .Permalink }}" class="hover:text-teal">{{ .Title }}</a>
-    </h2>
-    <div class="text-sm text-gray-medium mt-1">
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-    </div>
-  </header>
+{{- /* Posts grid */ -}}
+<div class="space-y-8">
+  {{- range $index, $page := $paginator.Pages }}
 
-  <div class="prose prose-lg max-w-none">
-    {{ .Content }}
-  </div>
-</article>
+  <article class="group relative overflow-hidden rounded-xl border border-border/50 bg-card transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+    <a href="{{ .Permalink }}" class="block">
+      {{- /* Article header avec date et tags */ -}}
+      <div class="p-6">
+        <div class="flex items-center gap-2 text-xs text-muted-foreground mb-3">
+          <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+          {{- if .Params.tags }}
+          <span class="text-border">|</span>
+          <div class="flex items-center gap-1">
+            <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+            </svg>
+            <span>{{ delimit .Params.tags ", " }}</span>
+          </div>
+          {{- end }}
+        </div>
 
-{{- if not (eq $index (sub (len $paginator.Pages) 1)) }}
-<hr class="my-8 border-gray-300">
-{{- end }}
+        <h2 class="text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors text-balance font-heading">
+          {{ .Title }}
+        </h2>
 
-{{- end }}
+        {{- /* Contenu du post */ -}}
+        <div class="prose prose-lg max-w-none mt-4">
+          {{ .Content }}
+        </div>
 
+        {{- /* Read more arrow */ -}}
+        <span class="inline-flex items-center gap-2 text-sm font-medium text-primary group-hover:gap-3 transition-all mt-4">
+          <span>Continue reading</span>
+          <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </span>
+      </div>
+    </a>
+  </article>
+
+  {{- end }}
+</div>
+
+{{- /* Pagination */ -}}
 {{- if gt $paginator.TotalPages 1 }}
-<nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-300">
-  <div>
-    {{- if $paginator.HasPrev }}
-    <a href="{{ $paginator.Prev.URL }}" class="text-teal hover:underline">← Previous</a>
-    {{- end }}
-  </div>
-  <div class="text-sm text-gray-medium">
-    Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
-  </div>
-  <div>
-    {{- if $paginator.HasNext }}
-    <a href="{{ $paginator.Next.URL }}" class="text-teal hover:underline">Next →</a>
-    {{- end }}
-  </div>
+<nav class="flex items-center justify-center gap-2 pt-8 mt-8">
+  {{- if $paginator.HasPrev }}
+  <a href="{{ $paginator.Prev.URL }}"
+     class="px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary rounded-md transition-colors">
+    Previous
+  </a>
+  {{- end }}
+
+  <span class="px-4 py-2 text-sm font-medium text-primary-foreground bg-primary rounded-md">
+    {{ $paginator.PageNumber }}
+  </span>
+
+  {{- if gt $paginator.TotalPages 3 }}
+  <span class="px-2 text-muted-foreground">of {{ $paginator.TotalPages }}</span>
+  {{- end }}
+
+  {{- if $paginator.HasNext }}
+  <a href="{{ $paginator.Next.URL }}"
+     class="px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary rounded-md transition-colors">
+    Next
+  </a>
+  {{- end }}
 </nav>
 {{- end }}
 

@@ -6,26 +6,56 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
-  {{- /* Tailwind CSS */ -}}
-  {{ $tailwind := resources.Get "style.css" }}
-  <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}">
+  {{- /* Tailwind CSS - Deferred to ensure hugo_stats.json is generated first */ -}}
+  {{ with (templates.Defer (dict "key" "css")) }}
+    {{ partial "tailwind-css.html" . }}
+  {{ end }}
 </head>
-<body class="font-sans text-gray-medium">
-  <div class="max-w-4xl mx-auto px-4 py-8">
-    <header class="mb-12">
-      <h1 class="text-3xl font-heading font-bold text-gray-dark">
-        <a href="/" class="hover:text-teal">{{ .Site.Title }}</a>
-      </h1>
-      <p class="text-lg text-gray-medium mt-2">{{ .Site.Params.description }}</p>
+<body class="font-sans antialiased">
+  <div class="min-h-screen flex flex-col">
+    {{- /* Background grid pattern - cutting mat */ -}}
+    <div class="fixed inset-0 cutting-mat-grid pointer-events-none opacity-50"></div>
+
+    {{- /* Header - sticky avec backdrop blur */ -}}
+    <header class="sticky top-0 z-50 border-b-4 border-primary bg-background/80 backdrop-blur-md">
+      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <a href="/" class="flex items-center gap-3 group">
+            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground transition-transform group-hover:scale-105">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-semibold text-foreground leading-tight">
+                {{ .Site.Title }}
+              </span>
+              <span class="text-xs text-muted-foreground leading-tight">
+                {{ .Site.Params.description }}
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
     </header>
 
-    <main>
-      {{- block "main" . }}{{- end }}
+    {{- /* Main content */ -}}
+    <main class="flex-1 relative">
+      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
+        {{- block "main" . }}{{- end }}
+      </div>
     </main>
 
-    <footer class="mt-12 pt-8 border-t border-gray-300 text-sm text-gray-medium">
-      <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+    {{- /* Footer */ -}}
+    <footer class="border-t border-border/50 py-8 mt-12 relative">
+      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <p class="text-sm text-muted-foreground">
+          &copy; {{ now.Year }} {{ .Site.Title }}
+        </p>
+      </div>
     </footer>
   </div>
+  {{- /* Dev timestamp to force rebuilds when needed */ -}}
+  {{ partial "dev-timestamp.html" . }}
 </body>
 </html>

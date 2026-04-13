@@ -8,6 +8,11 @@ dist/
 tmp/
 public/
 
+# Generated files
+assets/style.css
+hugo_stats.json
+resources/
+
 # Junk files
 .DS_Store
 Thumbs.db

@@ -2,6 +2,30 @@ baseURL = 'https://painting.pixelastic.com/'
 languageCode = 'en-us'
 title = 'Painting Pixelastic'
 
+# Build configuration for Tailwind CSS integration (official Hugo method)
+[build]
+  [build.buildStats]
+    enable = true
+
+# Cache busters - trigger CSS rebuild when these files change
+[[build.cachebusters]]
+  source = "assets/notwatching/hugo_stats\\.json"
+  target = "css"
+
+[[build.cachebusters]]
+  source = "(postcss|tailwind)\\.config\\.js"
+  target = "css"
+
+# Module mounts for hugo_stats.json
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "hugo_stats.json"
+    target = "assets/notwatching/hugo_stats.json"
+    disableWatch = true
+
 # Preserve existing URL structure for SEO
 [permalinks]
 posts = '/:contentbasename/'

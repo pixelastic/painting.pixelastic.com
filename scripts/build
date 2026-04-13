@@ -7,10 +7,6 @@
 # Stop on errors only once GVM is loaded
 set -e
 
-# Build Tailwind first (scans layouts/ and content/)
-node_modules/.bin/tailwindcss \
-  -i ./assets/src/style.css \
-  -o ./assets/style.css
-
-# Build Hugo once with generated Tailwind CSS
-hugo
+# Hugo build with integrated Tailwind CSS processing
+# Hugo calls css.TailwindCSS function automatically during build
+hugo --minify
