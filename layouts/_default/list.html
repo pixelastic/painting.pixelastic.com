@@ -1,6 +1,11 @@
 {{- define "main" }}
 
-{{- $paginator := .Paginate .Pages }}
+{{- $pages := .Pages }}
+{{- if .IsHome }}
+  {{- $pages = where site.RegularPages "Section" "posts" }}
+{{- end }}
+
+{{- $paginator := .Paginate $pages }}
 
 {{- range $index, $page := $paginator.Pages }}
 

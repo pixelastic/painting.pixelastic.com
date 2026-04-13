@@ -1,0 +1,5 @@
+{{- $src := .Destination -}}
+{{- if not (or (hasPrefix $src "http") (hasPrefix $src "/")) -}}
+  {{- $src = path.Join .Page.RelPermalink $src -}}
+{{- end -}}
+<img src="{{ $src | relURL }}" alt="{{ .Text }}" loading="lazy">
