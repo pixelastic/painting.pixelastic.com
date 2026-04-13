@@ -9,7 +9,7 @@
 
 {{- /* Hero section */ -}}
 <section class="mb-12">
-  <h1 class="text-3xl sm:text-4xl font-bold text-foreground mb-4 text-balance font-heading">
+  <h1 class="text-3xl sm:text-4xl font-bold text-default mb-4 text-balance font-heading">
     {{ .Site.Title }}
   </h1>
   <p class="text-lg text-muted-foreground max-w-2xl leading-relaxed">
@@ -21,7 +21,7 @@
 <div class="space-y-8">
   {{- range $index, $page := $paginator.Pages }}
 
-  <article class="group relative overflow-hidden rounded-xl border border-border/50 bg-card transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+  <article class="group relative overflow-hidden rounded-xl border border-border/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
     <a href="{{ .Permalink }}" class="block">
       {{- /* Article header avec date et tags */ -}}
       <div class="p-6">
@@ -43,7 +43,7 @@
           {{- end }}
         </div>
 
-        <h2 class="text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors text-balance font-heading">
+        <h2 class="text-xl font-semibold text-default mb-3 group-hover:text-accent transition-colors text-balance font-heading">
           {{ .Title }}
         </h2>
 
@@ -53,7 +53,7 @@
         </div>
 
         {{- /* Read more arrow */ -}}
-        <span class="inline-flex items-center gap-2 text-sm font-medium text-primary group-hover:gap-3 transition-all mt-4">
+        <span class="inline-flex items-center gap-2 text-sm font-medium text-accent group-hover:gap-3 transition-all mt-4">
           <span>Continue reading</span>
           <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -71,12 +71,12 @@
 <nav class="flex items-center justify-center gap-2 pt-8 mt-8">
   {{- if $paginator.HasPrev }}
   <a href="{{ $paginator.Prev.URL }}"
-     class="px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary rounded-md transition-colors">
+     class="px-4 py-2 text-sm text-muted-foreground hover:text-default hover:bg-card-light rounded-md transition-colors">
     Previous
   </a>
   {{- end }}
 
-  <span class="px-4 py-2 text-sm font-medium text-primary-foreground bg-primary rounded-md">
+  <span class="px-4 py-2 text-sm font-medium text-accent-foreground bg-accent rounded-md">
     {{ $paginator.PageNumber }}
   </span>
 
@@ -86,7 +86,7 @@
 
   {{- if $paginator.HasNext }}
   <a href="{{ $paginator.Next.URL }}"
-     class="px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary rounded-md transition-colors">
+     class="px-4 py-2 text-sm text-muted-foreground hover:text-default hover:bg-card-light rounded-md transition-colors">
     Next
   </a>
   {{- end }}

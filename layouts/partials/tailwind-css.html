@@ -1,9 +1,12 @@
 {{- with resources.Get "src/style.css" }}
-  {{- $opts := dict "minify" (not hugo.IsDevelopment) }}
-  {{- with . | css.TailwindCSS $opts }}
-    {{- if hugo.IsDevelopment }}
+  {{- if hugo.IsDevelopment }}
+    {{- with . | css.TailwindCSS }}
+      {{- /* Development: no minify, no fingerprint */ -}}
       <link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{- else }}
+    {{- end }}
+  {{- else }}
+    {{- with . | css.TailwindCSS (dict "minify" true) }}
+      {{- /* Production: minify + fingerprint */ -}}
       {{- with . | fingerprint }}
         <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
       {{- end }}

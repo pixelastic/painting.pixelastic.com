@@ -8,7 +8,6 @@
 set -e
 
 # Hugo dev server with integrated Tailwind CSS processing
-# Hugo will call css.TailwindCSS function and handle hot reload via cache busters
 hugo server \
   --buildDrafts \
   --buildFuture \

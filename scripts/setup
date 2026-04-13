@@ -7,7 +7,7 @@
 set -e
 
 echo "📦 Installing Hugo..."
-go install github.com/gohugoio/hugo@latest
+go install github.com/gohugoio/hugo@v0.171.0
 echo "✅ Hugo installed successfully!"
 echo ""
 hugo version
