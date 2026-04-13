@@ -1,15 +1,35 @@
 {
-  "name": "painting-pixelastic-com",
-  "version": "1.0.0",
+  "name": "painting.pixelastic.com",
   "private": true,
-  "scripts": {
-    "setup": "./scripts/setup",
-    "build": "./scripts/build",
-    "serve": "./scripts/serve",
-    "clean": "./scripts/clean"
+  "type": "module",
+  "description": "painting.pixelastic.com source code",
+  "author": "pixelastic",
+  "homepage": "https://painting.pixelastic.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelastic/painting.pixelastic.com"
   },
+  "sideEffects": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "packageManager": "yarn@4.12.0",
   "devDependencies": {
-    "tailwindcss": "^3.4.1",
-    "@tailwindcss/typography": "^0.5.10"
+    "@tailwindcss/cli": "4.2.2",
+    "@tailwindcss/typography": "0.5.19",
+    "aberlaas": "2.27.1"
+  },
+  "scripts": {
+    "build": "./scripts/build",
+    "ci": "./scripts/ci",
+    "compress": "./scripts/compress",
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
+    "release": "./scripts/release",
+    "serve": "./scripts/serve",
+    "setup": "./scripts/setup",
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test-watch"
   }
 }

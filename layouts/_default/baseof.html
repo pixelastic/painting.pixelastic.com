@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+  {{- /* Tailwind CSS */ -}}
+  {{ $tailwind := resources.Get "style.css" }}
+  <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}">
+</head>
+<body class="font-sans text-gray-medium">
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <header class="mb-12">
+      <h1 class="text-3xl font-heading font-bold text-gray-dark">
+        <a href="/" class="hover:text-teal">{{ .Site.Title }}</a>
+      </h1>
+      <p class="text-lg text-gray-medium mt-2">{{ .Site.Params.description }}</p>
+    </header>
+
+    <main>
+      {{- block "main" . }}{{- end }}
+    </main>
+
+    <footer class="mt-12 pt-8 border-t border-gray-300 text-sm text-gray-medium">
+      <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+    </footer>
+  </div>
+</body>
+</html>

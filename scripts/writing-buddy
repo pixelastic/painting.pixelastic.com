@@ -4,7 +4,7 @@ set -e
 # Get the directory where the script is located
 local GIT_ROOT="$(git-directory-root)"
 
-workflow_content=$(cat "$GIT_ROOT/workflows/index.md")
+workflow_content=$(cat "$GIT_ROOT/scripts/workflows/index.md")
 
 # Note: order matters - flags before positional arguments
 exec claude-bin "$@" --append-system-prompt "$workflow_content"

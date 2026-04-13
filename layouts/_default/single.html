@@ -1,0 +1,25 @@
+{{- define "main" }}
+
+<article class="prose prose-lg max-w-none">
+  <header class="mb-8">
+    <h1 class="text-4xl font-heading font-bold text-gray-dark mb-2">{{ .Title }}</h1>
+    <div class="text-sm text-gray-medium">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      {{- if .Params.tags }}
+      <span class="mx-2">·</span>
+      <span>
+        {{- range $index, $tag := .Params.tags }}
+          {{- if $index }}, {{ end }}
+          <a href="/tags/{{ $tag | urlize }}/" class="hover:text-teal">{{ $tag }}</a>
+        {{- end }}
+      </span>
+      {{- end }}
+    </div>
+  </header>
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+</article>
+
+{{- end }}

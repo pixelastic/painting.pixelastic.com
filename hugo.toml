@@ -29,21 +29,6 @@ unsafe = true # Allow HTML in markdown
 [markup.highlight]
 style = 'monokai'
 
-# PaperMod theme settings
+# Site parameters
 [params]
   description = "Blog about miniature painting"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowFullTextinRSS = true
-
-[params.homeInfoParams]
-  Title = "Painting Pixelastic"
-  Content = "Blog about miniature painting"
-
-# Hugo Modules
-[module]
-[[module.imports]]
-path = 'github.com/adityatelange/hugo-PaperMod'

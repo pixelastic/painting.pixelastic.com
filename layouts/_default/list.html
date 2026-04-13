@@ -1,53 +1,46 @@
 {{- define "main" }}
 
-{{- if .Content }}
-<div class="post-content">
-  {{ .Content }}
-</div>
-{{- end }}
-
-{{- $pages := .Pages }}
-{{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- end }}
-
-{{- $paginator := .Paginate $pages }}
+{{- $paginator := .Paginate .Pages }}
 
 {{- range $index, $page := $paginator.Pages }}
 
-<article class="post-entry">
-  {{- partial "post_meta.html" . }}
-  <h2 class="entry-hint-parent">
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
-  </h2>
+<article class="mb-12 pb-8 border-4 border-green-500">
+  <header class="mb-4">
+    <h2 class="text-2xl font-heading font-bold">
+      <a href="{{ .Permalink }}" class="hover:text-teal">{{ .Title }}</a>
+    </h2>
+    <div class="text-sm text-gray-medium mt-1">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    </div>
+  </header>
 
-  {{- /* Display full post content */ -}}
-  <div class="post-content">
+  <div class="prose prose-lg max-w-none">
     {{ .Content }}
   </div>
-
-  {{- if not (eq $index (sub (len $paginator.Pages) 1)) }}
-  <hr style="margin: 3em 0; border: none; border-top: 1px solid var(--border);">
-  {{- end }}
 </article>
+
+{{- if not (eq $index (sub (len $paginator.Pages) 1)) }}
+<hr class="my-8 border-gray-300">
+{{- end }}
 
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
-<footer class="page-footer">
-  <nav class="pagination">
+<nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-300">
+  <div>
     {{- if $paginator.HasPrev }}
-    <a class="prev" href="{{ $paginator.Prev.URL }}">
-      « Previous
-    </a>
+    <a href="{{ $paginator.Prev.URL }}" class="text-teal hover:underline">← Previous</a>
     {{- end }}
+  </div>
+  <div class="text-sm text-gray-medium">
+    Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
+  </div>
+  <div>
     {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL }}">
-      Next »
-    </a>
+    <a href="{{ $paginator.Next.URL }}" class="text-teal hover:underline">Next →</a>
     {{- end }}
-  </nav>
-</footer>
+  </div>
+</nav>
 {{- end }}
 
-{{- end }}{{/* end main */}}
+{{- end }}

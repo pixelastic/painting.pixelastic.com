@@ -1,25 +1,26 @@
-# OS files
-.DS_Store
-Thumbs.db
-*~
-*.rej
-
-# Editor/IDE
-.claude/
+# Important files that should not be committed
+.env
 .envrc
 
-# Node
-node_modules/
+# Build directories
+build/
+dist/
+tmp/
+public/
+
+# Junk files
+.DS_Store
+Thumbs.db
+lerna-debug.log
 npm-debug.log
 yarn-error.log
+*~
 
-# Go
-public/
-resources/_gen/
-
-# Tailwind generated CSS
-assets/css/style.css
-
-# Deployment
-.netlify
-tmp/
+# Tool directories
+.claude/
+.cursor/
+.netlify/
+.taskmaster/
+.turbo/
+.yarn/
+node_modules/

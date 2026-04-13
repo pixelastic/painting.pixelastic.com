@@ -1,15 +1,16 @@
 #!/usr/bin/env zsh
-# Build the site for production
+# Build the site locally
 
-# Initialize GVM (Go Version Manager)
+# Initialize GVM
 [[ -s ~/.gvm/scripts/gvm ]] && source ~/.gvm/scripts/gvm
 
+# Stop on errors only once GVM is loaded
 set -e
 
-echo "🎨 Building Tailwind CSS..."
-npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify
+# Build Tailwind first (scans layouts/ and content/)
+node_modules/.bin/tailwindcss \
+  -i ./assets/src/style.css \
+  -o ./assets/style.css
 
-echo "🔨 Building Hugo site..."
-hugo --minify
-
-echo "✅ Site built in ./public/"
+# Build Hugo once with generated Tailwind CSS
+hugo

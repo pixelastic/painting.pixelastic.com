@@ -7,12 +7,19 @@
 # Stop on errors only once GVM is loaded
 set -e
 
-# Tailwind
-npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch &
+# Tailwind (watch mode in background with polling)
+node_modules/.bin/tailwindcss \
+  -i ./assets/src/style.css \
+  -o ./assets/style.css \
+  --watch \
+  --poll &
 TAILWIND_PID=$!
 
-# Hugo
-hugo server --buildDrafts --buildFuture --openBrowser
+# Hugo dev server
+hugo server \
+  --buildDrafts \
+  --buildFuture \
+  --openBrowser
 
-# Clean up
+# Clean up Tailwind process on exit
 kill $TAILWIND_PID 2>/dev/null || true
