@@ -12,7 +12,7 @@
   <h1 class="text-3xl sm:text-4xl font-bold text-default mb-4 text-balance font-heading">
     {{ .Site.Title }}
   </h1>
-  <p class="text-lg text-muted-foreground max-w-2xl leading-relaxed">
+  <p class="text-lg text-muted max-w-2xl leading-relaxed">
     Documenting my journey through miniature painting, terrain building, and tabletop adventures. One brushstroke at a time.
   </p>
 </section>
@@ -21,11 +21,11 @@
 <div class="space-y-8">
   {{- range $index, $page := $paginator.Pages }}
 
-  <article class="group relative overflow-hidden rounded-xl border border-border/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
+  <article class="group relative overflow-hidden rounded-xl border border-default/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
     <a href="{{ .Permalink }}" class="block">
       {{- /* Article header avec date et tags */ -}}
       <div class="p-6">
-        <div class="flex items-center gap-2 text-xs text-muted-foreground mb-3">
+        <div class="flex items-center gap-2 text-xs text-muted mb-3">
           <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
@@ -71,7 +71,7 @@
 <nav class="flex items-center justify-center gap-2 pt-8 mt-8">
   {{- if $paginator.HasPrev }}
   <a href="{{ $paginator.Prev.URL }}"
-     class="px-4 py-2 text-sm text-muted-foreground hover:text-default hover:bg-card-light rounded-md transition-colors">
+     class="px-4 py-2 text-sm text-muted hover:text-default hover:bg-card-light rounded-md transition-colors">
     Previous
   </a>
   {{- end }}
@@ -81,12 +81,12 @@
   </span>
 
   {{- if gt $paginator.TotalPages 3 }}
-  <span class="px-2 text-muted-foreground">of {{ $paginator.TotalPages }}</span>
+  <span class="px-2 text-muted">of {{ $paginator.TotalPages }}</span>
   {{- end }}
 
   {{- if $paginator.HasNext }}
   <a href="{{ $paginator.Next.URL }}"
-     class="px-4 py-2 text-sm text-muted-foreground hover:text-default hover:bg-card-light rounded-md transition-colors">
+     class="px-4 py-2 text-sm text-muted hover:text-default hover:bg-card-light rounded-md transition-colors">
     Next
   </a>
   {{- end }}

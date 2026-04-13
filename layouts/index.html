@@ -8,7 +8,7 @@
   <h1 class="text-3xl sm:text-4xl font-bold text-default mb-4 text-balance font-heading">
     {{ .Site.Title }}
   </h1>
-  <p class="text-lg text-muted-foreground max-w-2xl leading-relaxed">
+  <p class="text-lg text-muted max-w-2xl leading-relaxed">
     Documenting my journey through miniature painting, terrain building, and tabletop adventures. One brushstroke at a time.
   </p>
 </section>
@@ -20,11 +20,11 @@
     {{- /* Latest Post section */ -}}
     {{- if gt (len $paginator.Pages) 0 }}
     <section>
-      <h2 class="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
+      <h2 class="text-sm font-medium text-muted uppercase tracking-wider mb-4">
         Latest Post
       </h2>
       {{- $latestPost := index $paginator.Pages 0 }}
-      <article class="group relative overflow-hidden rounded-xl border border-border/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
+      <article class="group relative overflow-hidden rounded-xl border border-default/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
         <a href="{{ $latestPost.Permalink }}" class="block">
           {{- /* Image placeholder with gradient and cutting mat */ -}}
           <div class="aspect-[2/1] bg-gradient-to-br from-secondary to-muted relative overflow-hidden">
@@ -46,7 +46,7 @@
           </div>
 
           <div class="p-6">
-            <div class="flex items-center gap-2 text-xs text-muted-foreground mb-3">
+            <div class="flex items-center gap-2 text-xs text-muted mb-3">
               <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
@@ -59,7 +59,7 @@
               {{ $latestPost.Title }}
             </h2>
 
-            <p class="text-muted-foreground text-sm leading-relaxed line-clamp-2 mb-4">
+            <p class="text-muted text-sm leading-relaxed line-clamp-2 mb-4">
               {{ $latestPost.Summary }}
             </p>
 
@@ -78,12 +78,12 @@
     {{- /* Recent Posts section */ -}}
     {{- if gt (len $paginator.Pages) 1 }}
     <section>
-      <h2 class="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
+      <h2 class="text-sm font-medium text-muted uppercase tracking-wider mb-4">
         Recent Posts
       </h2>
       <div class="space-y-4">
         {{- range after 1 $paginator.Pages }}
-        <article class="group relative overflow-hidden rounded-xl border border-border/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
+        <article class="group relative overflow-hidden rounded-xl border border-default/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
           <a href="{{ .Permalink }}" class="block">
             {{- /* Image placeholder with gradient and cutting mat */ -}}
             <div class="aspect-[2/1] bg-gradient-to-br from-secondary to-muted relative overflow-hidden">
@@ -105,7 +105,7 @@
             </div>
 
             <div class="p-6">
-              <div class="flex items-center gap-2 text-xs text-muted-foreground mb-3">
+              <div class="flex items-center gap-2 text-xs text-muted mb-3">
                 <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
@@ -118,7 +118,7 @@
                 {{ .Title }}
               </h2>
 
-              <p class="text-muted-foreground text-sm leading-relaxed line-clamp-2 mb-4">
+              <p class="text-muted text-sm leading-relaxed line-clamp-2 mb-4">
                 {{ .Summary }}
               </p>
 
@@ -141,7 +141,7 @@
     <nav class="flex items-center justify-center gap-2 pt-8">
       {{- if $paginator.HasPrev }}
       <a href="{{ $paginator.Prev.URL }}"
-         class="px-4 py-2 text-sm text-muted-foreground hover:text-default hover:bg-card-light rounded-md transition-colors">
+         class="px-4 py-2 text-sm text-muted hover:text-default hover:bg-card-light rounded-md transition-colors">
         Previous
       </a>
       {{- end }}
@@ -151,12 +151,12 @@
       </span>
 
       {{- if gt $paginator.TotalPages 3 }}
-      <span class="px-2 text-muted-foreground">of {{ $paginator.TotalPages }}</span>
+      <span class="px-2 text-muted">of {{ $paginator.TotalPages }}</span>
       {{- end }}
 
       {{- if $paginator.HasNext }}
       <a href="{{ $paginator.Next.URL }}"
-         class="px-4 py-2 text-sm text-muted-foreground hover:text-default hover:bg-card-light rounded-md transition-colors">
+         class="px-4 py-2 text-sm text-muted hover:text-default hover:bg-card-light rounded-md transition-colors">
         Next
       </a>
       {{- end }}
@@ -168,9 +168,9 @@
   <div class="hidden lg:block">
     <aside class="space-y-8 sticky top-20">
       {{- /* About section */ -}}
-      <div class="rounded-xl border border-border/50 bg-card p-6">
+      <div class="rounded-xl border border-default/50 bg-card p-6">
         <h3 class="font-semibold text-default mb-3 font-heading">About</h3>
-        <p class="text-sm text-muted-foreground leading-relaxed">
+        <p class="text-sm text-muted leading-relaxed">
           A personal log documenting my miniature painting journey, terrain building projects, and tabletop gaming adventures.
         </p>
       </div>
@@ -181,7 +181,7 @@
         {{- $allTags = $allTags | append .Page.Title }}
       {{- end }}
       {{- if gt (len $allTags) 0 }}
-      <div class="rounded-xl border border-border/50 bg-card p-6">
+      <div class="rounded-xl border border-default/50 bg-card p-6">
         <h3 class="font-semibold text-default mb-4 flex items-center gap-2 font-heading">
           <svg class="h-4 w-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
@@ -200,7 +200,7 @@
       {{- end }}
 
       {{- /* Cutting mat decoration */ -}}
-      <div class="rounded-xl border border-border/50 overflow-hidden h-32 relative">
+      <div class="rounded-xl border border-default/50 overflow-hidden h-32 relative">
         <div class="absolute inset-0 bg-gradient-to-br from-background to-secondary cutting-mat-grid-dense"></div>
         <div class="absolute inset-0 flex items-center justify-center">
           <div class="text-center">
