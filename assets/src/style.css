@@ -8,82 +8,23 @@
     ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
 
-  --background-color-cutting-mat: oklch(0.22 0.04 155); /* Dark green */
   --background-color-card: oklch(0.26 0.045 155); /* Green */
   --background-color-card-light: oklch(0.3 0.05 155); /* Lighter green */
   --color-accent: oklch(0.72 0.18 55); /* Orange */
   --text-color-default: oklch(0.95 0.01 155); /* Whiteish */
   --text-color-muted: oklch(0.65 0.02 155); /* Grey */
   --border-color-default: oklch(0.4 0.03 155); /* Medium green */
+  --border-color-muted: oklch(0.4 0.03 155 / 0.3); /* Cutting mat lines */
 }
 
-@layer base {
-  body {
-    font-family: var(--font-sans);
-    color: var(--text-color-default);
-    background-color: var(--background-color-cutting-mat);
-    font-size: 1rem;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    color: var(--text-color-default);
-    letter-spacing: -0.02em;
-  }
-
-  h1 {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  h2 {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  h3 {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  a {
-    color: var(--color-accent);
-    transition: color 0.2s ease;
-  }
-
-  a:hover {
-    opacity: 0.9;
-  }
-}
-
-/* Cutting mat grid pattern - from V0 design */
-.cutting-mat-grid {
+/* Cutting mat background with grid pattern */
+.cutting-mat {
+  @apply pointer-events-none fixed inset-0;
+  background-color: oklch(0.22 0.04 155); /* Dark green */
   background-image:
-    linear-gradient(to right, oklch(0.4 0.03 155 / 0.3) 1px, transparent 1px),
-    linear-gradient(to bottom, oklch(0.4 0.03 155 / 0.3) 1px, transparent 1px);
+    linear-gradient(to right, var(--border-color-muted) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border-color-muted) 1px, transparent 1px);
   background-size: 40px 40px;
-}
-
-.cutting-mat-grid-dense {
-  background-image:
-    linear-gradient(to right, oklch(0.4 0.03 155 / 0.15) 1px, transparent 1px),
-    linear-gradient(to bottom, oklch(0.4 0.03 155 / 0.15) 1px, transparent 1px),
-    linear-gradient(to right, oklch(0.4 0.03 155 / 0.3) 1px, transparent 1px),
-    linear-gradient(to bottom, oklch(0.4 0.03 155 / 0.3) 1px, transparent 1px);
-  background-size:
-    10px 10px,
-    10px 10px,
-    40px 40px,
-    40px 40px;
 }
 
 /* Configuration du plugin Typography pour le thème cutting mat */
