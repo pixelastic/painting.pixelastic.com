@@ -1,6 +1,6 @@
 baseURL = 'https://painting.pixelastic.com/'
 languageCode = 'en-us'
-title = 'Painting Pixelastic'
+title = 'Pixelastic Painting Log'
 
 [params]
 description = "Blog about miniature painting"

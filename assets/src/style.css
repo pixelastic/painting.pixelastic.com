@@ -27,7 +27,6 @@
   background-size: 40px 40px;
 }
 
-/* Configuration du plugin Typography pour le thème cutting mat */
 @layer components {
   .prose {
     --tw-prose-body: var(--text-color-default);

@@ -3,16 +3,6 @@
 {{- $pages := where site.RegularPages "Section" "posts" }}
 {{- $paginator := .Paginate $pages }}
 
-{{- /* Hero section */ -}}
-<section class="mb-12">
-  <h1 class="text-3xl sm:text-4xl font-bold text-default mb-4 text-balance font-heading">
-    {{ .Site.Title }}
-  </h1>
-  <p class="text-lg text-muted max-w-2xl leading-relaxed">
-    Documenting my journey through miniature painting, terrain building, and tabletop adventures. One brushstroke at a time.
-  </p>
-</section>
-
 {{- /* Two column layout */ -}}
 <div class="grid lg:grid-cols-[1fr_280px] gap-8">
   {{- /* Main content - Posts */ -}}
@@ -164,12 +154,12 @@
 
   {{- /* Sidebar */ -}}
   <div class="hidden lg:block">
-    <aside class="space-y-8 sticky top-20">
+    <aside class="space-y-8 sticky top-28">
       {{- /* About section */ -}}
       <div class="rounded-xl border border-default/50 bg-card p-6">
         <h3 class="font-semibold text-default mb-3 font-heading">About</h3>
         <p class="text-sm text-muted leading-relaxed">
-          A personal log documenting my miniature painting journey, terrain building projects, and tabletop gaming adventures.
+          Documenting my journey through miniature painting, terrain building, and tabletop adventures. One brushstroke at a time.
         </p>
       </div>
 
