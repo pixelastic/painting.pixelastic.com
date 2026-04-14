@@ -1,6 +1,6 @@
 My second source of minis (after online Heroclix stores) are garage sales.
 There, you can either find kids toys that can be reskinned, or old lead
-miniatures.
+miniature.
 
 Toys are usually not at the right scale, but can make great "Giant" creatures.
 For example a small plastic spider can make a giant spider in your game.

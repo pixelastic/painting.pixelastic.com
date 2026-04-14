@@ -5,7 +5,7 @@ date: 2019-08-03
 layout: post
 ---
 
-This is a group shot of what I was working on at that time. I picked up a few of the female miniatures from Zombicide Green Horde as well as some men.
+This is a group shot of what I was working on at that time. I picked up a few of the female miniature from Zombicide Green Horde as well as some men.
 
 ![image-20200720145445427](image-20200720145445427.png)
 

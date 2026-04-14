@@ -14,7 +14,7 @@ I made this project because my players were about to reach a decisive moment in 
 <!-- Image 2 -->
 ![Unpainted Pirates of the Caribbean toy pieces laid flat](image-20260409153540928.png)
 
-The pieces come from a Pirates of the Caribbean toy, probably the second movie. It's designed for G.I. Joe or Action Man scale miniatures and normally represents a ruined tower. I bought it at a [flea market](../fleaMarketHaul/), but the plastic was very old and broke easily.
+The pieces come from a Pirates of the Caribbean toy, probably the second movie. It's designed for G.I. Joe or Action Man scale miniature and normally represents a ruined tower. I bought it at a [flea market](../fleaMarketHaul/), but the plastic was very old and broke easily.
 
 The scale would never be right vertically for TTRPG, but the textures were great. Positioned flat, though, it could make decent ruined platforms. The one on the far right was already thick enough, but the others were much thinner, so I glued them onto foam boards to even out the thickness. I added spackle on the edges and top to create more texture and hide the plastic look. I also filled in what was obviously a window at the very top with foam stones to make it look like debris instead.
 

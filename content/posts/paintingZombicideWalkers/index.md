@@ -1,13 +1,13 @@
 ---
 title: "Painting Zombicide Walkers"
-tags: ["painting"]
+tags: []
 date: 2024-01-02
 layout: post
 ---
 
 ![image-20231227163819796](./image-20231227163819796.png)
 
-Those Walkers were the last miniatures I needed to paint to complete the Zombicide Horde. It was before I discovered the Army Painter Speed Paint, so I painted them the regular way (meaning: with pain and dedication).
+Those Walkers were the last miniature I needed to paint to complete the Zombicide Horde. It was before I discovered the Army Painter Speed Paint, so I painted them the regular way (meaning: with pain and dedication).
 
 ![image-20231227163923059](./image-20231227163923059.png)
 

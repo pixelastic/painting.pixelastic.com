@@ -77,5 +77,5 @@ More pics of the various angles of the build.
 
 ![image-20220707222558248](image-20220707222558248.png)
 
-The slope is a bit too steep for miniatures to fit correctly, they tend to fall backwards.
+The slope is a bit too steep for miniature to fit correctly, they tend to fall backwards.
 

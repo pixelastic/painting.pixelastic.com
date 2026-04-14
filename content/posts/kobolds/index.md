@@ -1,6 +1,6 @@
 ---
 title: "Kobolds"
-tags: ["miniatures"]
+tags: ["miniature"]
 date: 2026-03-15
 layout: post
 ---
@@ -9,9 +9,9 @@ layout: post
 
 Here's a group of kobolds I painted for when we were playing Kingmaker. At one point, right at the beginning, there's the possibility of going into two different dungeons. One is a kobold dungeon and the other is more of a gremlin type dungeon. 
 
-I didn't really have any kobold miniatures. The one I had was the basic Reaper Bones one, but they're really tiny. So what I did was use skink miniatures from Games Workshop. I assembled enough of them and painted them red to make myself a unit of kobolds. 
+I didn't really have any kobold miniature. The one I had was the basic Reaper Bones one, but they're really tiny. So what I did was use skink miniature from Games Workshop. I assembled enough of them and painted them red to make myself a unit of kobolds. 
 
-For the special characters, the shamans and the captains of the kobold unit, I used Heroclix miniatures that I painted either in the same types of colors, or with entirely different colors to make them stand out from the others. 
+For the special characters, the shamans and the captains of the kobold unit, I used Heroclix miniature that I painted either in the same types of colors, or with entirely different colors to make them stand out from the others. 
 
 And as a little pet, I used lizards from an old sprue, an old Games Workshop blister of lizardmen from the 90s, that I still had from when I was doing a lizardmen army.
 

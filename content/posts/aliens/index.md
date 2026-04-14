@@ -1,6 +1,6 @@
 ---
 title: "Aliens"
-tags: ["miniatures"]
+tags: ["miniature"]
 date: 2026-03-10
 layout: post
 ---
@@ -9,7 +9,7 @@ layout: post
 
 Quick update on a monster painting project I finished last year. 
 
-I like to paint my monsters in batches of 10-12 at a time so they look cohesive with matching color schemes. For this group, I grabbed a bunch of really weird and bizarre miniatures and painted them as otherworldly creatures. Think creatures from The Great Beyond in Pathfinder - that kind of vibe.
+I like to paint my monsters in batches of 10-12 at a time so they look cohesive with matching color schemes. For this group, I grabbed a bunch of really weird and bizarre miniature and painted them as otherworldly creatures. Think creatures from The Great Beyond in Pathfinder - that kind of vibe.
 
 ![image-20260310231916455](image-20260310231916455.png)
 

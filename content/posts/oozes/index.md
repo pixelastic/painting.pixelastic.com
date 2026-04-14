@@ -7,7 +7,7 @@ layout: post
 
 ![image-20220626235211550](image-20220626235211550.9eebb092e9.jpeg)
 
-When the glass tubes broke, my players were confronted against a bunch of colored oozes. I found it pretty hard to find good looking ooze miniatures, so I decided to craft my own.
+When the glass tubes broke, my players were confronted against a bunch of colored oozes. I found it pretty hard to find good looking ooze miniature, so I decided to craft my own.
 
 ![image-20220704223827468](image-20220704223827468.png)
 

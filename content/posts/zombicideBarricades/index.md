@@ -19,7 +19,7 @@ I first created some... shields? wheels? I don't know, some medieval-looking woo
 
 ![image-20231226154143449](./image-20231226154143449.png)
 
-I then glued all those things together, with old bits of miniatures, and toys, and foam, and lego parts, to make it look like townsfolk picked up anything they had to raise those barricades.
+I then glued all those things together, with old bits of miniature, and toys, and foam, and lego parts, to make it look like townsfolk picked up anything they had to raise those barricades.
 
 ![image-20231226154235831](./image-20231226154235831.png)
 

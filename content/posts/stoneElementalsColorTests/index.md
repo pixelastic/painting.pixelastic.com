@@ -3,13 +3,13 @@ title: "Stone Elementals Color Tests"
 tags: ["miniature"]
 date: 2026-04-09
 layout: post
-description: "Used stone elemental miniatures to test green Speedpaints. Lined them up to compare Ghoul Green, Orc Skin, and others since the names didn't match their actual colors."
+description: "Used stone elemental miniature to test green Speedpaints. Lined them up to compare Ghoul Green, Orc Skin, and others since the names didn't match their actual colors."
 ---
 
 <!-- Image 1 -->
-![Stone elemental miniatures lined up to test different green Speedpaints](image-20260409152020471.png)
+![Stone elemental miniature lined up to test different green Speedpaints](image-20260409152020471.png)
 
-I have these miniatures, probably Reaper models though I'm not sure. I really liked the sculpts with their somewhat cartoonish style. 
+I have these miniature, probably Reaper models though I'm not sure. I really liked the sculpts with their somewhat cartoonish style. 
 
 The parts to assemble didn't fit together perfectly, so I added some baking soda and super glue to create the connections between parts. Since that gave them a rocky texture anyway, it wasn't a problem.
 
@@ -27,7 +27,7 @@ Here's a focus on Shamrock Green, Forest Sprite, and Ghillie Dew. Shamrock Green
 
 Here we have Orc Skin, Ghoul Green, and Charming Chartreuse. I find that Charming Chartreuse and Ghillie Dew look too similar, so I only kept one and use it rarely. Orc Skin could potentially swap with Shamrock Green as a darker shade. Ghoul Green has a precious stone look and doesn't look ghoul at all.
 
-In the end, these miniatures weren't fun to paint...
+In the end, these miniature weren't fun to paint...
 
 The sculpts were excellent but I wasn't inspired at all when painting them. It was too much green. 
 

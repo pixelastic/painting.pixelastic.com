@@ -5,7 +5,7 @@ date: 2019-12-18
 layout: post
 ---
 
-Here are the original miniatures:
+Here are the original miniature:
 
 ![image-20200722114552177](image-20200722114552177.png)
 

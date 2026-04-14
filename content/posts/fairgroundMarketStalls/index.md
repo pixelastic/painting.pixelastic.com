@@ -80,7 +80,7 @@ Same thing, I've applied the same gray paint mist coming straight from the aeros
 <!-- Image 14 -->
 ![Zenithal priming with white paint from above](image-20260409122852489.png)
 
-I tried doing what's called zenithal priming, so I take the white paint can and I only spray from above. Only the top of the miniatures or scenery gets white. The idea with this is that it draws the eye a bit more to the upper parts and the lower parts stay a bit darker.
+I tried doing what's called zenithal priming, so I take the white paint can and I only spray from above. Only the top of the miniature or scenery gets white. The idea with this is that it draws the eye a bit more to the upper parts and the lower parts stay a bit darker.
 
 <!-- Image 15 -->
 ![Zenithal priming applied to different scenery batch](image-20260409122859580.png)
@@ -102,7 +102,7 @@ What happened here is that I properly primed all my stuff and left it outside to
 
 There's potentially a phase I didn't photograph, which is that I do another white drybrushing over all my elements, even after the primer. That lets me re-emphasize all the edges even more and makes the Speedpaints work much better. 
 
-I decided to paint these with Speedpaints, whereas usually I paint my scenery with drybrushing layers. I keep Speedpaints for actual miniatures. Here I wanted to do everything with Speedpaints because I think they give a really good effect with different textures in different places, and especially because I have Speedpaints in very bright colors, so I figured that would work well. I tried to keep two colors that could work well together each time.
+I decided to paint these with Speedpaints, whereas usually I paint my scenery with drybrushing layers. I keep Speedpaints for actual miniature. Here I wanted to do everything with Speedpaints because I think they give a really good effect with different textures in different places, and especially because I have Speedpaints in very bright colors, so I figured that would work well. I tried to keep two colors that could work well together each time.
 
 <!-- Image 19 -->
 ![Painted stalls and tents showing color combinations](image-20260409122957357.png)

@@ -1,6 +1,6 @@
 ---
 title: "Bats"
-tags: ["miniatures"]
+tags: ["miniature"]
 date: 2026-03-10
 layout: post
 ---

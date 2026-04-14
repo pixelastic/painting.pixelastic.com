@@ -11,7 +11,7 @@ Here are some of the prominent noble NPCs in my current Ptolus-inspired campaign
 
 Seeing this picture made me realize that I should cleanup the bases a bit, like painting a clear black rim around them, not letting the drybrush show.
 
-I rummaged through my box of HeroClix miniatures to find some specific ones that could represent some of the important NPCs of my current campaign.
+I rummaged through my box of HeroClix miniature to find some specific ones that could represent some of the important NPCs of my current campaign.
 
 My PCs are in a capital city, with intrigues from the major families (inspired by Ptolus).
 

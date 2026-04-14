@@ -21,5 +21,5 @@ From this angle you can clearly see all the mold lines I didn't bother removing.
 
 This is probably the best angle, where the flaws aren't too visible.
 
-This isn't my best paint job or color choice, and the miniature itself isn't particularly interesting. But at least it's something usable on the battlefield, better than having nothing at all. If you're looking for other [snake miniatures](../happyMealToyIntoSerpents/), I've painted a few over the years.
+This isn't my best paint job or color choice, and the miniature itself isn't particularly interesting. But at least it's something usable on the battlefield, better than having nothing at all. If you're looking for other [snake miniature](../happyMealToyIntoSerpents/), I've painted a few over the years.
 

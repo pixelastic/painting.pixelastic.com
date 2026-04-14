@@ -12,14 +12,14 @@ description: "Fast-painted Pathfinder Qadira guards using ASOIAF Martell Spearme
 This post is about Qadira guards, from the fictional nation in the Pathfinder universe where my players currently are. 
 
 <!-- Image 2 -->
-![ASOIAF Martell Spearmen box used as base miniatures](Avatar-9.png)
+![ASOIAF Martell Spearmen box used as base miniature](Avatar-9.png)
 
-This is what I used as base miniatures. They come from the A Song of Ice and Fire battle game, technically the Martell Spearmen.
+This is what I used as base miniature. They come from the A Song of Ice and Fire battle game, technically the Martell Spearmen.
 
 <!-- Image 3 -->
-![Ten unpainted Martell Spearmen miniatures selected from the box](image-20260409171716202.png)
+![Ten unpainted Martell Spearmen miniature selected from the box](image-20260409171716202.png)
 
-Here's what the miniatures look like. I didn't use all the miniatures from the box, there are even more than this, but I figured having 10 was enough. No point painting too many if I wasn't going to use them.
+Here's what the miniature look like. I didn't use all the miniature from the box, there are even more than this, but I figured having 10 was enough. No point painting too many if I wasn't going to use them.
 
 <!-- Image 4 -->
 ![Guards painted with Speedpaint markers in blue, yellow, leather, and black](image-20260409171723274.png)
@@ -31,5 +31,5 @@ Here's what it looks like once the painting is done. What I did on these was go 
 
 For all the yellow parts, I started by highlighting with a yellow AK marker for flat color, then added Ancient Honey Speedpaint on top, which gives that slightly orange tone and settles nicely into the recesses. Then I used metallic Speedpaint for their armor, and a metallic pen for details on their armor elements. 
 
-Only at the end did I apply Nuln Oil on all the metal pieces. I think it took me two evenings to paint all this, maybe even just one. This Speedpaint and markers technique works really well. It's not an extraordinary paint job, I wouldn't win any competitions with this, but on the game table, I think it looks good. At least, teenage me would have been proud to have an army with miniatures painted this well.
+Only at the end did I apply Nuln Oil on all the metal pieces. I think it took me two evenings to paint all this, maybe even just one. This Speedpaint and markers technique works really well. It's not an extraordinary paint job, I wouldn't win any competitions with this, but on the game table, I think it looks good. At least, teenage me would have been proud to have an army with miniature painted this well.
 

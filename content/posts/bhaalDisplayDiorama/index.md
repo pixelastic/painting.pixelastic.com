@@ -19,9 +19,9 @@ layout: post
 
 
 
-I'm starting to have a fair amount of painted minis for my games. I store them in plastic drawers but even if this storing method is practical, it is not very enjoyable. I like seeing my miniatures. I wanted to have a way to see them often, while still being able to quickly pick some for an upcoming game.
+I'm starting to have a fair amount of painted minis for my games. I store them in plastic drawers but even if this storing method is practical, it is not very enjoyable. I like seeing my miniature. I wanted to have a way to see them often, while still being able to quickly pick some for an upcoming game.
 
-So I started working on a piece of terrain whose main purpose was to display miniatures. I intended to store this in one of the cubes of my IKEA Kallax, so I needed something that would take advantage of the 33cm x 33cm x 33cm of the cube. I had never worked with insulation foam before (but watched a lot of BlackMagicCraft videos).
+So I started working on a piece of terrain whose main purpose was to display miniature. I intended to store this in one of the cubes of my IKEA Kallax, so I needed something that would take advantage of the 33cm x 33cm x 33cm of the cube. I had never worked with insulation foam before (but watched a lot of BlackMagicCraft videos).
 
 ![Temple of Bhaal](latest.png)
 
@@ -73,7 +73,7 @@ This time it's finished, including the wash and the varnish.
 
 I started by cutting the foam in the desired dimensions. The main floor structure is 31cm x 31cm. I decided to keep 1cm on each side to better slide the piece in and out of the Kallax.
 
-I also decided to have half the depth of the lower level "filled" and the other open. My idea that because I would add a first floor, it would be hard for me to access miniatures situated at the far end of the bottom floor, so I decided that actually didn't need the second half of the floor and decided to put a wall there. In hindsight I should have used the whole depth as the first floor is removable, it wouldn't have been too hard to access the minis at the far end.
+I also decided to have half the depth of the lower level "filled" and the other open. My idea that because I would add a first floor, it would be hard for me to access miniature situated at the far end of the bottom floor, so I decided that actually didn't need the second half of the floor and decided to put a wall there. In hindsight I should have used the whole depth as the first floor is removable, it wouldn't have been too hard to access the minis at the far end.
 
 ![image-20200829215142663](image-20200829215142663.png)
 

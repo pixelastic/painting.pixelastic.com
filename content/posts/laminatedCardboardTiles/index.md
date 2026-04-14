@@ -9,7 +9,7 @@ description: "Cardboard tiles with laminated printable scenery from a print shop
 <!-- Image 1 -->
 ![Cardboard tile with laminated wood texture sticker showing 3cm grid](image-20260409115310642.png)
 
-This is one of the simplest crafts I've done, but also one that works the best. I've already created dozens, maybe hundreds of tiles for RPG sessions. It takes time, it's not always pretty, sometimes terrain makes it difficult to place miniatures, it takes up storage space, and you can't write area effects on top. So I made a solution using laminated printable scenery.
+This is one of the simplest crafts I've done, but also one that works the best. I've already created dozens, maybe hundreds of tiles for RPG sessions. It takes time, it's not always pretty, sometimes terrain makes it difficult to place miniature, it takes up storage space, and you can't write area effects on top. So I made a solution using laminated printable scenery.
 
 <!-- Image 2 -->
 ![Large roll of printed laminated tiles cut into sheets](image-20260409115320242.png)

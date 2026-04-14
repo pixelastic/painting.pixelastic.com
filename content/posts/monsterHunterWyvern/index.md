@@ -31,5 +31,5 @@ Here you can see it from behind. The colors I used are basically two different s
 
 Here it is from another angle. 
 
-Monster Hunter miniatures make good proxies for all kinds of draconic creatures. The sculpt quality is solid, they're in athletic and energetic poses with lots of movement, and they're always big. For making a wyvern, it worked really well. I'm quite happy with how it turned out.
+Monster Hunter miniature make good proxies for all kinds of draconic creatures. The sculpt quality is solid, they're in athletic and energetic poses with lots of movement, and they're always big. For making a wyvern, it worked really well. I'm quite happy with how it turned out.
 

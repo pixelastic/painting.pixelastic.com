@@ -43,9 +43,9 @@ The final result is very good! It's a technique I'd potentially reuse later.
 
 The main difficulty is cutting round shapes that have exactly the same diameter as the base underneath. Since I cut with scissors in a not-very-clean way, the edges are a bit rough at times.
 
-The base remains soft afterwards, even once painted. It's still very soft foam full of holes - even with paint, glue, and varnish, it stays soft. So what happens is that the miniatures just break if you only glue them. It happened to me several times - had to repair miniatures because they detach when dropped. The attachment point between the two isn't super strong.
+The base remains soft afterwards, even once painted. It's still very soft foam full of holes - even with paint, glue, and varnish, it stays soft. So what happens is that the miniature just break if you only glue them. It happened to me several times - had to repair miniature because they detach when dropped. The attachment point between the two isn't super strong.
 
-If I do this again, I'd probably need to insert small metal strips under the miniatures' feet to properly anchor them inside the base. Which might be a bit too much work compared to what I'm doing now. So maybe I need to find a better way to glue them together.
+If I do this again, I'd probably need to insert small metal strips under the miniature' feet to properly anchor them inside the base. Which might be a bit too much work compared to what I'm doing now. So maybe I need to find a better way to glue them together.
 
 It holds well to the base this time, but not excessively well to the characters' feet.
 

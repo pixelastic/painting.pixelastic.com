@@ -15,7 +15,7 @@ This is the toy as I originally found it. Very pink.
 
 ![image-20210506215555973](image-20210506215555973.png)
 
-The interior is split on two levels. The fact that it's open on the back make me think that I could make it into a ruined house, where the back wall has collapsed (and because it also make accessing the miniatures inside easier).
+The interior is split on two levels. The fact that it's open on the back make me think that I could make it into a ruined house, where the back wall has collapsed (and because it also make accessing the miniature inside easier).
 
 ![image-20210506215655638](image-20210506215655638.png)
 

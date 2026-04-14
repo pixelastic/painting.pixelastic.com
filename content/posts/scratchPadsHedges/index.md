@@ -41,7 +41,7 @@ And the final result. This still does not look very good, but it's better than r
 
 ![image-20210504224108108](image-20210504224108108.png)
 
-This size of this batch works well with the size of the miniatures.
+This size of this batch works well with the size of the miniature.
 
 ![image-20210504224132543](image-20210504224132543.png)
 

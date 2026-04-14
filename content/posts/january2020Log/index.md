@@ -5,13 +5,13 @@ date: 2020-01-01
 layout: post
 ---
 
-Here are some of the miniatures I painted this month, with no peculiar order.
+Here are some of the miniature I painted this month, with no peculiar order.
 
 ## Grells
 
 ![image-20200722122200418](image-20200722122200418.png)
 
-This are Grells from the Wrath of Ashardalon board game. I found a second hand box of that game where many tiles and rules were missing but all miniatures were there.
+This are Grells from the Wrath of Ashardalon board game. I found a second hand box of that game where many tiles and rules were missing but all miniature were there.
 
 I tried three different brain texture, the pink with deep blood red in recess is the one that works the best (top) I'd say. I also tried some rust and ragged effect on the metal parts, but it's hard to see.
 
@@ -45,7 +45,7 @@ I tried highlight for one of the first time and it turned out ok. The belt... no
 
 ![image-20200722123411237](image-20200722123411237.png)
 
-Other miniatures from Wrath of Ashardalon. I was really happy to buy that game because they are great monsters to fight but it's pretty hard to find a miniature for them outside of the official D&D range.
+Other miniature from Wrath of Ashardalon. I was really happy to buy that game because they are great monsters to fight but it's pretty hard to find a miniature for them outside of the official D&D range.
 
 I tried two color scheme here, one flesh and one more red. I think the fleshy one turned out better.
 

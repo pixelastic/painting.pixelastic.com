@@ -1,6 +1,6 @@
 ---
 title: "Paint Rack to Miniature Display Stairs WIP"
-tags: ["wip"]
+tags: ["misc"]
 date: 2026-04-07
 layout: post
 description: "Converted an old paint rack into tiered display stairs using plasticard and foam. Still unfinished after two years but sharing the WIP anyway."
@@ -9,7 +9,7 @@ description: "Converted an old paint rack into tiered display stairs using plast
 <!-- Image 1 -->
 ![Converted paint rack with stone texture tiers and brick walls, still unfinished](image-20260407171244609.png)
 
-This is a project where I converted an old paint rack into tiered display stairs. The piece has been sitting in this state for about two years now. I never quite got around to finishing it completely. I don't have much space and no real place to display miniatures, which is why the project stalled. I've already done [a similar post with a smaller version](../paintRackStoneStairs/) of this concept. This post is a way to at least document the current state.
+This is a project where I converted an old paint rack into tiered display stairs. The piece has been sitting in this state for about two years now. I never quite got around to finishing it completely. I don't have much space and no real place to display miniature, which is why the project stalled. I've already done [a similar post with a smaller version](../paintRackStoneStairs/) of this concept. This post is a way to at least document the current state.
 
 <!-- Image 2 -->
 ![Original paint rack with tiered shelves for storing paint bottles](image-20260407171253637.png)
@@ -42,4 +42,3 @@ I also added foam to the sides to close it off completely and started building t
 The walls are finished. I glued all the bricks properly. The next step will be to fill in the gaps between the different bricks with spackle to make it more uniform. I haven't finished it yet, but I wanted to share where I'm at currently even though the project isn't completely done.
 
 This project is still unfinished, but I wanted to share the work in progress anyway. I'll need to get back to it one of these days and actually finish what I started. Writing the blog post actually did motivate me to keep working on it.
-

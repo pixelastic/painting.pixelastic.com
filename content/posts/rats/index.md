@@ -1,6 +1,6 @@
 ---
 title: "Rats"
-tags: ["miniatures"]
+tags: ["miniature"]
 date: 2026-03-22
 layout: post
 ---
@@ -15,7 +15,7 @@ They're perfect for representing those level 1 low-threat enemies that still fee
 
 ![image-20260322221519044](image-20260322221519044.png)
 
-The initial Warhammer Quest miniatures come with feet molded directly onto hard plastic bases so they can stand on their own. I removed those plastic parts and mounted them on traditional sized bases instead. 
+The initial Warhammer Quest miniature come with feet molded directly onto hard plastic bases so they can stand on their own. I removed those plastic parts and mounted them on traditional sized bases instead. 
 
 For the base texture, I applied a slightly wet filler mixture and used a roller to create a tile pattern. The effect isn't perfect since the roller didn't catch everywhere, but I used those gaps to my advantage to make it look like tiles half covered with mud.
 

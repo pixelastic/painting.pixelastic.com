@@ -1,6 +1,6 @@
 ---
 title: "Thugs"
-tags: ["painting"]
+tags: []
 date: 2023-07-29
 layout: post
 ---
@@ -11,9 +11,9 @@ There is one trope that is present in every of my D&D game: thugs attacking the 
 
 Inevitably, at some point, a bunch of never-do-well will attack them. Maybe as a warning to stay away from what they are investigating, maybe because they are infiltrating the Thieve's Guild, or simply as hired muscle from any BBEG in their way.
 
-I already had miniature to represent some of them, but in every adventure my PCs where fighting the same 6 or so miniatures. I wanted to extend my collection of thugs, to represent more variation.
+I already had miniature to represent some of them, but in every adventure my PCs where fighting the same 6 or so miniature. I wanted to extend my collection of thugs, to represent more variation.
 
-So I scouted the ASOIAF miniature line and bought a few boxes, to make me a group of ruffians with no two miniatures alike.
+So I scouted the ASOIAF miniature line and bought a few boxes, to make me a group of ruffians with no two miniature alike.
 
 ![image-20240102221517747](./image-20240102221517747.png)
 
@@ -57,7 +57,7 @@ I primed them gray, with a light zenithal priming of white, and then drybrushed 
 
 ![image-20240102222001206](./image-20240102222001206.png)
 
-I went with Red as the main color for the thugs. I want my players to quickly identify that a bunch of red armed men means hired muscle thugs. I plan on painting various groups of miniatures following a similar paint scheme, with one main color.
+I went with Red as the main color for the thugs. I want my players to quickly identify that a bunch of red armed men means hired muscle thugs. I plan on painting various groups of miniature following a similar paint scheme, with one main color.
 
 Even if I used all available Red, and if close-up pictures show the difference between all Reds, the overall effect make it look like a cohesive group.
 
@@ -69,4 +69,4 @@ Even if I used all available Red, and if close-up pictures show the difference b
 
 ![image-20240102222328929](./image-20240102222328929.png)
 
-Those miniatures were a joy to paint, and a great way to test the various shades of Speed paints.
+Those miniature were a joy to paint, and a great way to test the various shades of Speed paints.

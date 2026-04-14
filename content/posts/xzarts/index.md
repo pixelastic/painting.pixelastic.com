@@ -1,6 +1,6 @@
 ---
 title: "Xzarts"
-tags: ["miniatures"]
+tags: ["miniature"]
 date: 2023-08-17
 layout: post
 ---
@@ -13,7 +13,7 @@ Xvarts are horrible little creatures in D&D. First time I encountered them was i
 
 ![image-20230817170056449](./image-20230817170056449.png)
 
-I wanted to have some myself, so I set out on finding the right miniatures for that. Official Xvart miniatures are way to expensive.
+I wanted to have some myself, so I set out on finding the right miniature for that. Official Xvart miniature are way to expensive.
 
 ![image-20230817170134008](./image-20230817170134008.png)
 

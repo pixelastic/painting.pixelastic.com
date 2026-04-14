@@ -14,7 +14,7 @@ This post documents a set of cemetery props I wanted to make: coffins, graves, a
 <!-- Image 2 -->
 ![Wooden rectangles sized to fit two squares by one on 3cm grid board](image-20260408094809061.png)
 
-I'll start by explaining how I made the sarcophagi. I had these wooden rectangles I salvaged from somewhere, I can't remember exactly where, maybe a children's construction toy. They're the right size to fit on two squares by one. I make game boards where the squares are 3 cm on each side so there's room to actually place the miniatures, and I always keep this board next to me to test dimensions. These rectangles work well because they take up two squares by one.
+I'll start by explaining how I made the sarcophagi. I had these wooden rectangles I salvaged from somewhere, I can't remember exactly where, maybe a children's construction toy. They're the right size to fit on two squares by one. I make game boards where the squares are 3 cm on each side so there's room to actually place the miniature, and I always keep this board next to me to test dimensions. These rectangles work well because they take up two squares by one.
 
 <!-- Image 3 -->
 ![Wooden rectangles stacked to create massive sarcophagus with weight](image-20260408094816818.png)

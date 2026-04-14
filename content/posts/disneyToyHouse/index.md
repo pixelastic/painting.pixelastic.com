@@ -11,7 +11,7 @@ I repainted a Disney toy into a house suitable for the Old World.
 
 ![image-20210505215427259](image-20210505215427259.png)
 
-This is the toy, as I original found it in a second hand shop. It is not the right scale for miniatures (a bit too short), but it definitely has this weird fantasy crooked look I like.
+This is the toy, as I original found it in a second hand shop. It is not the right scale for miniature (a bit too short), but it definitely has this weird fantasy crooked look I like.
 
 ![image-20210505215526391](image-20210505215526391.png)
 

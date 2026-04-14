@@ -23,7 +23,7 @@ The top is another such wood plank, covered with plastic squares. I tried to put
 
 ![image-20220704154942827](image-20220704154942827.png)
 
-The cage floor is made out of the same materials, but I kept them separate to be able to open the cage to put miniatures inside.
+The cage floor is made out of the same materials, but I kept them separate to be able to open the cage to put miniature inside.
 
 ![image-20220704155032874](image-20220704155032874.png)
 

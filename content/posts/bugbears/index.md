@@ -9,7 +9,7 @@ description: "Repainted D&D board game bugbears with alternating skin and fur co
 <!-- Image 1 -->
 ![Bugbears from D&D board game with alternating brown skin and fur](image-20260409164348054.png)
 
-A short post that will evolve over time showing how I paint these miniatures today. I'd already painted them years ago, and eventually I'll do a before/after comparison. These come from the Dungeons & Dragons board game.
+A short post that will evolve over time showing how I paint these miniature today. I'd already painted them years ago, and eventually I'll do a before/after comparison. These come from the Dungeons & Dragons board game.
 
 I used three colors for skin and fur, alternating which color goes where on different bugbears. Some combinations work better than others. The two in front on the right turned out well because the color resembles the original bugbear illustration in the D&D manual, that brownish tone.
 

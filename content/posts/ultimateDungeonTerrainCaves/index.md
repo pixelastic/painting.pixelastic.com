@@ -9,7 +9,7 @@ layout: post
 
 The four encounters above took place on the same board; I only had to change various walls and dressing to make them very different places. This all thanks to the underlying UDT, or Ultimate Dungeon Terrain as it is know.
 
-The idea if to have a circular piece of terrain as a board, divided in three concentric circle. Each circle represents an abstract zone, used for abstracting distances. The center is the "here", anyone here is in melee range of each other, and they are all within earshot as well. The second ring is for "there", anyone here can attack the central circle using range weapons. The outer rim of the board symbolize "somewhere else", miniatures here are not even in combat, they might have fled, or will arrive later.
+The idea if to have a circular piece of terrain as a board, divided in three concentric circle. Each circle represents an abstract zone, used for abstracting distances. The center is the "here", anyone here is in melee range of each other, and they are all within earshot as well. The second ring is for "there", anyone here can attack the central circle using range weapons. The outer rim of the board symbolize "somewhere else", miniature here are not even in combat, they might have fled, or will arrive later.
 
 In some encounters we didn't even used those abstract zones, we just used the board as terrain. Because it's sitting on top of a lazy suzan, it can rotate so all players can enjoy the view.
 

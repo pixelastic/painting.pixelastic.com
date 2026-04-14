@@ -25,4 +25,4 @@ This is the first time I actually do highlights. It's pretty simple but effectiv
 
 ![image-20200730020432478](image-20200730020432478.png)
 
-The effect is subtle, but I now feel like my miniatures look like the ones I used to see in White Dwarf when I was younger. I feel like I achieved something!
+The effect is subtle, but I now feel like my miniature look like the ones I used to see in White Dwarf when I was younger. I feel like I achieved something!

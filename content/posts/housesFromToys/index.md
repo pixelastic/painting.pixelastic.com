@@ -15,7 +15,7 @@ Above are the three houses when I bought them. They were about 1€ each (the sm
 
 ## Overview
 
-I knew they would not be the right scale for my miniatures, but I wanted to see if I could make them look good with a quick paint job using cheap paints. I'd rather practice on cheap toys like this first.
+I knew they would not be the right scale for my miniature, but I wanted to see if I could make them look good with a quick paint job using cheap paints. I'd rather practice on cheap toys like this first.
 
 ![image-20200722144359328](image-20200722144359328.png)![image-20200722144427114](image-20200722144427114.png)
 

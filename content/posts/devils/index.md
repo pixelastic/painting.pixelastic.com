@@ -7,17 +7,17 @@ description: "Painted a devil unit using Speedpaint Markers and AK Real Color Ma
 ---
 
 <!-- Image 1 -->
-![Unit of devil miniatures painted with Speedpaint Markers, nearly finished](image-20260409165230342.png)
+![Unit of devil miniature painted with Speedpaint Markers, nearly finished](image-20260409165230342.png)
 
-This documents how I recently painted a whole unit of devils. We used them in a game and I think today in 2026, this represents well where I am in my painting comfort zone. The miniatures aren't completely finished yet. I still need to add a few small details like more variation in the armor colors with some bronze or gold elements, and of course I need to paint the bases, but I'll have a dedicated post on how to paint lava bases.
+This documents how I recently painted a whole unit of devils. We used them in a game and I think today in 2026, this represents well where I am in my painting comfort zone. The miniature aren't completely finished yet. I still need to add a few small details like more variation in the armor colors with some bronze or gold elements, and of course I need to paint the bases, but I'll have a dedicated post on how to paint lava bases.
 
 <!-- Image 2 -->
-![Mixed devil miniatures at priming stage from various sources](image-20260409165239516.png)
+![Mixed devil miniature at priming stage from various sources](image-20260409165239516.png)
 
-Here they are at the priming stage. What's interesting is that I gathered miniatures from all over the place: horned demons I found at a garage sale already painted (very well painted actually, but I wanted my miniatures painted by me, so I redid them), Heroclix miniatures, official Dungeons & Dragons miniatures like the Bearded Devils, and 3D prints I got from somewhere I can't quite remember. Basically a mix of everything. As long as it looked potentially a bit demonic or reptilian with horns, I figured it could make a good devil.
+Here they are at the priming stage. What's interesting is that I gathered miniature from all over the place: horned demons I found at a garage sale already painted (very well painted actually, but I wanted my miniature painted by me, so I redid them), Heroclix miniature, official Dungeons & Dragons miniature like the Bearded Devils, and 3D prints I got from somewhere I can't quite remember. Basically a mix of everything. As long as it looked potentially a bit demonic or reptilian with horns, I figured it could make a good devil.
 
 <!-- Image 3 -->
-![First coat of Blood Red Speedpaint applied to unify different miniatures](image-20260409165245514.png)
+![First coat of Blood Red Speedpaint applied to unify different miniature](image-20260409165245514.png)
 
 Here I started applying the first coat, Blood Red Speedpaint. I have the Speedpaint Markers, which are like pens, and I just did that. My goal with this unit was to check if these Speedpaint Markers were really practical, [similar to my creature batch experiments](../creatureBatch/). So I tried to limit myself to the colors I have in Speedpaint Markers and see how far I can go with that. I painted their skin with that color, and even though they come from different manufacturers, it unifies them all together into a somewhat cohesive unit.
 

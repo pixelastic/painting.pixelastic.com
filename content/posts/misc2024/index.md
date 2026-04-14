@@ -29,13 +29,13 @@ Once again, a very eclectic side here. I've got tiles I made for the different c
 
 ![image-20260317182714161](image-20260317182714161.png)
 
-I also spent a little bit of time organizing my Bitsbox. It was full of plastic pieces that I had salvaged from Warhammer miniatures that I had when I was a teenager. At some point in my early twenties, I started trying to paint them again but I wanted to only do conversions, meaning cutting an arm from one place to glue it to another, etc. So I had dismantled a bunch of miniatures and that's pretty much everything I had salvaged. But since it was a mess, I spent some time sorting it into a box with a compartment for heads, a compartment for legs, a compartment for torsos, etc.
+I also spent a little bit of time organizing my Bitsbox. It was full of plastic pieces that I had salvaged from Warhammer miniature that I had when I was a teenager. At some point in my early twenties, I started trying to paint them again but I wanted to only do conversions, meaning cutting an arm from one place to glue it to another, etc. So I had dismantled a bunch of miniature and that's pretty much everything I had salvaged. But since it was a mess, I spent some time sorting it into a box with a compartment for heads, a compartment for legs, a compartment for torsos, etc.
 
-Today I realized that back then, I really enjoyed the creative aspect of converting miniatures using parts from different models. It was something I loved doing.
+Today I realized that back then, I really enjoyed the creative aspect of converting miniature using parts from different models. It was something I loved doing.
 
-Nowadays though, I find it much easier to just get miniatures directly. I find plenty at garage sales, and the overall quality has improved so much. There are way more sellers than just Games Workshop now, and I can get really good miniatures for cheap. So I'm less motivated to build custom ones.
+Nowadays though, I find it much easier to just get miniature directly. I find plenty at garage sales, and the overall quality has improved so much. There are way more sellers than just Games Workshop now, and I can get really good miniature for cheap. So I'm less motivated to build custom ones.
 
-I don't really do those sessions anymore where I'd swap arms and parts between different miniatures to create something unique. But I know that feeling might come back someday, so I'm keeping all those extra bits just in case.
+I don't really do those sessions anymore where I'd swap arms and parts between different miniature to create something unique. But I know that feeling might come back someday, so I'm keeping all those extra bits just in case.
 
 ![image-20260317183436452](image-20260317183436452.png)
 
@@ -49,7 +49,7 @@ A lot of different minis. I actually just discovered speedpaints when I took thi
 
 ![image-20260317183649477](image-20260317183649477.png)
 
-Here are some photos of my painting steps! I started painting kobolds using skink miniatures from the lizardmen army. The speedpaints made this pretty easy to do, and I was really proud of the idea to use skinks for kobolds. I think it works pretty well. Painting the dogs directly with speedpaints works very well too.
+Here are some photos of my painting steps! I started painting kobolds using skink miniature from the lizardmen army. The speedpaints made this pretty easy to do, and I was really proud of the idea to use skinks for kobolds. I think it works pretty well. Painting the dogs directly with speedpaints works very well too.
 
 ![image-20260317184136758](image-20260317184136758.png)
 
@@ -61,7 +61,7 @@ Here are some photos of my painting steps! I started painting kobolds using skin
 
 And it looks so good once everything is painted! I was really amazed by the quality of what you can do with speedpaints. 
 
-Painting all that took me about a week, working two or three hours in the evening after work. I was able to finish all these miniatures, but it would have taken me a year, maybe even more, before speedpaints. And the quality is totally acceptable.
+Painting all that took me about a week, working two or three hours in the evening after work. I was able to finish all these miniature, but it would have taken me a year, maybe even more, before speedpaints. And the quality is totally acceptable.
 
 ![image-20260317184413173](image-20260317184413173.png)
 
@@ -73,7 +73,7 @@ In those cases, you're not supposed to press harder, you just shake the bottle s
 
 ![image-20260317184546520](image-20260317184546520.png)
 
-Here's another photo of my workbench showing different creatures at various stages of completion. It's a mix of scenery work with trees, some miniatures that are almost done (like the mimics in the background), and others just starting out where I've only glued them to the base and haven't even primed them yet.
+Here's another photo of my workbench showing different creatures at various stages of completion. It's a mix of scenery work with trees, some miniature that are almost done (like the mimics in the background), and others just starting out where I've only glued them to the base and haven't even primed them yet.
 
 ![image-20260317184744756](image-20260317184744756.png)
 
@@ -85,7 +85,7 @@ Here's another photo of my workbench showing different creatures at various stag
 
 ![image-20260317184812630](image-20260317184812630.png)
 
-Some other family photos and other creatures, once again painted with speedpaints. I realize that really the technique that changed everything for me with speedpaints is that the first time I used them, I didn't know you had to do speedpaints on a rather light undercoat. And so I had done it on miniatures that I had undercoated either in black or in gray, and it hadn't worked very well.
+Some other family photos and other creatures, once again painted with speedpaints. I realize that really the technique that changed everything for me with speedpaints is that the first time I used them, I didn't know you had to do speedpaints on a rather light undercoat. And so I had done it on miniature that I had undercoated either in black or in gray, and it hadn't worked very well.
 
 This time however, it's my second big batch of speedpaints, and really the mass effect works just by using the speedpaints directly. The quality of what it produces is really superior to what I would have been able to paint without speedpaints.
 

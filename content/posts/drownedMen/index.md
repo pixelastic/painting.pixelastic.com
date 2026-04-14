@@ -1,6 +1,6 @@
 ---
 title: "Drowned Men"
-tags: ["painting"]
+tags: []
 date: 2023-05-18
 layout: post
 ---

@@ -11,7 +11,7 @@ There is an amazing scenario in Rise of the Runelords, in the Hook Mountain Mass
 
 I've never managed to get my players far enough in this adventure path to actually run this encounter, but I really want to use it somehow. I'm thinking of dropping it into another campaign.
 
-To prep for that, I wanted to create a full roster of all the members of the Graul family that appear in that scenario. So I dug through my collection of ogre and hill giant miniatures to see what I have available to represent the whole family.
+To prep for that, I wanted to create a full roster of all the members of the Graul family that appear in that scenario. So I dug through my collection of ogre and hill giant miniature to see what I have available to represent the whole family.
 
 ![image-20260308234014330](image-20260308234014330.png)
 
@@ -23,6 +23,6 @@ The gray one is a zombie from some board game similar to Zombicide, but not actu
 
 The obese figurine sitting down eating an arm with a cleaver in hand comes from the Heroclix Horror range. It's the perfect representation of the matriarch of the group.
 
-The Cyclops behind her is a plastic toy, that one can buy in regular toy shop. The red one is also coming from a board game, but I can't remember the name (I have other such miniatures, in other colors).
+The Cyclops behind her is a plastic toy, that one can buy in regular toy shop. The red one is also coming from a board game, but I can't remember the name (I have other such miniature, in other colors).
 
 Finally, the green double headed thing is coming from Heroclix as well. And the one at the very far end is probably worth a fortune as it's a metal miniature of Thrudd the Barbarian, a very early (1982, I wasn't even born!) Games Workshop mini.

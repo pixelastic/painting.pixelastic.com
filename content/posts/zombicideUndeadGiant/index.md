@@ -1,6 +1,6 @@
 ---
 title: Zombicide Undead Giant
-tags: ["miniature", "wip"]
+tags: ["miniature"]
 date: 2020-07-30
 layout: post
 ---

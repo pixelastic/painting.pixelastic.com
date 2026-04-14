@@ -43,7 +43,7 @@ Now, with a glue gun and a lot of patience, I glued foam bricks all around it. I
 
 ![image-20210822170036055](image-20210822170036055.png)
 
-I covered it all up to the first floor and kept gluing bricks to add some kind of ledge around the first floor. Large enough so miniatures can stand on.
+I covered it all up to the first floor and kept gluing bricks to add some kind of ledge around the first floor. Large enough so miniature can stand on.
 
 ![image-20210822170122201](image-20210822170122201.png)
 

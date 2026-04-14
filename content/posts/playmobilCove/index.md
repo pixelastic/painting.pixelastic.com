@@ -19,7 +19,7 @@ What to do with the dune and the water, though, I wasn't sure.
 
 ![image-20200722150851160](image-20200722150851160.png)
 
-Here is the other piece of terrain. Could work as a small barrow as well. The holes are meant to be used to fit trees, and I intend to convert some playmobil trees as well. What I'm concerned about with this hill is in terms of gameplay; if there is enough room to make miniatures fit on it...
+Here is the other piece of terrain. Could work as a small barrow as well. The holes are meant to be used to fit trees, and I intend to convert some playmobil trees as well. What I'm concerned about with this hill is in terms of gameplay; if there is enough room to make miniature fit on it...
 
 ![image-20200722151005626](image-20200722151005626.png)
 

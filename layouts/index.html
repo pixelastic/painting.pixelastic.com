@@ -10,9 +10,6 @@
     {{- /* Latest Post section */ -}}
     {{- if gt (len $paginator.Pages) 0 }}
     <section>
-      <h2 class="text-sm font-medium text-muted uppercase tracking-wider mb-4">
-        Latest Post
-      </h2>
       {{- $latestPost := index $paginator.Pages 0 }}
       <article class="group relative overflow-hidden rounded-xl border border-default/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
         <a href="{{ $latestPost.Permalink }}" class="block">
@@ -67,9 +64,6 @@
     {{- /* Recent Posts section */ -}}
     {{- if gt (len $paginator.Pages) 1 }}
     <section>
-      <h2 class="text-sm font-medium text-muted uppercase tracking-wider mb-4">
-        Recent Posts
-      </h2>
       <div class="space-y-4">
         {{- range after 1 $paginator.Pages }}
         <article class="group relative overflow-hidden rounded-xl border border-default/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">

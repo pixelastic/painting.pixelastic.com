@@ -3,13 +3,13 @@ title: "Base Texture"
 tags: ["miniature"]
 date: 2026-04-09
 layout: post
-description: "My technique for texturing miniature bases using spackle, sand, gravel mix, and PVA glue. Done in batches before priming for consistency across all miniatures."
+description: "My technique for texturing miniature bases using spackle, sand, gravel mix, and PVA glue. Done in batches before priming for consistency across all miniature."
 ---
 
 <!-- Image 1 -->
-![Collection of miniatures showing consistent base texture across all figures](image-20260409163703276.png)
+![Collection of miniature showing consistent base texture across all figures](image-20260409163703276.png)
 
-This is documentation for how I do the texture on my bases. It's a technique that works well, I really like it, and I do it all the time now. Generally, I do the same texture on all my miniatures, with very few exceptions. And I do it before priming, in batches of many at once.
+This is documentation for how I do the texture on my bases. It's a technique that works well, I really like it, and I do it all the time now. Generally, I do the same texture on all my miniature, with very few exceptions. And I do it before priming, in batches of many at once.
 
 <!-- Image 2 -->
 ![Dedicated drawer with all base texturing ingredients organized together](image-20260409163713617.png)
@@ -48,5 +48,5 @@ Here you see I've applied it to the bases. What I generally do is take a brush I
 
 This is roughly the state of my shelves once I've done many many bases. You have to wait a bit for it to dry. Usually, I do this in the evening and the next day it's dry and ready for priming. 
 
-What I like about this technique is that it creates something consistent across everything. Since I paint the base a bit brown afterward, it goes somewhat unnoticed but it gives uniformity to all my miniatures. And I put plenty around the characters' feet. Even if it goes a bit on their feet, it doesn't bother me. The advantage of this mixture made of wood glue, spackle, and gravel going on my miniatures' feet is that it ensures they bond very well to the base. Sometimes just a dot of superglue isn't enough. This allows me to secure them really well to the bases.
+What I like about this technique is that it creates something consistent across everything. Since I paint the base a bit brown afterward, it goes somewhat unnoticed but it gives uniformity to all my miniature. And I put plenty around the characters' feet. Even if it goes a bit on their feet, it doesn't bother me. The advantage of this mixture made of wood glue, spackle, and gravel going on my miniature' feet is that it ensures they bond very well to the base. Sometimes just a dot of superglue isn't enough. This allows me to secure them really well to the bases.
 

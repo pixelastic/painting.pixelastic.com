@@ -1,6 +1,6 @@
 ---
 title: "Paint Rack Stone Stairs"
-tags: ["terrain"]
+tags: ["misc"]
 date: 2022-12-15
 layout: post
 ---
@@ -11,7 +11,7 @@ I made more stairs; this time to thinking as a terrain piece for a game, but rat
 
 ![image-20221215215443579](./image-20221215215443579.png)
 
-It all started with this paint rack I wasn't using anymore. I used it in the past, when I was painting mostly miniatures (and not terrain), but I've now moved to larger paint pots that don't fit in those holes anymore (my miniature paints are now in a drawer).
+It all started with this paint rack I wasn't using anymore. I used it in the past, when I was painting mostly miniature (and not terrain), but I've now moved to larger paint pots that don't fit in those holes anymore (my miniature paints are now in a drawer).
 
 So, instead of throwing it away, I recycled it into terrain.
 
@@ -103,4 +103,3 @@ I would add more details, like discarded tools, forgotten camp fires and such, t
 ![image-20260408170239304](image-20260408170239304.png)
 
 Lonely goblin in his new home.
-

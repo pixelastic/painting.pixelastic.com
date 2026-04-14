@@ -7,7 +7,7 @@ layout: post
 
 ![image-20260309224712186](image-20260309224712186.png)
 
-Wanted a break from terrain work so I decided to paint some miniatures. I realized my skeleton collection is a bit of a mess - I've got the original Games Workshop ones, some from the D&D board game, and random ones I've picked up at flea markets. They all have different paint schemes and scales which bugs me.
+Wanted a break from terrain work so I decided to paint some miniature. I realized my skeleton collection is a bit of a mess - I've got the original Games Workshop ones, some from the D&D board game, and random ones I've picked up at flea markets. They all have different paint schemes and scales which bugs me.
 
 Since skeletons are such a classic monster for games, I figured I should have a uniform group. So I bought some new ones (can't remember the brand or where from), simple multi-piece models, just basic skeletons. Got them on their bases, added my usual basing mixture, and now I'm ready to paint them all up to match.
 
@@ -17,7 +17,7 @@ I do my base coating in several stages. First, I base coat everything in black s
 
 Back at my workshop, I do a white dry brush using Army Painter's Fanatic Paints - it has really good coverage. It might be overkill, maybe the gray layer isn't needed, or maybe the zenithal prime isn't either, but that's my current technique and it works well. I might remove a step later to save time, but for now I'm happy with it.
 
-It gives a lot of color variation on the miniatures, which makes the speedpaints work really well over it.
+It gives a lot of color variation on the miniature, which makes the speedpaints work really well over it.
 
 ![image-20260309225338702](image-20260309225338702.png)
 

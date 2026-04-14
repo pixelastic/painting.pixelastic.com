@@ -1,9 +1,9 @@
 ---
 title: "Misc 2025"
-tags: ["wip"]
+tags: ["misc"]
 date: 2026-04-09
 layout: post
-description: "Small projects from 2025: donated old foam terrain, built Lego walls and Heroclix columns, made Playmobil rock scatter terrain, and repainted D&D miniatures to track progress."
+description: "Small projects from 2025: donated old foam terrain, built Lego walls and Heroclix columns, made Playmobil rock scatter terrain, and repainted D&D miniature to track progress."
 ---
 
 <!-- Image 1 -->
@@ -16,9 +16,9 @@ I got rid of a lot of old terrain pieces I made years ago. What they had in comm
 <!-- Image 2 -->
 ![Ruined walls made from stacked Lego bricks and columns from Heroclix bases](image-20260409161730469.png)
 
-This is a good example of what I consider my favorite terrain pieces: they have a lot of versatility and you can use them in many different places. 
+This is a good example of what I consider my favorite terrain pieces: they have a lot of versatility and you can use them in many different places.
 
-Plus, these particular ones are very solid and cost almost nothing. The walls are Lego or Megablocks bricks stacked on top of each other with a bit of spackle added. I cut the top of the studs and glued them onto a cardboard plate. Since it's Lego, it interlocks very well, won't break, and does exactly what you ask of it. 
+Plus, these particular ones are very solid and cost almost nothing. The walls are Lego or Megablocks bricks stacked on top of each other with a bit of spackle added. I cut the top of the studs and glued them onto a cardboard plate. Since it's Lego, it interlocks very well, won't break, and does exactly what you ask of it.
 
 The columns are [Heroclix bases](../2020Wip/) stacked on top of each other, slightly offset, with a round piece on top. Once painted, they're also super solid. Columns are needed all the time, so these terrain pieces check all my boxes: very simple to make, inexpensive, solid, and highly versatile.
 
@@ -33,6 +33,6 @@ This is something similar. It's outdoor scatter terrain with rocks I made from P
 I think this is a McDonald's Happy Meal toy, Grandmother Willow from Pocahontas. I just added a bit of texture to it and it'll make a nice interesting tree.
 
 <!-- Image 5 -->
-![Dungeons & Dragons board game miniatures for tracking painting progress over years](image-20260409161805748.png)
+![Dungeons & Dragons board game miniature for tracking painting progress over years](image-20260409161805748.png)
 
-This is interesting because I managed to find a pack of miniatures that come from the Dungeons & Dragons board game. I had already gotten a pack like this a long time ago when I got back into painting after not doing it since my teenage years. I wanted to paint them now with my current painting level to compare how I painted several years ago to what I'm capable of doing today. Painting exactly the same miniatures felt like a good way to measure the progress.
+This is interesting because I managed to find a pack of miniature that come from the Dungeons & Dragons board game. I had already gotten a pack like this a long time ago when I got back into painting after not doing it since my teenage years. I wanted to paint them now with my current painting level to compare how I painted several years ago to what I'm capable of doing today. Painting exactly the same miniature felt like a good way to measure the progress.

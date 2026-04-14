@@ -7,11 +7,11 @@ layout: post
 
 ![image-20200730012901115](image-20200730012901115.png)
 
-Here are shadow elementals made out of various fire-themed HeroClix miniatures. I intend to use them whenever my players set foot in the Shadow Plane in my current campaign.
+Here are shadow elementals made out of various fire-themed HeroClix miniature. I intend to use them whenever my players set foot in the Shadow Plane in my current campaign.
 
 ![image-20200722142956610](image-20200722142956610.png)
 
-Here are the original miniatures. I tried to grab everything I had that had some flames on it.
+Here are the original miniature. I tried to grab everything I had that had some flames on it.
 
 ![image-20200722142722429](image-20200722142722429.png)
 

@@ -1,6 +1,6 @@
 ---
 title: "Metallic Speed Paint overlays"
-tags: ["painting"]
+tags: []
 date: 2023-06-18
 layout: post
 ---

@@ -9,7 +9,7 @@ layout: post
 
 ![image-20200723145510298](image-20200723145510298.png)
 
-When I found the miniature I knew I would turn it into a kind of Ooze. I find it pretty hard to find cheap Ooze miniatures.
+When I found the miniature I knew I would turn it into a kind of Ooze. I find it pretty hard to find cheap Ooze miniature.
 
 I didn't really know which kind of Ooze I would make, but then I  realized Ochre Jellies are large Ooze, so that would fit and I was set on this idea.
 

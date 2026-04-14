@@ -16,7 +16,7 @@ In another post I made [market stalls](../fairgroundMarketStalls/), and I didn't
 <!-- Image 2 -->
 ![Unpainted trays made from board game tokens and D&D miniature bases](image-20260409161635171.png)
 
-Before painting. The trays at the bottom are made with small plastic circles (tokens from board games) or squares (bases from Dungeons & Dragons board game miniatures). I cut those miniatures off to rebase them on rounds like all my others, but kept the square bases for trays.
+Before painting. The trays at the bottom are made with small plastic circles (tokens from board games) or squares (bases from Dungeons & Dragons board game miniature). I cut those miniature off to rebase them on rounds like all my others, but kept the square bases for trays.
 
 
 

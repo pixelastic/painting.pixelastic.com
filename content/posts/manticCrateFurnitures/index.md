@@ -11,7 +11,7 @@ The mansion needed some furniture, to make it look like all posh and classy. Tha
 
 ![image-20220706223551334](image-20220706223551334.png)
 
-I started with a black priming. I almost always start with black priming now; I find that it makes the job easier in creating shadows with a quick dry brush. It sure works well for terrain and furniture, and I always often do it with miniatures as well now.
+I started with a black priming. I almost always start with black priming now; I find that it makes the job easier in creating shadows with a quick dry brush. It sure works well for terrain and furniture, and I always often do it with miniature as well now.
 
 Well, after the initial priming, I did a first dry brush of dark brown. I keep always the exact same pattern for anything wooden; it makes my final set looks more homogeneous.
 

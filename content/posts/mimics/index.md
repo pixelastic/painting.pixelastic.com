@@ -1,6 +1,6 @@
 ---
 title: "Mimics"
-tags: ["miniatures"]
+tags: ["miniature"]
 date: 2026-03-11
 layout: post
 ---

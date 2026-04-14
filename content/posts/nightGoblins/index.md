@@ -7,7 +7,7 @@ layout: post
 
 ![image-20221105164320920](image-20221105164320920.png)
 
-A little break from painting terrain, I wanted to paint some miniatures. I picked those night goblin out of my pile of unpainted minis, mostly because I liked their sculpted more than having any specific use in a game.
+A little break from painting terrain, I wanted to paint some miniature. I picked those night goblin out of my pile of unpainted minis, mostly because I liked their sculpted more than having any specific use in a game.
 
 I have so many unpainted minis, I'd rather paint what I'm excited about more than what I could need in a game. I realize that I'm more inclined in putting specific monsters in an encounter if I have the right miniature to represent them, so I'd rather paint nice minis so it gives me more opportunities for encounters.
 

@@ -8,7 +8,7 @@ layout: post
 <!-- 1 -->
 ![image-20260407105730569](image-20260407105730569.png)
 
-I really enjoy painting Reaper Bones miniatures like this Coral Golem. These sculpts are pretty different from what I usually paint, and they make interesting monsters to throw at players during game sessions. This one is a kind of monster made of stones, starfish, and shells.
+I really enjoy painting Reaper Bones miniature like this Coral Golem. These sculpts are pretty different from what I usually paint, and they make interesting monsters to throw at players during game sessions. This one is a kind of monster made of stones, starfish, and shells.
 
 <!-- 2 -->
 ![image-20260407105742685](image-20260407105742685.png)

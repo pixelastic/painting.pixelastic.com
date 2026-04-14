@@ -7,7 +7,7 @@ layout: post
 
 ![image-20230817203513612](./image-20230817203513612.png)
 
-I recently bought the new Army Painter Speed Paint small set, and it has been a revelation to me. Painting miniatures became fun again, I was having a lot of fun doing it. With barely some skills, I was able to quickly pull full groups of creatures with a painting level as good as what I wanted to achieve when I was young. It's really liquid talent, it's like a 3D child coloring book. One coat, and it's looking fine.
+I recently bought the new Army Painter Speed Paint small set, and it has been a revelation to me. Painting miniature became fun again, I was having a lot of fun doing it. With barely some skills, I was able to quickly pull full groups of creatures with a painting level as good as what I wanted to achieve when I was young. It's really liquid talent, it's like a 3D child coloring book. One coat, and it's looking fine.
 
 ![image-20230817203525546](./image-20230817203525546.png)
 
@@ -27,11 +27,11 @@ Even the more green and purple colors looked great.
 
 ![image-20230817203732789](./image-20230817203732789.png)
 
-I continued with more miniatures I had, with no real goal, but just to test the paints. This kept getting better.
+I continued with more miniature I had, with no real goal, but just to test the paints. This kept getting better.
 
 ![image-20230817203818099](./image-20230817203818099.png)
 
-I continued with some Hell Dorado miniatures gifted by a former co-worker; the sculpts are incredible, full of details, and a joy to paint. I would gladly paint more of them, but they are quite expensive.
+I continued with some Hell Dorado miniature gifted by a former co-worker; the sculpts are incredible, full of details, and a joy to paint. I would gladly paint more of them, but they are quite expensive.
 
 ![image-20230817203907328](./image-20230817203907328.png)
 
@@ -65,7 +65,7 @@ I still have a lot more to paint in my drawer, but with this new paint it's goin
 
 Oh, and this is what I use for basing. Sand, small rocks, glue and paint.![image-20230817204638872](./image-20230817204638872.png)
 
-I used test miniatures to test the various paints and see what it would look like.
+I used test miniature to test the various paints and see what it would look like.
 
 ![image-20230817204614911](./image-20230817204614911.png)
 

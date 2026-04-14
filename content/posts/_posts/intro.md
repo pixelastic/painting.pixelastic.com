@@ -1,4 +1,4 @@
-I used to paint miniatures when I was younger (I would say from 12 to 18 years
+I used to paint miniature when I was younger (I would say from 12 to 18 years
 old), then I stopped mainly because of space and time constraints. I guess
 I started as pretty much every other teenage boy my age: painting Warhammer
 Battle minis.
@@ -18,7 +18,7 @@ This soundes like fun and I started creating a whole new Imperial army by using
 all the bits and pieces I had. I created a few terrain pieces as well, but my
 main motto was that it had to be cheap. I only re-used old minis I had laying
 around, or using bits from various cheap toys. I didn't want to start buying
-expensive Games Workshops miniatures again.
+expensive Games Workshops miniature again.
 
 I did that for a few years, on and off, then finally stopped again. I kept
 buying minis in garage sales if they were really cheap, thinking that "one day"

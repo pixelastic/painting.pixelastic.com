@@ -9,11 +9,11 @@ layout: post
 
 The final boss of the campaign spent most of his time hidden behind a giant skeletal hand, as seen on the picture. I didn't initially planned that, but because I had just found the perfect mini in a garage sale, I gave him the Bigby's Hand spell.
 
-This is one of those occasion where the story is influenced by the miniatures you have, as opposed to the opposite.
+This is one of those occasion where the story is influenced by the miniature you have, as opposed to the opposite.
 
 ![image-20220706225738562](image-20220706225738562.png)
 
-This was the catch of the day at the garage sale. Two SkyLander miniatures, a broken pillar super-hero thing and a giant, horrible, spidersnake. I haven't yet done anything with the last elements, but the hand was a quick job.
+This was the catch of the day at the garage sale. Two SkyLander miniature, a broken pillar super-hero thing and a giant, horrible, spidersnake. I haven't yet done anything with the last elements, but the hand was a quick job.
 
 ![image-20220706225832686](image-20220706225832686.png)
 

@@ -20,7 +20,7 @@ It ended exactly like a Warhammer campaign should: they saved the world, but nob
 
 This photo shows a bunch of things I made when I first started crafting. Starting from the top, I took foam sheets and practiced carving stones to test different patterns and color schemes. I practiced making lots of things like that, but ultimately not very useful.
 
-On the right, I wasted a lot of foam trying to make display shelves for painted miniatures. At the time I had just started painting and had maybe a dozen miniatures that could have fit on it. In the end it's not very useful, not very pretty, and my miniatures don't fit on it anymore anyway.
+On the right, I wasted a lot of foam trying to make display shelves for painted miniature. At the time I had just started painting and had maybe a dozen miniature that could have fit on it. In the end it's not very useful, not very pretty, and my miniature don't fit on it anymore anyway.
 
 Then you can see lots of sewer tiles. These actually got some use when the players went into the sewers. The ones with dark green liquid, I carved into foam and filled with spackle, but it kept cracking. I had to keep adding more spackle and it cracked again, so the pieces ended up really heavy and didn't really look like liquid.
 

@@ -17,7 +17,7 @@ I also used some Megablock rock formation for the main structure, and an wooden 
 
 ![image-20230819152011645](./image-20230819152011645.png)
 
-I did a dry fit of the various pieces before glueing anything. I added some foam under the rock formation, so the height could accomodate my miniatures.
+I did a dry fit of the various pieces before glueing anything. I added some foam under the rock formation, so the height could accomodate my miniature.
 
 ![image-20230819152058515](./image-20230819152058515.png)
 
@@ -89,7 +89,7 @@ As this is a very messy step, I do that on a foldable silicone mat (the kind you
 
 ![image-20230819153847435](./image-20230819153847435.png)
 
-And the final result is one of my favorite build. It's sturdy because of the Playmobil base. It's simple enough that you can recognize it easily. It's the right scale to put miniatures. It's also full of details so you can tell your on stories.
+And the final result is one of my favorite build. It's sturdy because of the Playmobil base. It's simple enough that you can recognize it easily. It's the right scale to put miniature. It's also full of details so you can tell your on stories.
 
 It's displayed on my shelf, along with my favorite builds.
 

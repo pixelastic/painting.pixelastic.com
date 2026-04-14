@@ -1,6 +1,6 @@
 ---
 title: "Plastic Dragons"
-tags: ["miniatures"]
+tags: ["miniature"]
 date: 2026-03-11
 layout: post
 ---
@@ -57,7 +57,7 @@ The red dragon from the Dungeon & Dragons board game, I stuck with the tradition
 
 And then there's the little plastic toy that I turned into a green dragon. 
 
-Everything was painted with speedpaints. They're incredible for transforming cheap plastic toys into something that looks impressive on the table or building a nice collection of dragon miniatures.
+Everything was painted with speedpaints. They're incredible for transforming cheap plastic toys into something that looks impressive on the table or building a nice collection of dragon miniature.
 
 
 
