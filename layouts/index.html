@@ -11,7 +11,7 @@
     {{- if gt (len $paginator.Pages) 0 }}
     <section>
       {{- $latestPost := index $paginator.Pages 0 }}
-      <article class="group relative overflow-hidden rounded-xl border border-default/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
+      <article class="group relative overflow-hidden rounded-xl border border-default/50 bg-card transition-all">
         <a href="{{ $latestPost.Permalink }}" class="block">
           {{- /* Post image or gradient placeholder */ -}}
           {{- $image := index ($latestPost.Resources.ByType "image") 0 }}
