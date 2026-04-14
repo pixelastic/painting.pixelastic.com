@@ -8,6 +8,7 @@
     ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
 
+  --background-color-cutting-mat: oklch(0.22 0.04 155); /* Dark green */
   --background-color-card: oklch(0.26 0.045 155); /* Green */
   --background-color-card-light: oklch(0.3 0.05 155); /* Lighter green */
   --color-accent: oklch(0.72 0.18 55); /* Orange */
@@ -20,7 +21,7 @@
 /* Cutting mat background with grid pattern */
 .cutting-mat {
   @apply pointer-events-none fixed inset-0;
-  background-color: oklch(0.22 0.04 155); /* Dark green */
+  background-color: var(--background-color-cutting-mat);
   background-image:
     linear-gradient(to right, var(--border-color-muted) 1px, transparent 1px),
     linear-gradient(to bottom, var(--border-color-muted) 1px, transparent 1px);

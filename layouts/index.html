@@ -13,7 +13,33 @@
       {{- $latestPost := index $paginator.Pages 0 }}
       <article class="group relative overflow-hidden rounded-xl border border-default/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
         <a href="{{ $latestPost.Permalink }}" class="block">
-          {{- /* Image placeholder with gradient and cutting mat */ -}}
+          {{- /* Post image or gradient placeholder */ -}}
+          {{- $image := index ($latestPost.Resources.ByType "image") 0 }}
+          {{- if $image }}
+          <div class="aspect-[2/1] relative overflow-hidden bg-card-light">
+            <img src="{{ $image.RelPermalink }}" alt="{{ $latestPost.Title }}" class="w-full h-full object-cover">
+            <div class="absolute bottom-4 left-4 right-4 flex items-end justify-between gap-4">
+              {{- if $latestPost.Params.tags }}
+              <div class="flex flex-wrap gap-2">
+                {{- range $latestPost.Params.tags }}
+                <span class="inline-flex items-center gap-1 rounded-full bg-black/70 backdrop-blur-sm px-3 py-1 text-xs font-medium text-white shadow-lg">
+                  <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                  </svg>
+                  {{ . }}
+                </span>
+                {{- end }}
+              </div>
+              {{- end }}
+              <time datetime="{{ $latestPost.Date.Format "2006-01-02" }}" class="flex items-center gap-1.5 rounded-full bg-black/70 backdrop-blur-sm px-3 py-1 text-xs font-medium text-white whitespace-nowrap shadow-lg">
+                <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                {{ $latestPost.Date.Format "Jan 2, 2006" }}
+              </time>
+            </div>
+          </div>
+          {{- else }}
           <div class="aspect-[2/1] bg-gradient-to-br from-card-light/60 to-card/40 relative overflow-hidden">
             {{- if $latestPost.Params.tags }}
             <div class="absolute bottom-4 left-4 right-4">
@@ -30,31 +56,31 @@
             </div>
             {{- end }}
           </div>
+          {{- end }}
 
-          <div class="p-6">
-            <div class="flex items-center gap-2 text-xs text-muted mb-3">
-              <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              <time datetime="{{ $latestPost.Date.Format "2006-01-02" }}">
-                {{ $latestPost.Date.Format "January 2, 2006" }}
-              </time>
-            </div>
-
+          <div class="px-6 pt-6 pb-4">
             <h2 class="text-xl font-semibold text-default mb-3 group-hover:text-accent transition-colors text-balance font-heading">
               {{ $latestPost.Title }}
             </h2>
 
-            <p class="text-muted text-sm leading-relaxed line-clamp-2 mb-4">
+            <div class="text-muted text-sm leading-relaxed line-clamp-2 mb-4 [&_img]:hidden [&_picture]:hidden">
               {{ $latestPost.Summary }}
-            </p>
+            </div>
 
-            <span class="inline-flex items-center gap-2 text-sm font-medium text-accent group-hover:gap-3 transition-all">
-              Read more
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </span>
+            <div class="flex items-center justify-between">
+              <span class="inline-flex items-center gap-2 text-sm font-medium text-accent group-hover:gap-3 transition-all">
+                Read more
+                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </span>
+              <span class="flex items-center gap-1.5 text-xs text-muted">
+                <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                {{ $latestPost.ReadingTime }} min
+              </span>
+            </div>
           </div>
         </a>
       </article>
@@ -68,7 +94,33 @@
         {{- range after 1 $paginator.Pages }}
         <article class="group relative overflow-hidden rounded-xl border border-default/50 bg-card transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5">
           <a href="{{ .Permalink }}" class="block">
-            {{- /* Image placeholder with gradient and cutting mat */ -}}
+            {{- /* Post image or gradient placeholder */ -}}
+            {{- $image := index (.Resources.ByType "image") 0 }}
+            {{- if $image }}
+            <div class="aspect-[2/1] relative overflow-hidden bg-card-light">
+              <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" class="w-full h-full object-cover">
+              <div class="absolute bottom-4 left-4 right-4 flex items-end justify-between gap-4">
+                {{- if .Params.tags }}
+                <div class="flex flex-wrap gap-2">
+                  {{- range .Params.tags }}
+                  <span class="inline-flex items-center gap-1 rounded-full bg-black/70 backdrop-blur-sm px-3 py-1 text-xs font-medium text-white shadow-lg">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                    </svg>
+                    {{ . }}
+                  </span>
+                  {{- end }}
+                </div>
+                {{- end }}
+                <time datetime="{{ .Date.Format "2006-01-02" }}" class="flex items-center gap-1.5 rounded-full bg-black/70 backdrop-blur-sm px-3 py-1 text-xs font-medium text-white whitespace-nowrap shadow-lg">
+                  <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  {{ .Date.Format "Jan 2, 2006" }}
+                </time>
+              </div>
+            </div>
+            {{- else }}
             <div class="aspect-[2/1] bg-gradient-to-br from-card-light/60 to-card/40 relative overflow-hidden">
               {{- if .Params.tags }}
               <div class="absolute bottom-4 left-4 right-4">
@@ -85,31 +137,31 @@
               </div>
               {{- end }}
             </div>
+            {{- end }}
 
-            <div class="p-6">
-              <div class="flex items-center gap-2 text-xs text-muted mb-3">
-                <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <time datetime="{{ .Date.Format "2006-01-02" }}">
-                  {{ .Date.Format "January 2, 2006" }}
-                </time>
-              </div>
-
+            <div class="px-6 pt-6 pb-4">
               <h2 class="text-xl font-semibold text-default mb-3 group-hover:text-accent transition-colors text-balance font-heading">
                 {{ .Title }}
               </h2>
 
-              <p class="text-muted text-sm leading-relaxed line-clamp-2 mb-4">
+              <div class="text-muted text-sm leading-relaxed line-clamp-2 mb-4 [&_img]:hidden [&_picture]:hidden">
                 {{ .Summary }}
-              </p>
+              </div>
 
-              <span class="inline-flex items-center gap-2 text-sm font-medium text-accent group-hover:gap-3 transition-all">
-                Read more
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </span>
+              <div class="flex items-center justify-between">
+                <span class="inline-flex items-center gap-2 text-sm font-medium text-accent group-hover:gap-3 transition-all">
+                  Read more
+                  <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </span>
+                <span class="flex items-center gap-1.5 text-xs text-muted">
+                  <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  {{ .ReadingTime }} min
+                </span>
+              </div>
             </div>
           </a>
         </article>

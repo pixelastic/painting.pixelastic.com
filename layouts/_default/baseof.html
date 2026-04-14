@@ -12,12 +12,12 @@
   {{ end }}
 </head>
 <body class="font-sans text-default antialiased">
-  <div class="min-h-screen flex flex-col">
-    {{- /* Background cutting mat with grid */ -}}
-    <div class="cutting-mat"></div>
+  {{- /* Background cutting mat with grid */ -}}
+  <div class="cutting-mat"></div>
 
+  <div class="min-h-screen flex flex-col relative pb-20">
     {{- /* Header */ -}}
-    <header class="sticky top-0 z-50 border-b-4 border-accent bg-cutting-mat/80 backdrop-blur-md">
+    <header class="sticky top-0 z-5 border-b-4 border-accent backdrop-blur-md bg-cutting-mat/70">
       <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-24 items-center justify-between">
           <a href="/" class="flex items-center gap-4 group">
@@ -39,21 +39,24 @@
       </div>
     </header>
 
+
     {{- /* Main content */ -}}
-    <main class="flex-1 relative">
+    <main class="flex-1 relative z-1">
       <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
         {{- block "main" . }}{{- end }}
       </div>
     </main>
 
     {{- /* Footer */ -}}
-    <footer class="border-t border-default/50 py-8 mt-12 relative">
-      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+    <footer class="absolute z-5 right-0 left-0 bottom-0 h-20 border-t border-muted bg-cutting-mat flex items-center">
+      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 w-full">
         <p class="text-sm text-muted">
           &copy; {{ now.Year }} {{ .Site.Title }}
         </p>
       </div>
     </footer>
+
+
   </div>
   {{- /* Dev timestamp to force rebuilds when needed */ -}}
   {{ partial "dev-timestamp.html" . }}
