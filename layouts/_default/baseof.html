@@ -6,7 +6,7 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
-  {{- /* Tailwind CSS - Deferred to ensure hugo_stats.json is generated first */ -}}
+  {{- /* Defer loading of Tailwind AFTER hugo_stats.json is generated */ -}}
   {{ with (templates.Defer (dict "key" "css")) }}
     {{ partial "tailwind-css.html" . }}
   {{ end }}
