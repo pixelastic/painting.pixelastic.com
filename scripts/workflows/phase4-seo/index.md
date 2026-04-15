@@ -41,7 +41,37 @@ Read the current `title` in the frontmatter and the post content.
 
 ---
 
-## Step 2: Write Meta Description
+## Step 2: Generate Keywords
+
+Create a `keywords` field for the frontmatter.
+
+### Guidelines
+
+- **Format**: Comma-separated string
+- **Count**: 6-10 keywords maximum (strictly enforced)
+  - More than 10 keywords? Choose the most specific/unique ones. No exceptions.
+- **Extract from content**: Read the actual post, don't infer
+- **Include**:
+  - Specific subjects mentioned (creature types, terrain types)
+  - Techniques actually used (speedpaints, drybrushing, foam sculpting)
+  - Materials mentioned (foam, cardboard, specific products)
+  - Game systems if explicitly mentioned (Zombicide, Pathfinder, Kingmaker)
+- **Avoid**:
+  - ❌ Generic site-wide terms (miniature painting, terrain crafting, tabletop rpg)
+  - ❌ Inferred content not in post (don't add "D&D" if post says "Pathfinder")
+  - ❌ "Tutorial" unless post has step-by-step instructions
+  - ❌ Multi-word brand names (use "skinks conversion" not "Games Workshop skinks conversion")
+  - ❌ Over 10 keywords "because they're all important" - prioritize instead
+
+### Format Example
+
+```yaml
+keywords: "kobolds, speedpaints, metallic effects, Kingmaker, skinks conversion, Heroclix"
+```
+
+---
+
+## Step 3: Write Meta Description
 
 Create a `description` field for the frontmatter.
 
@@ -87,9 +117,9 @@ Megablocks terrain piece altar sacrifice tabletop RPG miniature painting foam sc
 
 ---
 
-## Step 3: Update Frontmatter
+## Step 4: Update Frontmatter
 
-Add the `description` field to the frontmatter:
+Add the `keywords` and `description` fields to the frontmatter:
 
 ```markdown
 ---
@@ -97,22 +127,24 @@ title: "Sacrificial Altar Megablocks"
 tags: terrain
 date: 2026-04-02
 layout: post
+keywords: "Megablocks altar, foam sculpting, lighting mechanism, secondhand finds, modular terrain"
 description: "Found a Megablocks altar set at a secondhand shop. Tried to preserve the lighting mechanism but ended up sculpting a foam monolith instead."
 ---
 ```
 
 ---
 
-## Step 4: Update the File
+## Step 5: Update the File
 
 **Update the frontmatter directly** in the index.md file:
 
 1. If title needs changing, update it
-2. Add the `description` field with the optimized meta description
+2. Add the `keywords` field (6-10 keywords, comma-separated string)
+3. Add the `description` field with the optimized meta description
 
 Use the Edit tool to modify the frontmatter.
 
-## Step 5: Find Internal Link Opportunities
+## Step 6: Find Internal Link Opportunities
 
 Search for related posts in the blog that could be linked to.
 
@@ -161,7 +193,7 @@ Tell the user: **"Je n'ai pas trouvé de posts pertinents à linker pour celui-c
 
 ---
 
-## Step 6: Update File with Links (if found)
+## Step 7: Update File with Links (if found)
 
 If you found good internal link opportunities:
 
@@ -170,7 +202,7 @@ If you found good internal link opportunities:
 
 ---
 
-## Step 7: Add Alt Text to Images
+## Step 8: Add Alt Text to Images
 
 Add descriptive alt text to all images by paraphrasing the text description below each image.
 
@@ -217,11 +249,12 @@ The central stone actually moves...
 
 ---
 
-## Step 8: Present to User
+## Step 9: Present to User
 
 Show the user what was done (concisely):
 
 - **Title**: kept ✓ (or "changed to '...'")
+- **Keywords**: added (X keywords)
 - **Meta description**: added
 - **Alt text**: added to X images
 - **Internal links**: X link(s) added (or "none found")

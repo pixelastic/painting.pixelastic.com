@@ -4,6 +4,7 @@ title = 'Pixelastic Painting Log'
 
 [params]
 description = "Blog about miniature painting"
+keywords = "terrain crafting, dungeon tiles, miniature painting, speedpaints, dip painting, dungeons and dragons, pathfinder, tabletop rpg, scatter terrain, foam crafting"
 
 [build]
 [build.buildStats]

@@ -6,6 +6,8 @@
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description"
           content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="keywords"
+          content="{{ if .Keywords }}{{ .Keywords }}{{ else if .Site.Params.keywords }}{{ .Site.Params.keywords }}{{ end }}">
 
     {{- /* Defer loading of Tailwind AFTER hugo_stats.json is generated */ -}}
     {{ with (templates.Defer (dict "key" "css")) }}
@@ -14,7 +16,8 @@
   </head>
   <body class="font-sans antialiased text-default">
     {{- /* Background cutting mat with grid */ -}}
-    <div class="cutting-mat" />
+    <div class="cutting-mat">
+    </div>
 
     <div class="flex relative flex-col pb-20 min-h-screen">
       {{- /* Header */ -}}
