@@ -7168,6 +7168,7 @@ __metadata:
     "@tailwindcss/cli": "npm:4.2.2"
     "@tailwindcss/typography": "npm:0.5.19"
     aberlaas: "npm:2.27.3"
+    prettier-plugin-go-template: "npm:0.0.15"
   languageName: unknown
   linkType: soft
 
@@ -7435,6 +7436,17 @@ __metadata:
   dependencies:
     fast-diff: "npm:^1.1.2"
   checksum: 10c0/91cea965681bc5f62c9d26bd3ca6358b81557261d4802e96ec1cf0acbd99d4b61632d53320cd2c3ec7d7f7805a81345644108a41ef46ddc9688e783a9ac792d1
+  languageName: node
+  linkType: hard
+
+"prettier-plugin-go-template@npm:0.0.15":
+  version: 0.0.15
+  resolution: "prettier-plugin-go-template@npm:0.0.15"
+  dependencies:
+    ulid: "npm:^2.3.0"
+  peerDependencies:
+    prettier: ^3.0.0
+  checksum: 10c0/1c8a65535ded9694a3eca929a4b8ae4220be777f09df3bf3a954faa6524e3ecb99973ce8c74fa2690676bc6c0d81ba16a1faa5673f7ba945dab5adee02d8ad74
   languageName: node
   linkType: hard
 
@@ -8890,6 +8902,15 @@ __metadata:
   version: 1.6.3
   resolution: "ufo@npm:1.6.3"
   checksum: 10c0/bf0e4ebff99e54da1b9c7182ac2f40475988b41faa881d579bc97bc2a0509672107b0a0e94c4b8d31a0ab8c4bf07f4aa0b469ac6da8536d56bda5b085ea2e953
+  languageName: node
+  linkType: hard
+
+"ulid@npm:^2.3.0":
+  version: 2.4.0
+  resolution: "ulid@npm:2.4.0"
+  bin:
+    ulid: bin/cli.js
+  checksum: 10c0/96f7597a2f09dadd380707a0755753d85717059deae54a9e28b6cbc34c02ef211dd1d1dcbfa8bd557d12309f174b87f3ba5f45d6b67573d1a2da202b5a0c9319
   languageName: node
   linkType: hard
 

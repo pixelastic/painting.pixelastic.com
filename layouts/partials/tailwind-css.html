@@ -1,15 +1,24 @@
 {{- with resources.Get "src/style.css" }}
+
+
+  {{- /* Development: no minify, no fingerprint */ -}}
   {{- if hugo.IsDevelopment }}
     {{- with . | css.TailwindCSS }}
-      {{- /* Development: no minify, no fingerprint */ -}}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
+<link rel="stylesheet" href="{{ .RelPermalink }}">
     {{- end }}
+
+
+  {{- /* Production: minify + fingerprint */ -}}
   {{- else }}
     {{- with . | css.TailwindCSS (dict "minify" true) }}
-      {{- /* Production: minify + fingerprint */ -}}
       {{- with . | fingerprint }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+<link rel="stylesheet"
+      href="{{ .RelPermalink }}"
+      integrity="{{ .Data.Integrity }}"
+      crossorigin="anonymous">
       {{- end }}
     {{- end }}
   {{- end }}
+
+
 {{- end }}

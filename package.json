@@ -18,7 +18,8 @@
   "devDependencies": {
     "@tailwindcss/cli": "4.2.2",
     "@tailwindcss/typography": "0.5.19",
-    "aberlaas": "2.27.3"
+    "aberlaas": "2.27.3",
+    "prettier-plugin-go-template": "0.0.15"
   },
   "scripts": {
     "build": "./scripts/build",
