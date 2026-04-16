@@ -1,0 +1,40 @@
+{{- $paginator := . }}
+{{- $currentPage := $paginator.PageNumber }}
+{{- $totalPages := $paginator.TotalPages }}
+
+{{- $commonClasses := "py-2 px-4 text-sm rounded-md transition-colors" }}
+{{- $isActiveClasses := "font-medium text-accent-foreground bg-accent" }}
+{{- $isNotActiveClasses := "bg-card text-muted border border-default/50 hover:text-default hover:bg-card-light" }}
+
+<nav class="flex gap-2 justify-center items-center pt-8">
+  {{- if $paginator.HasPrev }}
+  <a href="{{ $paginator.Prev.URL }}"
+     class="{{ $commonClasses }} {{ $isNotActiveClasses }}">
+    Previous
+  </a>
+  {{- end }}
+
+  {{- range $paginator.Pagers }}
+    {{- $pageNum := .PageNumber }}
+    {{- $diff := sub $pageNum $currentPage }}
+    {{- if and (ge $diff -2) (le $diff 2) }}
+      {{- if eq $pageNum $currentPage }}
+  <span class="{{ $commonClasses }} {{ $isActiveClasses }}">
+    {{ $pageNum }}
+  </span>
+      {{- else }}
+  <a href="{{ .URL }}"
+     class="{{ $commonClasses }} {{ $isNotActiveClasses }}">
+    {{ $pageNum }}
+  </a>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{- if $paginator.HasNext }}
+  <a href="{{ $paginator.Next.URL }}"
+     class="{{ $commonClasses }} {{ $isNotActiveClasses }}">
+    Next
+  </a>
+  {{- end }}
+</nav>

@@ -19,17 +19,12 @@
     <div class="cutting-mat">
     </div>
 
-    <div class="flex relative flex-col pb-20 min-h-screen">
+    <div class="flex relative flex-col min-h-screen">
       {{- /* Header */ -}}
       <header class="sticky top-0 border-b-4 z-5 border-accent backdrop-blur-md bg-cutting-mat/70">
         <div class="px-4 mx-auto max-w-5xl sm:px-6 lg:px-8">
           <div class="flex justify-between items-center h-24">
             <a href="/" class="flex gap-4 items-center group">
-              <div class="flex justify-center items-center w-14 h-14 rounded-lg transition-transform group-hover:scale-105 bg-accent text-accent-foreground">
-                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
-                </svg>
-              </div>
               <div class="flex flex-col">
                 <span class="text-2xl font-bold leading-tight sm:text-3xl text-default">{{ .Site.Title }}</span>
                 <span class="text-sm leading-tight text-muted">{{ .Site.Params.description }}</span>
@@ -41,20 +36,11 @@
 
       {{- /* Main content */ -}}
       <main class="relative flex-1 z-1">
-        <div class="py-12 px-4 mx-auto max-w-5xl sm:px-6 lg:px-8">
+        <div class="px-4 pt-12 mx-auto mb-8 max-w-5xl sm:px-6 lg:px-8">
            {{- block "main" . }}
            {{- end }}
         </div>
       </main>
-
-      {{- /* Footer */ -}}
-      <footer class="flex absolute right-0 bottom-0 left-0 items-center h-20 border-t z-5 border-muted bg-cutting-mat">
-        <div class="px-4 mx-auto w-full max-w-5xl sm:px-6 lg:px-8">
-          <p class="text-sm text-muted">
-            © {{ now.Year }} {{ .Site.Title }}
-          </p>
-        </div>
-      </footer>
     </div>
     {{- /* Dev timestamp to force rebuilds when needed */ -}}
     {{ partial "dev-timestamp.html" . }}

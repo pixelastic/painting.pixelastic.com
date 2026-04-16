@@ -1,0 +1,25 @@
+{{- $allTags := slice }}
+{{- range site.Taxonomies.tags }}
+  {{- $allTags = $allTags | append .Page.Title }}
+{{- end }}
+{{- if gt (len $allTags) 0 }}
+<div class="p-6 rounded-xl border border-default/50 bg-card">
+  <h3 class="flex gap-2 items-center mb-4 font-semibold text-default font-heading">
+    <svg class="w-4 h-4 text-accent"
+         fill="none"
+         stroke="currentColor"
+         viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+    </svg>
+    Topics
+  </h3>
+  <div class="flex flex-wrap gap-2">
+    {{- range $allTags }}
+    <a href="/tags/{{ . | urlize }}/"
+       class="inline-flex items-center py-1.5 px-3 text-xs font-medium rounded-full transition-colors bg-card-light text-default hover:bg-accent hover:text-accent-foreground">
+      {{ . }}
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
