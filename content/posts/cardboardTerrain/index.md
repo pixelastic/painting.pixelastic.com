@@ -1,3 +1,9 @@
+---
+title: "Cardboard Terrain"
+tags: ["Terrain"]
+date: 2019-01-10
+---
+
 For the very last session of one of my roleplay campaign, the heroes had to
 defend a small fortified village against a horde of beastman. For the occasion,
 I wanted to create the whole village so they can move their minis inside it.

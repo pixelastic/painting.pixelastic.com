@@ -1,10 +1,16 @@
+---
+title: "Basecoat"
+tags: ["Miniature"]
+date: 2019-01-03
+---
+
 Still following my principle of doing stuff on the cheap, I wanted to avoid
 using the expensive Games Workshop basecoat sprays.
 
 For that, I use the [Montana set of spray cans][1]. They have a large range of
 available colors that you can use for basecoating. They cost about 5€ a can, and
 the quality of it is impressive. It attaches well to the minis, covering it
-perfectly and the nuzzle can help doing very fine targeting. 
+perfectly and the nuzzle can help doing very fine targeting.
 
 I recommence shaking them well before use and do a few first sprays on a bit of
 cardboard on the side. Otherwise you might end up with bloated paint that will

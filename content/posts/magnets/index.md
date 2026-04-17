@@ -1,3 +1,9 @@
+---
+title: "Magnets"
+tags: ["Miniature"]
+date: 2019-01-09
+---
+
 All my minis have magnetized bases. I glue a magnetized sticker under each base.
 As most of my minis are now on 25mm round bases, I can simply order the matching
 magnets from Amazon and glue them.
@@ -18,4 +24,3 @@ place, but magnetized bases is so much easier.
 
 As for painting, I now have a few metal shelves on my painting desk, and I can
 just drop minis on it easily without them ever falling from the shelves.
-

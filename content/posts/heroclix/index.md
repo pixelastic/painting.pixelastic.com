@@ -1,3 +1,9 @@
+---
+title: "Heroclix"
+tags: ["Miniature"]
+date: 2019-01-08
+---
+
 One of my first main source of cheap minis were the Heroclix minis. Heroclix
 started making DC and Marvel themed minis, but they also include Star Wars and
 other settings.

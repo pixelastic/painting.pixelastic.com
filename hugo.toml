@@ -30,7 +30,7 @@ disableWatch = true
 posts = '/:contentbasename/'
 
 [pagination]
-pagerSize = 10
+pagerSize = 15
 
 [taxonomies]
 tag = 'tags'

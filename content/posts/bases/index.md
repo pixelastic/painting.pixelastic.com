@@ -1,3 +1,9 @@
+---
+title: "Bases"
+tags: ["Miniature"]
+date: 2019-01-05
+---
+
 When I started my collection again, I had  abunch of old GW bases lying around.
 They were all of various shapes and size (square, round, small and large). I had
 no specific plan in mind on which base was better.

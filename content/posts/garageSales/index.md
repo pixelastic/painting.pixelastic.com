@@ -1,3 +1,9 @@
+---
+title: "Garage Sales"
+tags: ["Misc"]
+date: 2019-01-07
+---
+
 My second source of minis (after online Heroclix stores) are garage sales.
 There, you can either find kids toys that can be reskinned, or old lead
 miniature.

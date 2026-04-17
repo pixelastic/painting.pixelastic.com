@@ -13,6 +13,7 @@
   --background-color-card-light: oklch(0.3 0.05 155); /* Lighter green */
   --color-accent: oklch(0.72 0.18 55); /* Orange */
   --text-color-default: oklch(0.95 0.01 155); /* Whiteish */
+  --stroke-default: oklch(0.95 0.01 155); /* Whiteish */
   --text-color-muted: oklch(0.65 0.02 155); /* Grey */
   --border-color-default: oklch(0.4 0.03 155); /* Medium green */
   --border-color-muted: oklch(0.4 0.03 155 / 0.3); /* Cutting mat lines */
@@ -29,6 +30,22 @@
 }
 
 @layer components {
+  /* Card block, used to display content on top of grid */
+  .card {
+    @apply border-default/50 bg-card overflow-hidden rounded-xl border;
+  }
+
+  /* Rounded pill, for small metadata */
+  .pill {
+    @apply text-default inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium;
+    @apply bg-card-light;
+  }
+
+  /* Frosted background, for better readability */
+  .frosted {
+    @apply bg-black/70 text-white shadow-lg backdrop-blur-sm;
+  }
+
   .prose {
     --tw-prose-body: var(--text-color-default);
     --tw-prose-headings: var(--text-color-default);

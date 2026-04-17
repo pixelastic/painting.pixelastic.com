@@ -1,3 +1,9 @@
+---
+title: "Dip Painting"
+tags: ["Miniature"]
+date: 2019-01-02
+---
+
 This is the technique that get me back to painting. Because I had a limited
 amount of time to allocate for painting, I wanted an efficient way of going
 through a large amount of minis.

@@ -1,3 +1,9 @@
+---
+title: "Introduction"
+tags: ["Misc"]
+date: 2019-01-01
+---
+
 I used to paint miniature when I was younger (I would say from 12 to 18 years
 old), then I stopped mainly because of space and time constraints. I guess
 I started as pretty much every other teenage boy my age: painting Warhammer

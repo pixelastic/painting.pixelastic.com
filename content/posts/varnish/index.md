@@ -1,3 +1,9 @@
+---
+title: "Varnish"
+tags: ["Miniature"]
+date: 2019-01-04
+---
+
 All my minis have two layers of varnish. The first one is because I'm using the
 Dip technique and so all minis are under a coat of Wood Varnish (or Army
 Painter).

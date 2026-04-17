@@ -1,3 +1,9 @@
+---
+title: "Storage"
+tags: ["Misc"]
+date: 2019-01-06
+---
+
 Painting is fine, but what do you do with all those minis you have lying around.
 And how do you manage to pick the correct mini when you need it?
 
