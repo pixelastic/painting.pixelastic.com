@@ -32,8 +32,8 @@
         {{ .Title }}
       </h2>
 
-      <div class="text-muted text-sm leading-relaxed line-clamp-2 mb-4 [&_img]:hidden">
-        {{ .Summary }}
+      <div class="mb-4 text-sm leading-relaxed text-muted line-clamp-2">
+        {{ .Summary | plainify | truncate 200}}
       </div>
 
       <div class="flex justify-between items-center">
