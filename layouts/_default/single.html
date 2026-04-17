@@ -1,28 +1,23 @@
 {{- define "main" }}
 
-<article class="overflow-hidden relative p-6 rounded-xl border sm:p-8 border-default/50 bg-card">
-  <header class="mb-8">
+<article class="py-6 card">
+  <header class="px-8">
     <h1 class="mb-4 text-3xl leading-tight sm:text-4xl md:text-5xl font-heading text-default">
       {{ .Title }}
     </h1>
     <div class="flex gap-3 items-center text-sm text-muted">
-      <svg class="w-3.5 h-3.5"
-           fill="none"
-           stroke="currentColor"
-           viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-      </svg>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">
-        {{ .Date.Format "January 2, 2006" }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}"
+            class="inline-flex gap-1 items-center">
+          {{- partial "icons/calendar.html" (dict "class" "stroke-accent w-3 h-3") }}
+          {{ (.Date.Format "Jan 2, 2006") }}
       </time>
-      {{- if .Params.tags }}
-      <span class="text-border">|</span>
-      <div class="flex gap-1 items-center">
-        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
-        </svg>
-        <span>{{ delimit .Params.tags ", " }}</span>
-      </div>
+
+      {{- range .Params.tags }}
+      <a href="/tags/{{ . | urlize }}/"
+         class="inline-flex gap-1 items-center group">
+          {{- partial "icons/tag.html" (dict "class" "stroke-accent w-3 h-3") }}
+        <span class="group-hover:underline">{{- . }}</span>
+      </a>
       {{- end }}
     </div>
   </header>
@@ -31,16 +26,16 @@
     {{ .Content }}
   </div>
 
-  {{- /* Navigation vers la liste */ -}}
-  <nav class="pt-8 mt-12 border-t border-default/50">
-    <a href="/"
-       class="inline-flex gap-2 items-center text-sm font-medium transition-all hover:gap-3 text-accent">
-      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-      </svg>
-      <span>Back to all posts</span>
-    </a>
-  </nav>
 </article>
+
+<nav class="pt-8 mt-12 border-t border-default/50">
+  <a href="/"
+     class="inline-flex gap-2 items-center text-sm font-medium transition-all hover:gap-3 text-accent">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+    </svg>
+    <span>Back to all posts</span>
+  </a>
+</nav>
 
 {{- end }}

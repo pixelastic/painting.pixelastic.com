@@ -1,15 +1,21 @@
-Add Rustywind to the pipeline to lint the gotpl html with tailwind
-
-Add pages to pagination
-
-Better title font
-
-Full Width image on details, so not sure about rounded borders there
-Good color of text on cards in prose
-Links to next post / previous post on each, with their name
-Link on tags
-
-Check if layout list is used
+Some previews don't change the color of the title on hover on the image:
+Table dressing
+Misc 2025
+Workshop current state
+Zombicide 3D Storage
+I know why: They display the content, truncated, but it contans some links, so
+it messes up the wrapping link. I need to clean that up first (maybe even clean
+the images at the same time)
 
 http://localhost:1313/monsterhunterwyvern/
 doesn't have the right image in the listing
+
+Fix links to other posts with case, like http://localhost:1313/helloKittyRuinedHouse/
+
+Better title font
+
+Maybe reduce image display size?
+Add next/previous post under post
+Add image dimensions
+Add image lazyloading with imoen
+Zoom on image son click
