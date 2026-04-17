@@ -1,10 +1,11 @@
+{{- $firstImageInMarkdown := partial "post/firstImage.html" . }}
+
 <article class="transition-all card hover:border-accent/30">
   <a href="{{ .Permalink }}" class="block group">
-    {{- $image := index (.Resources.ByType "image") 0 }}
-    {{- if $image }}
+    {{- if $firstImageInMarkdown }}
     <div class="relative aspect-[2/1]">
       <!-- Image -->
-      <img src="{{ $image.RelPermalink }}"
+      <img src="{{ $firstImageInMarkdown.RelPermalink }}"
            alt="{{ .Title }}"
            class="object-cover w-full h-full">
       <!-- Metadata -->
@@ -33,7 +34,7 @@
       </h2>
 
       <div class="mb-4 text-sm leading-relaxed text-muted line-clamp-2">
-        {{ .Summary | plainify | truncate 200}}
+        {{ .Summary | plainify | truncate 200 }}
       </div>
 
       <div class="flex justify-between items-center">

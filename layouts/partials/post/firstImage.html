@@ -1,0 +1,8 @@
+{{- $image := "" }}
+{{- $imageRegex := `!\[.*?\]\((.*?)\)` }}
+{{- $matches := findRE $imageRegex .RawContent 1 }}
+{{- if $matches }}
+  {{- $imagePath := replaceRE $imageRegex "$1" (index $matches 0) }}
+  {{- $image = .Resources.GetMatch $imagePath }}
+{{- end }}
+{{- return $image }}
