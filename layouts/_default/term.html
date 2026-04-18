@@ -1,0 +1,32 @@
+{{- define "main" }}
+
+{{- $paginator := .Paginate .Pages }}
+
+<div class="grid gap-8 lg:grid-cols-12">
+  <div class="space-y-8 lg:col-span-8">
+    <header class="mb-8">
+      <div class="flex gap-3 items-center mb-2">
+        {{- partial "icons/tag.html" (dict "class" "stroke-accent w-6 h-6") }}
+        <h1 class="text-4xl font-bold text-default font-heading">{{ .Title }}</h1>
+      </div>
+      <p class="text-muted">
+        {{ .Pages | len }} {{ if eq (.Pages | len) 1 }}post{{ else }}posts{{ end }} tagged with {{ .Title }}
+      </p>
+    </header>
+
+    <section class="space-y-4">
+      {{- range $paginator.Pages }}
+      {{- partial "post/preview.html" . }}
+      {{- end }}
+    </section>
+
+    {{- partial "pagination.html" $paginator }}
+  </div>
+
+  <aside class="hidden sticky top-28 space-y-8 lg:block lg:col-span-4">
+    {{- partial "sidebar/about.html" . }}
+    {{- partial "sidebar/topics.html" . }}
+  </aside>
+</div>
+
+{{- end }}

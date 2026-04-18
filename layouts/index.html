@@ -3,22 +3,13 @@
 {{- $pages := where site.RegularPages "Section" "posts" }}
 {{- $paginator := .Paginate $pages }}
 
-{{- /* Two columns */ -}}
-<div class="grid gap-8 lg:grid-cols-12">
-  {{- /* Main column */ -}}
-  <div class="space-y-4 lg:col-span-8">
-    {{- range $paginator.Pages }}
-    {{- partial "post/preview.html" . }}
-    {{- end }}
-
-    {{- partial "pagination.html" $paginator }}
-  </div>
-
-  {{- /* Sidebar */ -}}
-  <aside class="hidden sticky top-28 space-y-8 lg:block lg:col-span-4">
-    {{- partial "sidebar/about.html" . }}
-    {{- partial "sidebar/topics.html" . }}
-  </aside>
+{{- /* Two columns of posts */ -}}
+<div class="grid gap-4 lg:grid-cols-2">
+  {{- range $paginator.Pages }}
+  {{- partial "post/preview.html" . }}
+  {{- end }}
 </div>
+
+{{- partial "pagination.html" $paginator }}
 
 {{- end }}

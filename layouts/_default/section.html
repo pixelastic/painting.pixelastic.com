@@ -1,0 +1,18 @@
+{{- define "main" }}
+
+{{- $paginator := .Paginate .Pages }}
+
+<header class="mb-8">
+  <h1 class="text-4xl font-bold text-default font-heading">{{ .Title }}</h1>
+  <p class="mt-2 text-muted">{{ .Description | default "All posts" }}</p>
+</header>
+
+<div class="grid gap-4 lg:grid-cols-2">
+  {{- range $paginator.Pages }}
+  {{- partial "post/preview.html" . }}
+  {{- end }}
+</div>
+
+{{- partial "pagination.html" $paginator }}
+
+{{- end }}

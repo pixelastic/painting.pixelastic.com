@@ -2,12 +2,13 @@
 
 <article class="transition-all card hover:border-accent/30">
   <a href="{{ .Permalink }}" class="block group">
-    {{- if $firstImageInMarkdown }}
-    <div class="relative aspect-[2/1]">
+    <div class="relative aspect-[2/1] {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
       <!-- Image -->
+      {{- if $firstImageInMarkdown }}
       <img src="{{ $firstImageInMarkdown.RelPermalink }}"
            alt="{{ .Title }}"
            class="object-cover w-full h-full">
+      {{- end }}
       <!-- Metadata -->
       <div class="flex absolute inset-x-4 bottom-4 justify-between items-end">
         <!-- Tags -->
@@ -26,7 +27,6 @@
         </time>
       </div>
     </div>
-    {{- end }}
 
     <div class="py-4 px-6">
       <h2 class="mb-3 text-xl font-semibold text-default text-balance font-heading group-hover:text-accent">

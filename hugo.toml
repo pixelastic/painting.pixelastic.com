@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Pixelastic Painting Log'
 
 [params]
-description = "Blog about miniature painting"
+description = "Documenting my journey through miniature painting and terrain building."
 keywords = "terrain crafting, dungeon tiles, miniature painting, speedpaints, dip painting, dungeons and dragons, pathfinder, tabletop rpg, scatter terrain, foam crafting"
 
 [build]
@@ -30,7 +30,7 @@ disableWatch = true
 posts = '/:contentbasename/'
 
 [pagination]
-pagerSize = 15
+pagerSize = 12
 
 [taxonomies]
 tag = 'tags'

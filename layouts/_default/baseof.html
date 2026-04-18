@@ -30,6 +30,11 @@
                 <span class="text-sm leading-tight text-muted">{{ .Site.Params.description }}</span>
               </div>
             </a>
+            <nav class="flex gap-1 items-center">
+              <a href="/tags/terrain/" class="py-2 px-4 text-base font-medium transition-colors rounded-md text-muted hover:text-default hover:bg-card-light">Terrain</a>
+              <a href="/tags/miniature/" class="py-2 px-4 text-base font-medium transition-colors rounded-md text-muted hover:text-default hover:bg-card-light">Miniature</a>
+              <a href="/tags/misc/" class="py-2 px-4 text-base font-medium transition-colors rounded-md text-muted hover:text-default hover:bg-card-light">Misc</a>
+            </nav>
           </div>
         </div>
       </header>
@@ -42,7 +47,5 @@
         </div>
       </main>
     </div>
-    {{- /* Dev timestamp to force rebuilds when needed */ -}}
-    {{ partial "dev-timestamp.html" . }}
   </body>
 </html>

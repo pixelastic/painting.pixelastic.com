@@ -1,0 +1,24 @@
+{{- define "main" }}
+
+<header class="mb-8">
+  <div class="flex gap-3 items-center mb-2">
+    {{- partial "icons/tag.html" (dict "class" "stroke-accent w-6 h-6") }}
+    <h1 class="text-4xl font-bold text-default font-heading">All Tags</h1>
+  </div>
+</header>
+
+<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+  {{- range .Data.Terms.ByCount }}
+  <a href="{{ .Page.Permalink }}" class="flex flex-col gap-2 p-6 transition-all group card hover:border-accent">
+    <div class="flex gap-2 items-center">
+      {{- partial "icons/tag.html" (dict "class" "stroke-accent w-5 h-5") }}
+      <span class="text-lg font-semibold text-default">{{ .Page.Title }}</span>
+    </div>
+    <span class="text-sm text-muted">
+      {{ .Count }} {{ if eq .Count 1 }}post{{ else }}posts{{ end }}
+    </span>
+  </a>
+  {{- end }}
+</div>
+
+{{- end }}

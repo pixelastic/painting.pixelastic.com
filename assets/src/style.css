@@ -29,6 +29,15 @@
   background-size: 40px 40px;
 }
 
+/* Denser cutting mat grid for placeholders */
+.cutting-mat-dense {
+  background-color: var(--background-color-card);
+  background-image:
+    linear-gradient(to right, var(--border-color-muted) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border-color-muted) 1px, transparent 1px);
+  background-size: 15px 15px;
+}
+
 @layer components {
   /* Card block, used to display content on top of grid */
   .card {
