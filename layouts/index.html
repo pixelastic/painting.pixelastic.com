@@ -5,8 +5,9 @@
 
 {{- /* Two columns of posts */ -}}
 <div class="grid gap-4 lg:grid-cols-2">
-  {{- range $paginator.Pages }}
-  {{- partial "post/preview.html" . }}
+  {{- range $index, $page := $paginator.Pages }}
+  {{- $isAboveTheFold := lt $index 6 }}
+  {{- partial "post/preview.html" (dict "page" $page "isAboveTheFold" $isAboveTheFold) }}
   {{- end }}
 </div>
 

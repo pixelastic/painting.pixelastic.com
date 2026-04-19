@@ -5,15 +5,18 @@
   - image: (resource|string) REQUIRED - Either a Hugo resource object OR a string (src/path)
   - alt: (string) Alt text
   - class: (string) CSS classes to apply
+  - loading: (string) "lazy" | "eager" | "" (default: "lazy")
 
   Usage examples:
   With resource: {{ partial "image.html" (dict "image" $imageResource "alt" "My image") }}
   With string:   {{ partial "image.html" (dict "image" "/path/to/image.png" "alt" "My image") }}
+  No lazy load:  {{ partial "image.html" (dict "image" $img "alt" "Hero" "loading" "eager") }}
 */ -}}
 
 {{- $image := .image -}}
 {{- $alt := .alt | default "" -}}
 {{- $class := .class | default "" -}}
+{{- $loading := .loading | default "lazy" -}}
 
 {{- $src := $image -}}
 
@@ -26,7 +29,7 @@
 
 <img src="{{ $src }}"
      alt="{{ $alt }}"
-     loading="lazy"
+     loading="{{ $loading }}"
      {{- if $class }}
      class="{{ $class }}"
      {{ end }}

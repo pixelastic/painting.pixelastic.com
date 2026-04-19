@@ -1,21 +1,30 @@
-{{- $firstImageInMarkdown := partial "post/firstImage.html" . }}
+{{- $page := .page | default . -}}
+{{- $isAboveTheFold := .isAboveTheFold | default false -}}
+{{- $firstImageInMarkdown := partial "post/firstImage.html" $page }}
+
+{{- /* Above the fold images should load eagerly */ -}}
+{{- $loading := "lazy" -}}
+{{- if $isAboveTheFold -}}
+  {{- $loading = "eager" -}}
+{{- end -}}
 
 <article class="transition-all card hover:border-accent/30">
-  <a href="{{ .Permalink }}" class="block group">
+  <a href="{{ $page.Permalink }}" class="block group">
     <div class="relative aspect-[2/1] {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
       <!-- Image -->
       {{- if $firstImageInMarkdown }}
       {{- partial "image.html" (dict
         "image" $firstImageInMarkdown
-        "alt" .Title
+        "alt" $page.Title
         "class" "object-cover w-full h-full"
+        "loading" $loading
       ) -}}
       {{- end }}
       <!-- Metadata -->
       <div class="flex absolute inset-x-4 bottom-4 justify-between items-end">
         <!-- Tags -->
         <div class="flex flex-wrap gap-2">
-          {{- range .Params.tags }}
+          {{- range $page.Params.tags }}
           <div class="pill frosted">
             {{- partial "icons/tag.html" (dict "class" "stroke-accent w-4 h-4") }}
             {{- . }}
@@ -23,20 +32,20 @@
           {{- end }}
         </div>
         <!-- Date -->
-        <time datetime="{{ .Date.Format "2006-01-02" }}" class="pill frosted">
+        <time datetime="{{ $page.Date.Format "2006-01-02" }}" class="pill frosted">
           {{- partial "icons/calendar.html" (dict "class" "stroke-accent w-4 h-4") }}
-          {{ (.Date.Format "Jan 2, 2006") }}
+          {{ ($page.Date.Format "Jan 2, 2006") }}
         </time>
       </div>
     </div>
 
     <div class="py-4 px-6">
       <h2 class="mb-3 text-xl font-semibold text-default text-balance font-heading group-hover:text-accent">
-        {{ .Title }}
+        {{ $page.Title }}
       </h2>
 
       <div class="mb-4 text-sm leading-relaxed text-muted line-clamp-2">
-        {{ .Summary | plainify | truncate 200 }}
+        {{ $page.Summary | plainify | truncate 200 }}
       </div>
 
       <div class="flex justify-between items-center">
@@ -46,7 +55,7 @@
         </span>
         <span class="flex gap-1 items-center text-xs text-muted">
           {{- partial "icons/clock.html" }}
-          {{ .ReadingTime }} min
+          {{ $page.ReadingTime }} min
         </span>
       </div>
     </div>
