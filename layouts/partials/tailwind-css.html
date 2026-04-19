@@ -3,14 +3,14 @@
 
   {{- /* Development: no minify, no fingerprint */ -}}
   {{- if hugo.IsDevelopment }}
-    {{- with . | css.TailwindCSS }}
+    {{- with . | css.TailwindCSS (dict "skipInlineImportsNotFound" true) }}
 <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{- end }}
 
 
   {{- /* Production: minify + fingerprint */ -}}
   {{- else }}
-    {{- with . | css.TailwindCSS (dict "minify" true) }}
+    {{- with . | css.TailwindCSS (dict "minify" true "skipInlineImportsNotFound" true) }}
       {{- with . | fingerprint }}
 <link rel="stylesheet"
       href="{{ .RelPermalink }}"

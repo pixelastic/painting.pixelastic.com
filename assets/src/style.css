@@ -1,6 +1,9 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
-@source '../../hugo_stats.json'; /* Regenerate whenever Hugo changes */
+@source '../../hugo_stats.json'; /* To know exactly what classes to generate */
+
+@import 'glightbox/dist/css/glightbox.css';
+@import './debug.css';
 
 @theme {
   --font-sans:
@@ -79,5 +82,3 @@
     }
   }
 }
-
-@import './debug.css';
