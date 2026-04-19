@@ -1,8 +1,7 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
-@source '../hugo_stats.json'; /* Regenerate whenever Hugo changes */
+@source '../../hugo_stats.json'; /* Regenerate whenever Hugo changes */
 
-/* Self-healing cutting mat inspired theme */
 @theme {
   --font-sans:
     ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,

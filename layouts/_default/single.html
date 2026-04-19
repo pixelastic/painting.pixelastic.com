@@ -24,53 +24,41 @@
     </header>
 
     <div class="max-w-none prose prose-lg">
-      <!-- {{ .Content }} -->
+      {{ .Content }}
     </div>
 
   </article>
 
-  <nav debug class="flex justify-between mt-12">
+  <nav class="flex justify-between mt-12">
   {{- with .PrevInSection }}
     <a href="{{ .Permalink }}"
-       class="py-4 pr-4 pl-6 card hover:border-accent">
-       testjkjkj
-      <!--        class="flex gap-3 justify-end items-center p-6 w-full max-w-xs transition-all group card hover:border-accent"> -->
-      <!--       <svg class="flex-shrink-0 w-6 h-6 stroke-accent" -->
-      <!--            fill="none" -->
-      <!--            stroke="currentColor" -->
-      <!--            viewBox="0 0 24 24"> -->
-      <!-- <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /> -->
-      <!--       </svg> -->
-      <!--       <div class="min-w-0"> -->
-      <!--         <div class="text-lg font-bold text-default text-balance font-heading group-hover:text-accent"> -->
-      <!-- {{ .Title }} -->
-      <!--         </div> -->
-      <!--       </div> -->
+       class="flex gap-3 items-center py-4 px-6 max-w-sm transition-all group card hover:border-accent">
+      <div>
+        {{- partial "icons/previous.html" (dict "class" "stroke-accent w-6 h-6") }}
+      </div>
+      <div class="text-lg font-bold text-default text-balance font-heading group-hover:text-accent">
+      {{ .Title }}
+      </div>
     </a>
   {{- else }}
     <div>
     </div>
   {{- end }}
 
-    <!--   {{- with .NextInSection }} -->
-    <!--     <a href="{{ .Permalink }}" -->
-    <!--        class="flex gap-3 justify-end items-center p-6 w-full max-w-xs transition-all group card hover:border-accent"> -->
-    <!--       <div class="min-w-0 text-right"> -->
-    <!--         <div class="text-lg font-bold text-default text-balance font-heading group-hover:text-accent"> -->
-    <!-- {{ .Title }} -->
-    <!--         </div> -->
-    <!--       </div> -->
-    <!--       <svg class="flex-shrink-0 w-6 h-6 stroke-accent" -->
-    <!--            fill="none" -->
-    <!--            stroke="currentColor" -->
-    <!--            viewBox="0 0 24 24"> -->
-    <!-- <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /> -->
-    <!--       </svg> -->
-    <!--     </a> -->
-    <!--   {{- else }} -->
-    <!--     <div> -->
-    <!--     </div> -->
-    <!--   {{- end }} -->
+      {{- with .NextInSection }}
+    <a href="{{ .Permalink }}"
+       class="flex gap-3 justify-end items-center py-4 px-6 max-w-sm transition-all group card hover:border-accent">
+      <div class="text-lg font-bold text-default text-balance font-heading group-hover:text-accent">
+      {{ .Title }}
+      </div>
+      <div>
+        {{- partial "icons/next.html" (dict "class" "stroke-accent w-6 h-6") }}
+      </div>
+    </a>
+      {{- else }}
+    <div>
+    </div>
+      {{- end }}
   </nav>
 </div>
 

@@ -8,23 +8,14 @@ keywords = "terrain crafting, dungeon tiles, miniature painting, speedpaints, di
 
 [build]
 [build.buildStats]
-# Generate ./hugo_stats.json
+# Generate ./hugo_stats.json that contains all class names.
+# This is used as a source for Tailwind
 enable = true
 
 [[build.cachebusters]]
-# Whenever assets/hugo_stats.json is updated, rebuild CSS
+# Rebuild CSS whenever an HTML file is updated
 target = "css"
-source = "assets/hugo_stats\\.json"
-
-[module]
-# Make ./hugo_stats.json available as ./assets/hugo_stats.json
-[[module.mounts]]
-source = "assets"
-target = "assets"
-[[module.mounts]]
-source = "hugo_stats.json"
-target = "assets/hugo_stats.json"
-disableWatch = true
+source = "layouts/.*\\.html"
 
 [permalinks]
 posts = '/:contentbasename/'
