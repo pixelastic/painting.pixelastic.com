@@ -1,6 +1,6 @@
 ---
 title: "Dogs"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-03-11
 layout: post
 ---

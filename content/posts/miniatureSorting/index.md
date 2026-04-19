@@ -1,6 +1,6 @@
 ---
 title: "Miniature Sorting"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-04-09
 layout: post
 description: "Sorted my pile of shame by desire to paint rather than type. High quality drawer, monsters by size, descending quality tiers. Removed all bases for easier storage."

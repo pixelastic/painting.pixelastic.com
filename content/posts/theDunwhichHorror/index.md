@@ -1,6 +1,6 @@
 ---
 title: The Dunwhich Horror
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2020-07-30
 layout: post
 ---

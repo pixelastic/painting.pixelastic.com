@@ -1,6 +1,6 @@
 ---
 title: "Stone Elementals Color Tests"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-04-09
 layout: post
 description: "Used stone elemental miniature to test green Speedpaints. Lined them up to compare Ghoul Green, Orc Skin, and others since the names didn't match their actual colors."

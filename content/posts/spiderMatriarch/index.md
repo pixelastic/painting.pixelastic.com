@@ -1,6 +1,6 @@
 ---
 title: "Spider Matriarch"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-04-09
 layout: post
 description: "Transformed a plastic prank toy into the Baldur's Gate 3 spider boss. Bold blue and red color scheme instead of realistic brown tones."

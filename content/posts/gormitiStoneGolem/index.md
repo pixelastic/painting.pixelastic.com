@@ -1,6 +1,6 @@
 ---
 title: Gormiti Stone Golem
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2019-12-18
 layout: post
 ---

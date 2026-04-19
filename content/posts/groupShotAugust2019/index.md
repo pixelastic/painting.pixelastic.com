@@ -1,6 +1,6 @@
 ---
 title: Group Shot (August 2019)
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2019-08-03
 layout: post
 ---

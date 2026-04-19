@@ -1,6 +1,6 @@
 ---
 title: Gormiti Myconids
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2019-11-18
 layout: post
 ---

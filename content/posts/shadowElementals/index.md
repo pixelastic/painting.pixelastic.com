@@ -1,6 +1,6 @@
 ---
 title: Shadow Elementals
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2020-02-20
 layout: post
 ---

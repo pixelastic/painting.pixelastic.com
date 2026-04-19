@@ -1,6 +1,6 @@
 ---
 title: "Xzarts"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2023-08-17
 layout: post
 ---

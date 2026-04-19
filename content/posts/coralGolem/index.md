@@ -1,6 +1,6 @@
 ---
 title: "Coral Golem"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-04-07
 layout: post
 ---

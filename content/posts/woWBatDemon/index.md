@@ -1,6 +1,6 @@
 ---
 title: WoW Bat Demon
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2020-07-30
 layout: post
 ---

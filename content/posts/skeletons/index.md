@@ -1,6 +1,6 @@
 ---
 title: "Skeletons"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-03-09
 layout: post
 ---

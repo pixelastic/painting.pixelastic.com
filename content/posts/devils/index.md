@@ -1,6 +1,6 @@
 ---
 title: "Devils"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-04-09
 layout: post
 description: "Painted a devil unit using Speedpaint Markers and AK Real Color Markers. Mixed sources (Heroclix, D&D, 3D prints) unified with Blood Red. Mobile painting box workflow."

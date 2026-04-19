@@ -1,6 +1,6 @@
 ---
 title: "Giant Cobra"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-04-08
 layout: post
 description: "Found old photos of a giant cobra miniature I speedpainted. The color scheme is too dark and mold lines are visible, but it's usable on the battlefield."

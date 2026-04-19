@@ -1,6 +1,6 @@
 ---
 title: Lem, Warlock/Bard Tieffelin
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2019-12-12
 layout: post
 ---

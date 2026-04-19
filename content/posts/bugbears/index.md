@@ -1,6 +1,6 @@
 ---
 title: "Bugbears"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-04-09
 layout: post
 description: "Repainted D&D board game bugbears with alternating skin and fur colors. Black base for metallics and varied shield trophy hands. Before/after comparison coming."

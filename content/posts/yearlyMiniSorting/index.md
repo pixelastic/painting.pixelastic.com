@@ -1,6 +1,6 @@
 ---
 title: Yearly mini sorting
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2020-02-27
 layout: post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Heroclix Girder as an Iron Golem
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2019-07-20
 layout: post
 ---

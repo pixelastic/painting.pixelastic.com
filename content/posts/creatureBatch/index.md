@@ -1,6 +1,6 @@
 ---
 title: "Creature Batch Speedpaints"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-04-07
 layout: post
 description: "Painted a massive batch of diverse creatures to learn which Speedpaints I liked best. Simplified my palette by keeping only favorite colors that I actually use."

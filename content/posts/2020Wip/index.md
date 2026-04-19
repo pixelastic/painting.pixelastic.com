@@ -1,6 +1,6 @@
 ---
 title: 2020 WIP
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2020-02-16
 layout: post
 ---

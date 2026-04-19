@@ -1,6 +1,6 @@
 ---
 title: "WoW Miniatures"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2023-08-19
 layout: post
 ---

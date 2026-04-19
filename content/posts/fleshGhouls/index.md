@@ -1,6 +1,6 @@
 ---
 title: Flesh Ghouls
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2020-02-18
 layout: post
 ---

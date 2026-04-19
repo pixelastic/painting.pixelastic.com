@@ -1,6 +1,6 @@
 ---
 title: "Qadira Guards"
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2026-04-09
 layout: post
 description: "Fast-painted Pathfinder Qadira guards using ASOIAF Martell Spearmen. Speedpaint markers in Sarenrae's blue and yellow colors. Done in 1-2 evenings."

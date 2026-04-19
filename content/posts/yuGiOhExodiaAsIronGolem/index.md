@@ -1,6 +1,6 @@
 ---
 title: Yu-Gi-Oh Exodia as Iron Golem
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2019-07-20
 layout: post
 ---

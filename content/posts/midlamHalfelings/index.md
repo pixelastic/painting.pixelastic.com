@@ -1,6 +1,6 @@
 ---
 title: Midlam Halfelings
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2019-12-13
 layout: post
 ---

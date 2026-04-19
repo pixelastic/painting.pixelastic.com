@@ -1,6 +1,6 @@
 ---
 title: January 2020 Log
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2020-01-01
 layout: post
 ---

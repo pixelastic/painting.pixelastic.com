@@ -1,6 +1,6 @@
 ---
 title: Gormiti Shambling Mound
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2019-12-18
 layout: post
 ---

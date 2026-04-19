@@ -1,6 +1,6 @@
 ---
 title: Mansions of Madness Shoggoth
-tags: ["miniature"]
+tags: ["miniatures"]
 date: 2020-04-01
 layout: post
 ---
