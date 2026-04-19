@@ -2,4 +2,10 @@
 {{- if not (or (hasPrefix $src "http") (hasPrefix $src "/")) -}}
   {{- $src = path.Join .Page.RelPermalink $src -}}
 {{- end -}}
-<img src="{{ $src | relURL }}" alt="{{ .Text }}" loading="lazy">
+
+{{- /* Try to get the image resource for dimensions */ -}}
+{{- $image := .Page.Resources.GetMatch .Destination -}}
+
+<img src="{{ $src | relURL }}" alt="{{ .Text }}" loading="lazy"
+{{- with $image }} width="{{ .Width }}" height="{{ .Height }}"{{ end -}}
+>
