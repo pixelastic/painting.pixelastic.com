@@ -1,4 +1,8 @@
-{{- $image := .Page.Resources.GetMatch .Destination -}}
+{{- /* Try to find image as a page resource */ -}}
+{{- $destination := .Destination -}}
+{{- /* Remove ./ prefix if present to help GetMatch */ -}}
+{{- $destination = strings.TrimPrefix "./" $destination -}}
+{{- $image := .Page.Resources.GetMatch $destination -}}
 
 {{- if not $image -}}
   {{- /* Fallback to path string if not found as resource */ -}}

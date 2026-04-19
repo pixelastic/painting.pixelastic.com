@@ -26,7 +26,7 @@
 {{- if $imageIsResource -}}
   {{- /* In production, fingerprint the image for cache busting */ -}}
   {{- if hugo.IsProduction -}}
-    {{- $fingerprinted := $image | fingerprint -}}
+    {{- $fingerprinted := $image | fingerprint "md5" -}}
     {{- $src = $fingerprinted.RelPermalink -}}
   {{- else -}}
     {{- $src = $image.RelPermalink -}}

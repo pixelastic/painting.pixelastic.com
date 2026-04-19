@@ -26,6 +26,7 @@
   },
   "scripts": {
     "build": "./scripts/build",
+    "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
     "compress": "./scripts/compress",
     "lint": "./scripts/lint",
