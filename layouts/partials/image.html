@@ -24,7 +24,13 @@
 {{- $imageType := printf "%T" $image -}}
 {{- $imageIsResource := ne $imageType "string" -}}
 {{- if $imageIsResource -}}
-  {{- $src = $image.RelPermalink -}}
+  {{- /* In production, fingerprint the image for cache busting */ -}}
+  {{- if hugo.IsProduction -}}
+    {{- $fingerprinted := $image | fingerprint -}}
+    {{- $src = $fingerprinted.RelPermalink -}}
+  {{- else -}}
+    {{- $src = $image.RelPermalink -}}
+  {{- end -}}
 {{- end -}}
 
 <img src="{{ $src }}"
