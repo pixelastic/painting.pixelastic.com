@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     touchNavigation: true,
     loop: true,
     closeOnOutsideClick: true,
-    openEffect: 'zoom',
-    closeEffect: 'zoom',
-    slideEffect: 'slide',
+    openEffect: 'fade',
+    closeEffect: 'fade',
+    slideEffect: 'fade',
     zoomable: true,
     draggable: true,
   });

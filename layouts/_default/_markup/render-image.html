@@ -5,7 +5,18 @@
   {{- $image = .Destination -}}
 {{- end -}}
 
+{{- /* Get the URL for the lightbox link */ -}}
+{{- $imageUrl := "" -}}
+{{- $imageType := printf "%T" $image -}}
+{{- if ne $imageType "string" -}}
+  {{- $imageUrl = $image.RelPermalink -}}
+{{- else -}}
+  {{- $imageUrl = $image -}}
+{{- end -}}
+
+<a href="{{ $imageUrl }}" class="glightbox">
 {{- partial "image.html" (dict
   "image" $image
   "alt" .Text
 ) -}}
+</a>

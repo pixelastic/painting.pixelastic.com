@@ -22,8 +22,8 @@
 }
 
 /* Cutting mat background with grid pattern */
-.cutting-mat {
-  @apply pointer-events-none fixed inset-0;
+.cutting-mat,
+.goverlay {
   background-color: var(--background-color-cutting-mat);
   background-image:
     linear-gradient(to right, var(--border-color-muted) 1px, transparent 1px),
