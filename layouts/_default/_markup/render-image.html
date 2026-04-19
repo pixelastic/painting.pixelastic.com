@@ -1,11 +1,11 @@
-{{- $src := .Destination -}}
-{{- if not (or (hasPrefix $src "http") (hasPrefix $src "/")) -}}
-  {{- $src = path.Join .Page.RelPermalink $src -}}
-{{- end -}}
-
-{{- /* Try to get the image resource for dimensions */ -}}
 {{- $image := .Page.Resources.GetMatch .Destination -}}
 
-<img src="{{ $src | relURL }}" alt="{{ .Text }}" loading="lazy"
-{{- with $image }} width="{{ .Width }}" height="{{ .Height }}"{{ end -}}
->
+{{- if not $image -}}
+  {{- /* Fallback to path string if not found as resource */ -}}
+  {{- $image = .Destination -}}
+{{- end -}}
+
+{{- partial "image.html" (dict
+  "image" $image
+  "alt" .Text
+) -}}

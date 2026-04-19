@@ -5,9 +5,11 @@
     <div class="relative aspect-[2/1] {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
       <!-- Image -->
       {{- if $firstImageInMarkdown }}
-      <img src="{{ $firstImageInMarkdown.RelPermalink }}"
-           alt="{{ .Title }}"
-           class="object-cover w-full h-full">
+      {{- partial "image.html" (dict
+        "image" $firstImageInMarkdown
+        "alt" .Title
+        "class" "object-cover w-full h-full"
+      ) -}}
       {{- end }}
       <!-- Metadata -->
       <div class="flex absolute inset-x-4 bottom-4 justify-between items-end">

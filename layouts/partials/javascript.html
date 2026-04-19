@@ -1,0 +1,21 @@
+{{- with resources.Get "js/main.js" }}
+
+  {{- /* Development: readable output with source maps */ -}}
+  {{- if hugo.IsDevelopment }}
+    {{- with . | js.Build (dict "format" "esm" "target" "es2020") }}
+<script src="{{ .RelPermalink }}" type="module"></script>
+    {{- end }}
+
+  {{- /* Production: minify + fingerprint for cache busting */ -}}
+  {{- else }}
+    {{- with . | js.Build (dict "format" "esm" "target" "es2020" "minify" true) }}
+      {{- with . | fingerprint }}
+<script src="{{ .RelPermalink }}"
+        type="module"
+        integrity="{{ .Data.Integrity }}"
+        crossorigin="anonymous"></script>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+{{- end }}

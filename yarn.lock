@@ -4920,6 +4920,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"glightbox@npm:3.3.1":
+  version: 3.3.1
+  resolution: "glightbox@npm:3.3.1"
+  checksum: 10c0/02aa97dbafece20027032a6dad19d3827ee18ac002b07e4e3c38e541a6efb0d67971b9d25fb019ac61e6a1a90dd08b3f1b2c69f759003706b22a1d3260bf1a89
+  languageName: node
+  linkType: hard
+
 "glob-parent@npm:^5.1.2":
   version: 5.1.2
   resolution: "glob-parent@npm:5.1.2"
@@ -7168,6 +7175,7 @@ __metadata:
     "@tailwindcss/cli": "npm:4.2.2"
     "@tailwindcss/typography": "npm:0.5.19"
     aberlaas: "npm:2.27.3"
+    glightbox: "npm:3.3.1"
     prettier-plugin-go-template: "npm:0.0.15"
   languageName: unknown
   linkType: soft

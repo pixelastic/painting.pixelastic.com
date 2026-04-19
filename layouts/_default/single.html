@@ -37,9 +37,11 @@
       <!-- Image on the left for previous -->
       <div class="flex-shrink-0 w-32 {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
         {{- if $firstImageInMarkdown }}
-        <img src="{{ $firstImageInMarkdown.RelPermalink }}"
-             alt="{{ .Title }}"
-             class="object-cover w-full h-full">
+        {{- partial "image.html" (dict
+          "image" $firstImageInMarkdown
+          "alt" .Title
+          "class" "object-cover w-full h-full"
+        ) -}}
         {{- end }}
       </div>
       <div class="flex flex-col gap-2 py-4 px-4">
@@ -78,9 +80,11 @@
       <!-- Image on the right for next -->
       <div class="flex-shrink-0 w-32 {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
         {{- if $firstImageInMarkdown }}
-        <img src="{{ $firstImageInMarkdown.RelPermalink }}"
-             alt="{{ .Title }}"
-             class="object-cover w-full h-full">
+        {{- partial "image.html" (dict
+          "image" $firstImageInMarkdown
+          "alt" .Title
+          "class" "object-cover w-full h-full"
+        ) -}}
         {{- end }}
       </div>
       <div class="flex flex-col gap-2 py-4 px-4 text-right">

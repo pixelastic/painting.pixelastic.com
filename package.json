@@ -21,6 +21,9 @@
     "aberlaas": "2.27.3",
     "prettier-plugin-go-template": "0.0.15"
   },
+  "dependencies": {
+    "glightbox": "3.3.1"
+  },
   "scripts": {
     "build": "./scripts/build",
     "ci": "./scripts/ci",
