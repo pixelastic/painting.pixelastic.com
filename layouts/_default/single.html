@@ -32,7 +32,7 @@
   <nav class="flex gap-4 justify-between mt-12">
   {{- with .PrevInSection }}
     {{- $firstImageInMarkdown := partial "post/firstImage.html" . }}
-    <a href="{{ .Permalink }}"
+    <a href="{{ .RelPermalink }}"
        class="flex overflow-hidden w-full max-w-md h-32 transition-all min-w-80 group card hover:border-accent">
       <!-- Image on the left for previous -->
       <div class="flex-shrink-0 w-32 {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
@@ -75,7 +75,7 @@
 
       {{- with .NextInSection }}
     {{- $firstImageInMarkdown := partial "post/firstImage.html" . }}
-    <a href="{{ .Permalink }}"
+    <a href="{{ .RelPermalink }}"
        class="flex overflow-hidden flex-row-reverse ml-auto w-full max-w-md h-32 transition-all min-w-80 group card hover:border-accent">
       <!-- Image on the right for next -->
       <div class="flex-shrink-0 w-32 {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">

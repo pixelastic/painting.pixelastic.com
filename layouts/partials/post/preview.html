@@ -9,7 +9,7 @@
 {{- end -}}
 
 <article class="transition-all card hover:border-accent/30">
-  <a href="{{ $page.Permalink }}" class="block group">
+  <a href="{{ $page.RelPermalink }}" class="block group">
     <div class="relative aspect-[2/1] {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
       <!-- Image -->
       {{- if $firstImageInMarkdown }}

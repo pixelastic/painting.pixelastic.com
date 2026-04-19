@@ -24,10 +24,12 @@
 {{- $imageType := printf "%T" $image -}}
 {{- $imageIsResource := ne $imageType "string" -}}
 {{- if $imageIsResource -}}
-  {{- /* In production, fingerprint the image for cache busting */ -}}
+  {{- /* In production, fingerprint the image for cache busting and use Cloudinary proxy */ -}}
   {{- if hugo.IsProduction -}}
     {{- $fingerprinted := $image | fingerprint "md5" -}}
-    {{- $src = $fingerprinted.RelPermalink -}}
+    {{- $src = $fingerprinted.Permalink -}}
+    {{- /* Proxy through Cloudinary for optimization */ -}}
+    {{- $src = printf "https://res.cloudinary.com/pixelastic-painting/image/fetch/f_auto/%s" $src -}}
   {{- else -}}
     {{- $src = $image.RelPermalink -}}
   {{- end -}}
