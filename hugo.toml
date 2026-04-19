@@ -1,6 +1,7 @@
 baseURL = 'https://painting.pixelastic.com/'
 languageCode = 'en-us'
 title = 'Pixelastic Painting Log'
+disablePathToLower = true
 
 [params]
 description = "Documenting my journey through miniature painting and terrain building."
