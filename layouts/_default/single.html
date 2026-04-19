@@ -29,15 +29,41 @@
 
   </article>
 
-  <nav class="flex justify-between mt-12">
+  <nav class="flex gap-4 justify-between mt-12">
   {{- with .PrevInSection }}
+    {{- $firstImageInMarkdown := partial "post/firstImage.html" . }}
     <a href="{{ .Permalink }}"
-       class="flex gap-3 items-center py-4 px-6 max-w-sm transition-all group card hover:border-accent">
-      <div>
-        {{- partial "icons/previous.html" (dict "class" "stroke-accent w-6 h-6") }}
+       class="flex overflow-hidden w-full max-w-md h-32 transition-all min-w-80 group card hover:border-accent">
+      <!-- Image on the left for previous -->
+      <div class="flex-shrink-0 w-32 {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
+        {{- if $firstImageInMarkdown }}
+        <img src="{{ $firstImageInMarkdown.RelPermalink }}"
+             alt="{{ .Title }}"
+             class="object-cover w-full h-full">
+        {{- end }}
       </div>
-      <div class="text-lg font-bold text-default text-balance font-heading group-hover:text-accent">
-      {{ .Title }}
+      <div class="flex flex-col gap-2 py-4 px-4">
+        <div class="flex gap-2 items-center text-sm text-muted">
+          <span class="transition-transform group-hover:-translate-x-1">
+            {{- partial "icons/previous.html" (dict "class" "stroke-accent w-4 h-4") }}
+          </span>
+          <span>Previous</span>
+        </div>
+        <div class="text-lg font-bold text-default text-balance font-heading group-hover:text-accent">
+        {{ .Title }}
+        </div>
+        <div class="flex gap-2 items-center text-xs text-muted">
+          <span class="flex gap-1 items-center">
+            {{- partial "icons/clock.html" }}
+            {{ .ReadingTime }} min
+          </span>
+          {{- range .Params.tags }}
+          <span class="inline-flex gap-1 items-center">
+            {{- partial "icons/tag.html" (dict "class" "stroke-accent w-3 h-3") }}
+            {{ . }}
+          </span>
+          {{- end }}
+        </div>
       </div>
     </a>
   {{- else }}
@@ -46,13 +72,39 @@
   {{- end }}
 
       {{- with .NextInSection }}
+    {{- $firstImageInMarkdown := partial "post/firstImage.html" . }}
     <a href="{{ .Permalink }}"
-       class="flex gap-3 justify-end items-center py-4 px-6 max-w-sm transition-all group card hover:border-accent">
-      <div class="text-lg font-bold text-default text-balance font-heading group-hover:text-accent">
-      {{ .Title }}
+       class="flex overflow-hidden flex-row-reverse ml-auto w-full max-w-md h-32 transition-all min-w-80 group card hover:border-accent">
+      <!-- Image on the right for next -->
+      <div class="flex-shrink-0 w-32 {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
+        {{- if $firstImageInMarkdown }}
+        <img src="{{ $firstImageInMarkdown.RelPermalink }}"
+             alt="{{ .Title }}"
+             class="object-cover w-full h-full">
+        {{- end }}
       </div>
-      <div>
-        {{- partial "icons/next.html" (dict "class" "stroke-accent w-6 h-6") }}
+      <div class="flex flex-col gap-2 py-4 px-4 text-right">
+        <div class="flex gap-2 justify-end items-center text-sm text-muted">
+          <span>Next</span>
+          <span class="transition-transform group-hover:translate-x-1">
+            {{- partial "icons/next.html" (dict "class" "stroke-accent w-4 h-4") }}
+          </span>
+        </div>
+        <div class="text-lg font-bold text-default text-balance font-heading group-hover:text-accent">
+        {{ .Title }}
+        </div>
+        <div class="flex gap-2 justify-end items-center text-xs text-muted">
+          {{- range .Params.tags }}
+          <span class="inline-flex gap-1 items-center">
+            {{- partial "icons/tag.html" (dict "class" "stroke-accent w-3 h-3") }}
+            {{ . }}
+          </span>
+          {{- end }}
+          <span class="flex gap-1 items-center">
+            {{- partial "icons/clock.html" }}
+            {{ .ReadingTime }} min
+          </span>
+        </div>
       </div>
     </a>
       {{- else }}
