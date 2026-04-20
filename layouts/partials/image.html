@@ -20,10 +20,7 @@
 
 {{- $src := "" -}}
 {{- $lqipStyle := "" -}}
-{{- $lazyClass := "" -}}
-{{- if $lazy -}}
-  {{- $lazyClass = "lazy lazy-loading" -}}
-{{- end -}}
+{{- $lqipClass := "" -}}
 
 {{- /* If image is a resource, we get its path */ -}}
 {{- $imageType := printf "%T" $image -}}
@@ -33,6 +30,8 @@
   {{- $lqip := $image.Resize "20x" -}}
   {{- $lqipBase64 := printf "data:image/jpeg;base64,%s" ($lqip.Content | base64Encode) -}}
   {{- $lqipStyle = printf "background-image: url('%s');" $lqipBase64 -}}
+  {{- /* All resources get LQIP classes */ -}}
+  {{- $lqipClass = "lqip lqip-loading" -}}
 
   {{- /* Get the final image URL */ -}}
   {{- if hugo.IsProduction -}}
@@ -44,7 +43,7 @@
     {{- $src = $image.RelPermalink -}}
   {{- end -}}
 {{- else -}}
-  {{- /* String path, use as-is */ -}}
+  {{- /* String path, use as-is (no LQIP for external images) */ -}}
   {{- $src = $image -}}
 {{- end -}}
 
@@ -53,7 +52,7 @@
      {{- if $lazy }}
      loading="lazy"
      {{ end }}
-     class="{{ $class }}{{ if $lazyClass }} {{ $lazyClass }}{{ end }}"
+     class="{{ $class }}{{ if $lqipClass }} {{ $lqipClass }}{{ end }}"
      {{- if $lqipStyle }}
      style="{{ $lqipStyle | safeCSS }}"
      {{ end }}

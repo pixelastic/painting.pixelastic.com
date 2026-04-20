@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
     draggable: true,
   });
 
-  // LQIP lazy loading: switch from lazy-loading to lazy-loaded when image loads
-  document.querySelectorAll('img.lazy-loading').forEach((img) => {
+  // LQIP: remove blur when image finishes loading
+  document.querySelectorAll('img.lqip-loading').forEach((img) => {
     const handleLoad = () => {
-      img.classList.remove('lazy-loading');
-      img.classList.add('lazy-loaded');
+      img.classList.remove('lqip-loading');
+      img.classList.add('lqip-loaded');
     };
 
     if (img.complete) {
