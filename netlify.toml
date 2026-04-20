@@ -1,15 +1,10 @@
 # Build website with Hugo
 [build]
-  command = "make install && make build"
-  publish = "public"
-
-# Build environment
-[build.environment]
-  GO_VERSION = "1.24"
-  HUGO_VERSION = "0.160.1"
+command = "yarn run build:prod"
+publish = "public"
 
 # Terry Pratchett homage
 [[headers]]
-  for = "/*"
-  [headers.values]
-    X-Clacks-Overhead = "GNU Terry Pratchett"
+for = "/*"
+[headers.values]
+X-Clacks-Overhead = "GNU Terry Pratchett"
