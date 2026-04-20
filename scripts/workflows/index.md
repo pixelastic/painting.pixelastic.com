@@ -35,13 +35,13 @@ Filename format: `image-YYYYMMDDHHMMSS.png`
 ```markdown
 ---
 title: "<Title in English>"
-tags: <tag>
+tags: [<tag>]
 date: <YYYY-MM-DD>
 layout: post
 ---
 ```
 
-Valid tags: `terrain`, `miniature`, `painting`, `wip` (use only one)
+Valid tags: `terrain`, `miniatures`, `misc` (use only one, as an array)
 
 ---
 

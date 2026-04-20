@@ -1,6 +1,6 @@
 ---
 title: "Heroclix"
-tags: ["Miniature"]
+tags: ["miniatures"]
 date: 2019-01-08
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Qadira Desert Houses"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-20
 layout: post
 keywords: "Qadira, Golarion, sandpaper texture, foam carving, modular buildings, Jenga blocks, resin casting, drybrushing"

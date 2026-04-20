@@ -124,7 +124,7 @@ Add the `keywords` and `description` fields to the frontmatter:
 ```markdown
 ---
 title: "Sacrificial Altar Megablocks"
-tags: terrain
+tags: [terrain]
 date: 2026-04-02
 layout: post
 keywords: "Megablocks altar, foam sculpting, lighting mechanism, secondhand finds, modular terrain"

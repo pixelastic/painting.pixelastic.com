@@ -1,6 +1,6 @@
 ---
 title: "Burning Coals"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-20
 layout: post
 keywords: "burning coals, plastic treasure, flea market finds, foam terrain, glue gun texture, Daemonic Yellow, Fanatic Warpaint, flame painting, Trent Holbrook"

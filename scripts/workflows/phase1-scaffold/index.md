@@ -24,7 +24,7 @@
    ```markdown
    ---
    title: "<Inferred Title>"
-   tags: terrain
+   tags: [terrain]
    date: <YYYY-MM-DD>
    layout: post
    ---

@@ -1,6 +1,6 @@
 ---
 title: "Basecoat"
-tags: ["Miniature"]
+tags: ["miniatures"]
 date: 2019-01-03
 ---
 

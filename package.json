@@ -34,6 +34,7 @@
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
     "open:camera": "./scripts/open-camera",
+    "open:netlify": "./scripts/open-netlify",
     "open:todo": "./scripts/open-todo",
     "release": "./scripts/release",
     "serve": "./scripts/serve",

@@ -1,6 +1,6 @@
 ---
 title: "Magnetic Tiles"
-tags: terrain
+tags: ["terrain"]
 date: 2026-04-20
 layout: post
 keywords: "magnetic tiles, dungeon tiles, baby toys conversion, foam tiles, modular terrain, cardboard edging, texture roller, oil paint washes"

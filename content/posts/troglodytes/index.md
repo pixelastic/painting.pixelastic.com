@@ -1,6 +1,6 @@
 ---
 title: "Troglodytes"
-tags: miniature
+tags: ["miniatures"]
 date: 2026-04-20
 layout: post
 keywords: "Moria goblins, speedpaints, purple wash, Mongrelmen, Heroclix, desert canyon encounter"

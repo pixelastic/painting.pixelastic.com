@@ -1,6 +1,6 @@
 ---
 title: "Hobgoblins"
-tags: miniature
+tags: ["miniatures"]
 date: 2026-04-20
 layout: post
 keywords: "hobgoblins, Red Hand of Doom, Scarlet Citadel, flea market finds, Ral Partha, Grim Black speedpaint, Faber-Castell gold pen, batch painting, Ochre Clay"

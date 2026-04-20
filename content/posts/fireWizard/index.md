@@ -1,6 +1,6 @@
 ---
 title: "Fire Wizard"
-tags: miniature
+tags: ["miniatures"]
 date: 2026-04-20
 layout: post
 keywords: "fire mage, Heroclix repaint, yellow coverage, AK markers, black marker lining, BBEG miniature"

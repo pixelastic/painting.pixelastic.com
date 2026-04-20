@@ -1,6 +1,6 @@
 ---
 title: "Bases"
-tags: ["Miniature"]
+tags: ["miniatures"]
 date: 2019-01-05
 ---
 
