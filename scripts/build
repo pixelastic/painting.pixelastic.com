@@ -1,11 +1,10 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 # Build the site locally
 
-# Initialize GVM
-[[ -s ~/.gvm/scripts/gvm ]] && source ~/.gvm/scripts/gvm
-
-# Stop on errors only once GVM is loaded
-set -e
+# Load hugo from GVM if not available
+if ! command -v hugo >/dev/null; then
+  source "$HOME/.gvm/scripts/gvm" >/dev/null
+fi
 
 # Build for local dev
 hugo --minify
