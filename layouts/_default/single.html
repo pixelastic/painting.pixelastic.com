@@ -44,14 +44,14 @@
         ) -}}
         {{- end }}
       </div>
-      <div class="flex flex-col gap-2 py-4 px-4">
+      <div class="flex flex-col gap-2 p-4">
         <div class="flex gap-2 items-center text-sm text-muted">
           <span class="transition-transform group-hover:-translate-x-1">
             {{- partial "icons/previous.html" (dict "class" "stroke-accent w-4 h-4") }}
           </span>
           <span>Previous</span>
         </div>
-        <div class="text-lg font-bold text-default text-balance font-heading group-hover:text-accent">
+        <div class="text-lg font-bold leading-tight text-default text-balance font-heading group-hover:text-accent">
         {{ .Title }}
         </div>
         <div class="flex gap-2 items-center text-xs text-muted">
@@ -87,14 +87,14 @@
         ) -}}
         {{- end }}
       </div>
-      <div class="flex flex-col gap-2 py-4 px-4 text-right">
+      <div class="flex flex-col gap-2 p-4 text-right">
         <div class="flex gap-2 justify-end items-center text-sm text-muted">
           <span>Next</span>
           <span class="transition-transform group-hover:translate-x-1">
             {{- partial "icons/next.html" (dict "class" "stroke-accent w-4 h-4") }}
           </span>
         </div>
-        <div class="text-lg font-bold text-default text-balance font-heading group-hover:text-accent">
+        <div class="text-lg font-bold leading-tight text-default text-balance font-heading group-hover:text-accent">
         {{ .Title }}
         </div>
         <div class="flex gap-2 justify-end items-center text-xs text-muted">
