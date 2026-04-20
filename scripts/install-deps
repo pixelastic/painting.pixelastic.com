@@ -2,12 +2,12 @@
 # Install all dependencies (Hugo + npm)
 
 # Initialize GVM (Go Version Manager)
-[[ -s ~/.gvm/scripts/gvm ]] && source ~/.gvm/scripts/gvm
+[[ -s ~/.gvm/scripts/gvm ]] && source ~/.gvm/scripts/gvm >/dev/null 2>&1
 
 set -e
 
 # Read Hugo version from netlify.toml (single source of truth)
-HUGO_VERSION=$(rg 'HUGO_VERSION\s*=\s*"([^"]+)"' netlify.toml -o -r '$1')
+HUGO_VERSION=$(\grep 'HUGO_VERSION' netlify.toml | cut -d'"' -f2 | tr -d '[:space:]')
 
 echo "📦 Installing Hugo v${HUGO_VERSION}..."
 go install github.com/gohugoio/hugo@v${HUGO_VERSION}

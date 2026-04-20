@@ -4,7 +4,7 @@ command = "yarn run build:prod"
 publish = "public"
 
 [build.environment]
-HUGO_VERSION = "0.171.0"
+HUGO_VERSION = "0.160.1"
 
 # Terry Pratchett homage
 [[headers]]
