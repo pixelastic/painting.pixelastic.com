@@ -25,6 +25,7 @@
     "glightbox": "3.3.1"
   },
   "scripts": {
+    "agent:delete-orphaned-images": "./scripts/agent/delete-orphaned-images",
     "build": "./scripts/build",
     "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
@@ -32,9 +33,12 @@
     "install-deps": "./scripts/install-deps",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
+    "open:camera": "./scripts/open-camera",
+    "open:todo": "./scripts/open-todo",
     "release": "./scripts/release",
     "serve": "./scripts/serve",
     "test": "./scripts/test",
-    "test:watch": "./scripts/test-watch"
+    "test:watch": "./scripts/test-watch",
+    "writing-buddy": "./scripts/writing-buddy"
   }
 }
