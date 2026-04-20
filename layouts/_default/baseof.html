@@ -9,6 +9,9 @@
     <meta name="keywords"
           content="{{ if .Keywords }}{{ .Keywords }}{{ else if .Site.Params.keywords }}{{ .Site.Params.keywords }}{{ end }}">
 
+    {{- /* OpenGraph and social sharing meta tags */ -}}
+    {{ partial "opengraph.html" . }}
+
     {{- /* Defer loading of Tailwind AFTER hugo_stats.json is generated */ -}}
     {{ with (templates.Defer (dict "key" "css")) }}
     {{ partial "tailwind-css.html" . }}

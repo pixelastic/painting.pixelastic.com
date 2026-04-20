@@ -1,0 +1,46 @@
+{{- /* OpenGraph meta tags for social sharing */ -}}
+
+{{- /* Basic OG tags */ -}}
+<meta property="og:title"
+      content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description"
+      content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:type"
+      content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+{{- /* OG Image */ -}}
+{{- $ogImage := "" -}}
+{{- if .IsPage -}}
+  {{- /* For posts, use first image in content */ -}}
+  {{- $firstImage := partial "post/firstImage.html" . -}}
+  {{- if $firstImage -}}
+    {{- $ogImage = $firstImage.Permalink -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Fallback to site default image if needed */ -}}
+{{- if not $ogImage -}}
+  {{- if .Site.Params.ogImage -}}
+    {{- $ogImage = .Site.Params.ogImage | absURL -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $ogImage -}}
+<meta property="og:image" content="{{ $ogImage }}">
+<meta property="og:image:alt" content="{{ .Title }}">
+{{- end -}}
+
+{{- /* Article specific tags */ -}}
+{{- if .IsPage -}}
+<meta property="article:published_time"
+      content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+{{- if .Lastmod -}}
+<meta property="article:modified_time"
+      content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+{{- end -}}
+{{- range .Params.tags -}}
+<meta property="article:tag" content="{{ . }}">
+{{- end -}}
+{{- end -}}
