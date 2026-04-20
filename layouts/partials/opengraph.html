@@ -16,7 +16,9 @@
   {{- /* For posts, use first image in content */ -}}
   {{- $firstImage := partial "post/firstImage.html" . -}}
   {{- if $firstImage -}}
-    {{- $ogImage = $firstImage.Permalink -}}
+    {{- $ogImageRaw := $firstImage.Permalink -}}
+    {{- /* Optimize through Cloudinary: max 1200x630px, preserve aspect ratio, auto format, compressed */ -}}
+    {{- $ogImage = printf "https://res.cloudinary.com/pixelastic-painting/image/fetch/w_1200,h_630,c_limit,f_auto,q_auto/%s" $ogImageRaw -}}
   {{- end -}}
 {{- end -}}
 
