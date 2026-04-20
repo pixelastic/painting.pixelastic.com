@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-# Build the site for production with fingerprinting
+# Build the site locally
 
 # Initialize GVM
 [[ -s ~/.gvm/scripts/gvm ]] && source ~/.gvm/scripts/gvm
@@ -7,7 +7,5 @@
 # Stop on errors only once GVM is loaded
 set -e
 
-# Hugo build in production mode with integrated Tailwind CSS processing
-# Hugo calls css.TailwindCSS function automatically during build
-# Production mode enables fingerprinting for cache busting
+# Build for production
 hugo --minify --environment production

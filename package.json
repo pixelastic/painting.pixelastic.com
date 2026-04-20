@@ -29,11 +29,11 @@
     "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
     "compress": "./scripts/compress",
+    "install-deps": "./scripts/install-deps",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
     "serve": "./scripts/serve",
-    "setup": "./scripts/setup",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
   }

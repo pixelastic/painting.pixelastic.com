@@ -7,6 +7,5 @@
 # Stop on errors only once GVM is loaded
 set -e
 
-# Hugo build with integrated Tailwind CSS processing
-# Hugo calls css.TailwindCSS function automatically during build
+# Build for local dev
 hugo --minify

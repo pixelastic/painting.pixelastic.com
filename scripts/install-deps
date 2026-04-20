@@ -6,8 +6,11 @@
 
 set -e
 
-echo "📦 Installing Hugo..."
-go install github.com/gohugoio/hugo@v0.171.0
+# Read Hugo version from netlify.toml (single source of truth)
+HUGO_VERSION=$(rg 'HUGO_VERSION\s*=\s*"([^"]+)"' netlify.toml -o -r '$1')
+
+echo "📦 Installing Hugo v${HUGO_VERSION}..."
+go install github.com/gohugoio/hugo@v${HUGO_VERSION}
 echo "✅ Hugo installed successfully!"
 echo ""
 hugo version
