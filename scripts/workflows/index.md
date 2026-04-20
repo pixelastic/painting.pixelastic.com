@@ -21,8 +21,8 @@ Only do something else if user explicitly requests a different phase (update pos
 
 Posts live at:
 ```
-src/<post-slug>/index.md
-src/<post-slug>/<image-files>
+content/posts/<post-slug>/index.md
+content/posts/<post-slug>/<image-files>
 ```
 
 Images are auto-saved by Typora when copy-pasted.
@@ -54,7 +54,7 @@ Examples:
 - "rats de Warhammer Quest" → `warhammerQuestRats/`
 
 **Search strategy**:
-1. List posts: `ls src/`
+1. List posts: `ls content/posts/`
 2. Search by English keywords in slugs or file contents
 
 ---
@@ -68,11 +68,11 @@ Examples:
 ### Updating an Existing Post
 **Trigger**: "update", "modifier", "ajouter des photos"
 
-1. Find post in `src/` (slugs are in English)
-2. Read `src/<slug>/index.md`
+1. Find post in `content/posts/` (slugs are in English)
+2. Read `content/posts/<slug>/index.md`
 3. Ask: **"J'ai trouvé le post. Veux-tu ouvrir Typora pour ajouter/modifier des images ? Ou les as-tu déjà ajoutées ?"**
 4. If images ready → scripts/workflows/phase2-numbering/index.md
-5. If user wants Typora → `typora src/<slug>/index.md > /dev/null 2>&1 &`, then tell user it's open
+5. If user wants Typora → `typora content/posts/<slug>/index.md > /dev/null 2>&1 &`, then tell user it's open
 
 ---
 

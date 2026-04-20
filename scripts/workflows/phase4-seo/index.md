@@ -156,7 +156,7 @@ Search for related posts in the blog that could be linked to.
    - Similar project types (ruined houses, altars, etc.)
    - Common challenges (lighting mechanisms, painting, etc.)
 
-2. **Search other posts** in `src/*/index.md`:
+2. **Search other posts** in `content/posts/*/index.md`:
    - Use Grep to find posts mentioning the same themes
    - Read promising posts to verify relevance
 

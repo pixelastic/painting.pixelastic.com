@@ -15,12 +15,12 @@
    - **DO NOT ask the user for confirmation** - just make the decision
    - **DO NOT search/read other files first** - just infer from the subject
 
-2. **Create the directory**: `src/<slug>/`
+2. **Create the directory**: `content/posts/<slug>/`
    - If it already exists, rephrase the slug with different words that mean the same thing
    - Example: if `ruinedHouse` exists, try `abandonedHouse`, `damagedBuilding`, `destroyedHome`, etc.
    - **DO NOT use numeric suffixes** - find a different way to say it
 
-3. **Create `src/<slug>/index.md`** with ONLY frontmatter:
+3. **Create `content/posts/<slug>/index.md`** with ONLY frontmatter:
    ```markdown
    ---
    title: "<Inferred Title>"
@@ -37,7 +37,7 @@
 
 4. **Open in Typora** (MANDATORY):
    ```bash
-   typora src/<slug>/index.md > /dev/null 2>&1 &
+   typora content/posts/<slug>/index.md > /dev/null 2>&1 &
    ```
    (Run in background, suppress output)
 
