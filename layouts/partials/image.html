@@ -5,26 +5,36 @@
   - image: (resource|string) REQUIRED - Either a Hugo resource object OR a string (src/path)
   - alt: (string) Alt text
   - class: (string) CSS classes to apply
-  - loading: (string) "lazy" | "eager" | "" (default: "lazy")
+  - lazy: (bool) true = show only LQIP placeholder, false = load image directly (default: true)
 
   Usage examples:
   With resource: {{ partial "image.html" (dict "image" $imageResource "alt" "My image") }}
   With string:   {{ partial "image.html" (dict "image" "/path/to/image.png" "alt" "My image") }}
-  No lazy load:  {{ partial "image.html" (dict "image" $img "alt" "Hero" "loading" "eager") }}
+  No lazy load:  {{ partial "image.html" (dict "image" $img "alt" "Hero" "lazy" false) }}
 */ -}}
 
 {{- $image := .image -}}
 {{- $alt := .alt | default "" -}}
 {{- $class := .class | default "" -}}
-{{- $loading := .loading | default "lazy" -}}
+{{- $lazy := .lazy | default true -}}
 
-{{- $src := $image -}}
+{{- $src := "" -}}
+{{- $lqipStyle := "" -}}
+{{- $lazyClass := "" -}}
+{{- if $lazy -}}
+  {{- $lazyClass = "lazy lazy-loading" -}}
+{{- end -}}
 
 {{- /* If image is a resource, we get its path */ -}}
 {{- $imageType := printf "%T" $image -}}
 {{- $imageIsResource := ne $imageType "string" -}}
 {{- if $imageIsResource -}}
-  {{- /* In production, fingerprint the image for cache busting and use Cloudinary proxy */ -}}
+  {{- /* Generate LQIP for placeholder */ -}}
+  {{- $lqip := $image.Resize "20x" -}}
+  {{- $lqipBase64 := printf "data:image/jpeg;base64,%s" ($lqip.Content | base64Encode) -}}
+  {{- $lqipStyle = printf "background-image: url('%s');" $lqipBase64 -}}
+
+  {{- /* Get the final image URL */ -}}
   {{- if hugo.IsProduction -}}
     {{- $fingerprinted := $image | fingerprint "md5" -}}
     {{- $src = $fingerprinted.Permalink -}}
@@ -33,13 +43,19 @@
   {{- else -}}
     {{- $src = $image.RelPermalink -}}
   {{- end -}}
+{{- else -}}
+  {{- /* String path, use as-is */ -}}
+  {{- $src = $image -}}
 {{- end -}}
 
 <img src="{{ $src }}"
      alt="{{ $alt }}"
-     loading="{{ $loading }}"
-     {{- if $class }}
-     class="{{ $class }}"
+     {{- if $lazy }}
+     loading="lazy"
+     {{ end }}
+     class="{{ $class }}{{ if $lazyClass }} {{ $lazyClass }}{{ end }}"
+     {{- if $lqipStyle }}
+     style="{{ $lqipStyle | safeCSS }}"
      {{ end }}
      {{- if $imageIsResource -}}
      width="{{ $image.Width }}"

@@ -18,9 +18,20 @@
   {{- $imageUrl = $image -}}
 {{- end -}}
 
+{{- /* Count images for lazy loading logic */ -}}
+{{- $scratchKey := printf "imageCount-%s" .Page.RelPermalink -}}
+{{- $imageCount := .Page.Store.Get $scratchKey | default 0 -}}
+{{- .Page.Store.Set $scratchKey (add $imageCount 1) -}}
+{{- $lazy := true -}}
+{{- if le $imageCount 1 -}}
+  {{- /* First 2 images (index 0 and 1) are not lazy */ -}}
+  {{- $lazy = false -}}
+{{- end -}}
+
 <a href="{{ $imageUrl }}" class="glightbox">
 {{- partial "image.html" (dict
   "image" $image
   "alt" .Text
+  "lazy" $lazy
 ) -}}
 </a>

@@ -4,6 +4,7 @@
 
 @import 'glightbox/dist/css/glightbox.css';
 @import './debug.css';
+@import './lazy.css';
 
 @theme {
   --font-sans:

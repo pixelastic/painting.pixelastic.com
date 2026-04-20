@@ -2,10 +2,10 @@
 {{- $isAboveTheFold := .isAboveTheFold | default false -}}
 {{- $firstImageInMarkdown := partial "post/firstImage.html" $page }}
 
-{{- /* Above the fold images should load eagerly */ -}}
-{{- $loading := "lazy" -}}
+{{- /* Above the fold images should not be lazy loaded */ -}}
+{{- $lazy := true -}}
 {{- if $isAboveTheFold -}}
-  {{- $loading = "eager" -}}
+  {{- $lazy = false -}}
 {{- end -}}
 
 <article class="transition-all card hover:border-accent/30">
@@ -17,7 +17,7 @@
         "image" $firstImageInMarkdown
         "alt" $page.Title
         "class" "object-cover w-full h-full"
-        "loading" $loading
+        "lazy" $lazy
       ) -}}
       {{- end }}
       <!-- Metadata -->
