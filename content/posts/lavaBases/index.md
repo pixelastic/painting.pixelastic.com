@@ -1,7 +1,7 @@
 ---
 title: "Lava Bases"
 tags: ["terrain"]
-date: 2026-03-20
+date: 2026-04-21
 layout: post
 keywords: "lava bases, AK markers, Zealot Yellow speedpaint, Wolf Grey Vallejo, Carne Marron, drybrushing, miniature bases, marker painting"
 description: "First time making lava bases using AK markers and speedpaints. Layer yellow, orange, and red with drybrushing for glowing molten effect."
@@ -94,4 +94,3 @@ What's nice is that most of the painting work is done with AK markers. I can wor
 
 <!-- Image 16 -->
 ![Final group shot of all completed lava bases](image-20260420232001049.png)
-
