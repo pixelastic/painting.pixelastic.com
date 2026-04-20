@@ -93,9 +93,9 @@ Add numbered comments, delete orphans, compress images in background
 ### Phase 3 — Write the Draft
 File: scripts/workflows/phase3-writing/index.md
 This phase runs multiple sub-steps autonomously:
-1. Parse and translate (scripts/workflows/phase3-writing/1-translation.md) - Parse French descriptions, translate to English with glossary, write intro/conclusion
-2. Flow & polish (scripts/workflows/phase3-writing/2-flow-polish.md) - Merge choppy sentences, eliminate repetitions, add transitions
-3. Humanization (scripts/workflows/phase3-writing/3-humanization.md) - Remove AI patterns including em-dashes
+1. Phase 3.1: Translation (scripts/workflows/phase3-writing/3.1-translation.md) - Parse French descriptions, translate to English with glossary, write intro/conclusion
+2. Phase 3.2: Flow & Polish (scripts/workflows/phase3-writing/3.2-flow-polish.md) - Merge choppy sentences, eliminate repetitions, add transitions
+3. Phase 3.3: Humanization (scripts/workflows/phase3-writing/3.3-humanization.md) - Remove AI patterns including em-dashes
 
 → **Waits for user to review and approve the draft**
 

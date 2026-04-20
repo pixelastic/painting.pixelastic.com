@@ -19,19 +19,19 @@ This is expected and fine.
 
 This phase runs **three sub-steps autonomously** without user intervention:
 
-### Step 1: [Translation](1-translation.md)
+### Step 3.1: [Translation](3.1-translation.md)
 - Parse French descriptions and group by image
 - Translate to English with glossary
 - Write intro and conclusion paragraphs
 - Assemble the full index.md
 
-### Step 2: [Flow & Polish](2-flow-polish.md)
+### Step 3.2: [Flow & Polish](3.2-flow-polish.md)
 - Merge choppy sentences into flowing prose
 - Eliminate obvious repetitions
 - Add transitions where there's clear logical connection
 - May use em-dashes temporarily to connect ideas
 
-### Step 3: [Humanization](3-humanization.md)
+### Step 3.3: [Humanization](3.3-humanization.md)
 - Remove AI writing patterns
 - **Remove ALL em-dashes** (including those added during flow improvement)
 - Remove pompous adjectives and generic conclusions
