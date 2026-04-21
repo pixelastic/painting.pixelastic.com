@@ -13,7 +13,7 @@
 {{- $imageUrl := "" -}}
 {{- $imageType := printf "%T" $image -}}
 {{- if ne $imageType "string" -}}
-  {{- $imageUrl = $image.RelPermalink -}}
+  {{- $imageUrl = partial "cloudinaryUrl.html" (dict "image" $image) -}}
 {{- else -}}
   {{- $imageUrl = $image -}}
 {{- end -}}

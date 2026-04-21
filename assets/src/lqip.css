@@ -1,0 +1,14 @@
+/* LQIP (Low Quality Image Placeholder) */
+img.lqip {
+  background-size: cover;
+  background-position: center;
+  /* transition: filter 0.1s ease-in-out; */
+}
+
+img.lqip-loading {
+  filter: blur(10px);
+}
+
+img.lqip-loaded {
+  filter: blur(0);
+}

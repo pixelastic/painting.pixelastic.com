@@ -3,6 +3,8 @@
 @source '../../hugo_stats.json'; /* To know exactly what classes to generate */
 
 @import 'glightbox/dist/css/glightbox.css';
+@import './debug.css';
+@import './lqip.css';
 
 @theme {
   --font-sans:
@@ -22,12 +24,18 @@
 
 /* Cutting mat background with grid pattern */
 .cutting-mat,
-.goverlay {
+.goverlay,
+.glightbox-mobile .goverlay {
   background-color: var(--background-color-cutting-mat);
   background-image:
     linear-gradient(to right, var(--border-color-muted) 1px, transparent 1px),
     linear-gradient(to bottom, var(--border-color-muted) 1px, transparent 1px);
   background-size: 40px 40px;
+}
+
+/* Lightbox close button */
+.glightbox-clean .gclose {
+  opacity: 0.7;
 }
 
 /* Denser cutting mat grid for placeholders */
@@ -75,50 +83,4 @@
       @apply mx-auto;
     }
   }
-}
-
-/* LQIP (Low Quality Image Placeholder) */
-img.lqip {
-  background-size: cover;
-  background-position: center;
-  /* transition: filter 0.1s ease-in-out; */
-}
-
-img.lqip-loading {
-  filter: blur(10px);
-}
-
-img.lqip-loaded {
-  filter: blur(0);
-}
-
-[debug] {
-  outline: 1px solid var(--color-red-600);
-}
-[debug] > * {
-  outline: 1px solid var(--color-orange-600);
-}
-[debug] > * > * {
-  outline: 1px solid var(--color-yellow-600);
-}
-[debug] > * > * > * {
-  outline: 1px solid var(--color-lime-600);
-}
-[debug] > * > * > * > * {
-  outline: 1px solid var(--color-green-600);
-}
-[debug] > * > * > * > * > * {
-  outline: 1px solid var(--color-cyan-600);
-}
-[debug] > * > * > * > * > * > * {
-  outline: 1px solid var(--color-blue-600);
-}
-[debug] > * > * > * > * > * > * > * {
-  outline: 1px solid var(--color-indigo-600);
-}
-[debug] > * > * > * > * > * > * > * > * {
-  outline: 1px solid var(--color-purple-600);
-}
-[debug] > * > * > * > * > * > * > * > * > * {
-  outline: 1px solid var(--color-pink-600);
 }

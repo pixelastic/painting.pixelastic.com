@@ -1,6 +1,7 @@
 import GLightbox from 'glightbox';
 
 document.addEventListener('DOMContentLoaded', () => {
+  // GLightbox initialization
   GLightbox({
     selector: '.glightbox',
     touchNavigation: true,

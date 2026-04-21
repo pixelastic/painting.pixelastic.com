@@ -33,15 +33,8 @@
   {{- /* All resources get LQIP classes */ -}}
   {{- $lqipClass = "lqip lqip-loading" -}}
 
-  {{- /* Get the final image URL */ -}}
-  {{- if hugo.IsProduction -}}
-    {{- $fingerprinted := $image | fingerprint "md5" -}}
-    {{- $src = $fingerprinted.Permalink -}}
-    {{- /* Proxy through Cloudinary for optimization */ -}}
-    {{- $src = printf "https://res.cloudinary.com/pixelastic-painting/image/fetch/f_auto/%s" $src -}}
-  {{- else -}}
-    {{- $src = $image.RelPermalink -}}
-  {{- end -}}
+  {{- /* Get the final image URL using Cloudinary helper */ -}}
+  {{- $src = partial "cloudinaryUrl.html" (dict "image" $image) -}}
 {{- else -}}
   {{- /* String path, use as-is (no LQIP for external images) */ -}}
   {{- $src = $image -}}
