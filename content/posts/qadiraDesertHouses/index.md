@@ -92,7 +92,7 @@ I made several doors myself because I realized I wouldn't have enough of the pre
 <!-- Image 17 -->
 ![Long building with foam perimeter showing construction mistakes](image-20260420173440462.png)
 
-I glued the foam perimeter around this one. There's a specific sequence of steps that makes construction easy: glue the foam first, flip the sandpaper and trace where doors and windows go, cut those out, then place it on the foam to mark where to carve. I messed up the order here. I sometimes did things out of order and glued doors in the wrong spots, but these materials are forgiving. I learned from watching [Trent Holbrook's Miscast videos](https://www.youtube.com/@TrentHolbrook) on YouTube that crafting is all about solving problems and hiding mistakes. [Wyloch](https://www.youtube.com/@Wyloch) says the same thing. You try, you mess up, it's not perfect, but the final result looks good.
+I glued the foam perimeter around this one. There's a specific sequence of steps that makes construction easy: glue the foam first, flip the sandpaper and trace where doors and windows go, cut those out, then place it on the foam to mark where to carve. I messed up the order here. I sometimes did things out of order and glued doors in the wrong spots, but these materials are forgiving. I learned from watching [Trent Holbrook's Miscast videos](https://www.youtube.com/@TrentHolbrook) on YouTube that crafting is all about solving problems and hiding mistakes. [Wyloch](https://www.youtube.com/@WylochsArmory) says the same thing. You try, you mess up, it's not perfect, but the final result looks good.
 
 <!-- Image 18 -->
 ![Back of building showing torn sandpaper around window from dimension mistake](image-20260420173449313.png)
@@ -200,4 +200,3 @@ Another nice shot.
 I'm happy with this because I needed these terrain pieces to store easily. I have a cabinet with lots of drawers, and each drawer is for roughly one biome. This was the desert city biome, and everything I have for the desert city fits in this drawer. I calculated the dimensions of my buildings so they'd fit in the width and height.
 
 This project was simple to make and didn't cost much. The buildings are durable and stackable, which is what I needed. The second color scheme (the paler tan and ochre) works much better than my first pink attempt.
-
