@@ -5,6 +5,7 @@
 @import 'glightbox/dist/css/glightbox.css';
 @import './debug.css';
 @import './lqip.css';
+@import './prose.css';
 
 @theme {
   --font-sans:
@@ -62,40 +63,5 @@
   /* Frosted background, for better readability */
   .frosted {
     @apply bg-black/70 text-white shadow-lg backdrop-blur-sm;
-  }
-}
-
-@layer utilities {
-  .prose {
-    --tw-prose-body: var(--text-color-default);
-    --tw-prose-headings: var(--text-color-default);
-    --tw-prose-links: var(--color-accent);
-    --tw-prose-bold: var(--text-color-default);
-    --tw-prose-quotes: var(--text-color-muted);
-    --tw-prose-code: var(--text-color-default);
-    --tw-prose-hr: var(--border-color-default);
-
-    /* Add vertical margin on each paragraph, bigger on bigger screens */
-    /* Also add horizontal padding */
-    p {
-      @apply my-4 md:my-6;
-      @apply px-4 md:px-8;
-    }
-    /* Delete margin top on first element */
-    p:first-child {
-      @apply mt-0;
-    }
-    /* Delete margin bottom on last element */
-    p:last-child {
-      @apply mb-0;
-    }
-
-    /* Images are full width */
-    p:has(img) {
-      @apply px-0;
-      img {
-        @apply m-0;
-      }
-    }
   }
 }
