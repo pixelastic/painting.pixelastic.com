@@ -1,14 +1,22 @@
-{{- define "main" }}
+{{- define "opengraph" }}
+{{- $paginator := .Paginate .Pages }}
 
+{{- $currentPageUrl := partial "paginatorAbsoluteUrl.html" (dict "paginator" $paginator "page" .) -}}
+{{ partial "opengraph.html" (dict "page" . "currentPageUrl" $currentPageUrl) }}
+{{- end }}
+
+{{- define "main" }}
 {{- $paginator := .Paginate .Pages }}
 
 <header class="mb-8">
   <div class="flex gap-3 items-center mb-2">
     {{- partial "icons/tag.html" (dict "class" "stroke-accent w-6 h-6") }}
-    <h1 class="text-4xl font-bold text-default font-heading">{{ .Title }}</h1>
+    <h1 class="text-4xl font-bold text-default font-heading">
+{{ .Title }}
+    </h1>
   </div>
   <p class="text-muted">
-    {{ .Pages | len }} {{ if eq (.Pages | len) 1 }}post{{ else }}posts{{ end }}
+        {{ .Pages | len }} {{ if eq (.Pages | len) 1 }}post{{ else }}posts{{ end }}
   </p>
 </header>
 

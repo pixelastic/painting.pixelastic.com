@@ -1,4 +1,15 @@
-{{- $paginator := . }}
+{{- /*
+  Renders pagination navigation
+
+  Usage:
+    {{ partial "pagination.html" $paginator }}
+
+  Parameters:
+    - paginator: The paginator object from .Paginate (required)
+*/ -}}
+
+{{- $paginator := . -}}
+
 {{- $currentPage := $paginator.PageNumber }}
 {{- $totalPages := $paginator.TotalPages }}
 

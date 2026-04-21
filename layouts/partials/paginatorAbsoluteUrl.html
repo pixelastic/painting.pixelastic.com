@@ -1,0 +1,36 @@
+{{- /*
+  Returns the absolute URL for the current paginated page
+
+  Usage:
+    {{ $url := partial "paginatorAbsoluteUrl.html" (dict "paginator" $paginator "page" .) }}
+
+  Parameters:
+    - paginator: The paginator object from .Paginate (required)
+    - page: The page context (.) for accessing .Site.BaseURL and .RelPermalink (required)
+
+  Returns: The absolute URL of the current page (e.g., "https://example.com/page/5/")
+*/ -}}
+
+{{- $paginator := .paginator -}}
+{{- $page := .page -}}
+
+{{- /* Get relative URL using Next.Prev navigation trick */ -}}
+{{- $relativeUrl := $page.RelPermalink -}}
+
+{{- if $paginator.HasNext -}}
+  {{- /* We are not on the last page, so use Prev of Next */ -}}
+  {{- with $paginator.Next.Prev -}}
+    {{- $relativeUrl = .URL -}}
+  {{- end -}}
+{{- else if $paginator.HasPrev -}}
+  {{- /* We are on the last page, so use Next of Prev */ -}}
+  {{- with $paginator.Prev.Next -}}
+    {{- $relativeUrl = .URL -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Build absolute URL */ -}}
+{{- $baseURL := strings.TrimSuffix "/" $page.Site.BaseURL -}}
+{{- $absoluteUrl := printf "%s%s" $baseURL $relativeUrl -}}
+
+{{- return $absoluteUrl -}}

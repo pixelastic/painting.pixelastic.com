@@ -1,5 +1,12 @@
-{{- define "main" }}
+{{- define "opengraph" }}
+{{- $pages := where site.RegularPages "Section" "posts" }}
+{{- $paginator := .Paginate $pages }}
 
+{{- $currentPageUrl := partial "paginatorAbsoluteUrl.html" (dict "paginator" $paginator "page" .) -}}
+{{ partial "opengraph.html" (dict "page" . "currentPageUrl" $currentPageUrl) }}
+{{- end }}
+
+{{- define "main" }}
 {{- $pages := where site.RegularPages "Section" "posts" }}
 {{- $paginator := .Paginate $pages }}
 

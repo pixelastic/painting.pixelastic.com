@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+      {{- /* <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title> */ -}}
     <meta name="description"
           content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta name="keywords"
           content="{{ if .Keywords }}{{ .Keywords }}{{ else if .Site.Params.keywords }}{{ .Site.Params.keywords }}{{ end }}">
 
-    {{- /* OpenGraph and social sharing meta tags */ -}}
-    {{ partial "opengraph.html" . }}
+    {{- /* OpenGraph meta tags - can be overridden by templates */ -}}
+    {{- block "opengraph" . -}}
+    {{ partial "opengraph.html" (dict "page" .) }}
+    {{- end -}}
 
     {{- /* Defer loading of Tailwind AFTER hugo_stats.json is generated */ -}}
     {{ with (templates.Defer (dict "key" "css")) }}
