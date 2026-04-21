@@ -13,10 +13,16 @@ keywords = "terrain crafting, dungeon tiles, miniature painting, speedpaints, di
 # This is used as a source for Tailwind
 enable = true
 
+# Rebuild CSS...
 [[build.cachebusters]]
-# Rebuild CSS whenever an HTML file is updated
+# ...whenever an HTML file is updated
 target = "css"
 source = "layouts/.*\\.html"
+
+[[build.cachebusters]]
+# ...whenever a CSS file is updated
+target = "css"
+source = "assets/src/.*\\.css"
 
 [permalinks]
 posts = '/:contentbasename/'
