@@ -25,14 +25,11 @@
   {{- /* Always use production URL for screenshots, even in local dev */ -}}
   {{- $productionBaseURL := "https://painting.pixelastic.com/" -}}
   {{- $relativePath := strings.TrimPrefix .Site.BaseURL .Permalink -}}
-  {{- $pageUrl := printf "%s%s" $productionBaseURL $relativePath -}}
-  {{- /* Remove trailing slash and convert URL format for screenshot API */ -}}
-  {{- $pageUrl = strings.TrimSuffix "/" $pageUrl -}}
-  {{- $pageUrl = replace $pageUrl "https://" "https/" -}}
-  {{- /* Use screenshot API with revv cache busting based on site build */ -}}
-  {{- $screenshotUrl := printf "https://api.pixelastic.com/screenshots/revv:%d/%s" now.Unix $pageUrl -}}
-  {{- /* Optimize screenshot through weserv: auto format, interlace, width 1200 */ -}}
-  {{- $ogImage = printf "https://images.weserv.nl?url=%s&af&il&w=1200" (querify "url" $screenshotUrl | replaceRE "^url=" "") -}}
+  {{- $pageUrl := printf "%s%s?v=%d" $productionBaseURL $relativePath now.Unix -}}
+  {{- /* Use Microlink screenshot API (URL-encode the page URL) */ -}}
+  {{- $microlinkUrl := printf "https://api.microlink.io?url=%s&screenshot=true&embed=screenshot.url" (urlquery $pageUrl) -}}
+  {{- /* Optimize through weserv: auto format, interlace, width 1200 */ -}}
+  {{- $ogImage = printf "https://images.weserv.nl?url=%s&af&il&w=1200" (urlquery $microlinkUrl) -}}
 {{- end -}}
 
 {{- /* Fallback to site default image if needed */ -}}
