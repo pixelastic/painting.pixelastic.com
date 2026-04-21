@@ -74,13 +74,28 @@
     --tw-prose-quotes: var(--text-color-muted);
     --tw-prose-code: var(--text-color-default);
     --tw-prose-hr: var(--border-color-default);
-    /* Add padding to <p> without images */
-    p:not(:has(img)) {
-      @apply px-8;
+
+    /* Add vertical margin on each paragraph, bigger on bigger screens */
+    /* Also add horizontal padding */
+    p {
+      @apply my-4 md:my-6;
+      @apply px-4 md:px-8;
     }
-    /* Center images */
-    img {
-      @apply mx-auto;
+    /* Delete margin top on first element */
+    p:first-child {
+      @apply mt-0;
+    }
+    /* Delete margin bottom on last element */
+    p:last-child {
+      @apply mb-0;
+    }
+
+    /* Images are full width */
+    p:has(img) {
+      @apply px-0;
+      img {
+        @apply m-0;
+      }
     }
   }
 }
