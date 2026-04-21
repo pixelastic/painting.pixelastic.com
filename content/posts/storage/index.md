@@ -1,6 +1,6 @@
 ---
 title: "Storage"
-tags: ["Misc"]
+tags: ["misc"]
 date: 2019-01-06
 ---
 

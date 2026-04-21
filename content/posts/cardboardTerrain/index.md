@@ -1,6 +1,6 @@
 ---
 title: "Cardboard Terrain"
-tags: ["Terrain"]
+tags: ["terrain"]
 date: 2019-01-10
 ---
 

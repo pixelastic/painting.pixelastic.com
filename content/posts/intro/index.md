@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-tags: ["Misc"]
+tags: ["misc"]
 date: 2019-01-01
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Garage Sales"
-tags: ["Misc"]
+tags: ["misc"]
 date: 2019-01-07
 ---
 
