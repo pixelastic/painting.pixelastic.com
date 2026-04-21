@@ -9,7 +9,7 @@
 <nav class="flex gap-2 justify-center items-center pt-8">
   {{- if $paginator.HasPrev }}
   <a href="{{ $paginator.Prev.URL }}"
-     class="{{ $commonClasses }} {{ $isNotActiveClasses }}">
+     class="{{ $commonClasses }} {{ $isNotActiveClasses }} hidden sm:block">
     Previous
   </a>
   {{- end }}
@@ -33,7 +33,7 @@
 
   {{- if $paginator.HasNext }}
   <a href="{{ $paginator.Next.URL }}"
-     class="{{ $commonClasses }} {{ $isNotActiveClasses }}">
+     class="{{ $commonClasses }} {{ $isNotActiveClasses }} hidden sm:block">
     Next
   </a>
   {{- end }}
