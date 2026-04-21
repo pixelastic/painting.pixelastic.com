@@ -16,6 +16,8 @@
 {{- $args := .args -}}
 
 {{- /* Build Cloudinary fetch URL */ -}}
-{{- $cloudinaryUrl := printf "https://res.cloudinary.com/pixelastic-painting/image/fetch/%s/%s" $args $imageUrl -}}
+{{- /* URL-encode the image URL to properly handle query parameters */ -}}
+{{- $encodedImageUrl := urlquery $imageUrl -}}
+{{- $cloudinaryUrl := printf "https://res.cloudinary.com/pixelastic-painting/image/fetch/%s/%s" $args $encodedImageUrl -}}
 
 {{- return $cloudinaryUrl -}}
