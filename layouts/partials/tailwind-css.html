@@ -12,10 +12,7 @@
   {{- else }}
     {{- with . | css.TailwindCSS (dict "minify" true "skipInlineImportsNotFound" true) }}
       {{- with . | fingerprint }}
-<link rel="stylesheet"
-      href="{{ .RelPermalink }}"
-      integrity="{{ .Data.Integrity }}"
-      crossorigin="anonymous">
+<link rel="stylesheet" href="{{ .RelPermalink }}">
       {{- end }}
     {{- end }}
   {{- end }}

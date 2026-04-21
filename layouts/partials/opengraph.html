@@ -20,6 +20,19 @@
     {{- /* Optimize through Cloudinary: max 1200x630px, preserve aspect ratio, auto format, compressed */ -}}
     {{- $ogImage = printf "https://res.cloudinary.com/pixelastic-painting/image/fetch/w_1200,h_630,c_limit,f_auto,q_auto/%s" $ogImageRaw -}}
   {{- end -}}
+{{- else -}}
+  {{- /* For non-post pages (home, lists, taxonomies), use screenshot */ -}}
+  {{- /* Always use production URL for screenshots, even in local dev */ -}}
+  {{- $productionBaseURL := "https://painting.pixelastic.com/" -}}
+  {{- $relativePath := strings.TrimPrefix .Site.BaseURL .Permalink -}}
+  {{- $pageUrl := printf "%s%s" $productionBaseURL $relativePath -}}
+  {{- /* Remove trailing slash and convert URL format for screenshot API */ -}}
+  {{- $pageUrl = strings.TrimSuffix "/" $pageUrl -}}
+  {{- $pageUrl = replace $pageUrl "https://" "https/" -}}
+  {{- /* Use screenshot API with revv cache busting based on site build */ -}}
+  {{- $screenshotUrl := printf "https://api.pixelastic.com/screenshots/revv:%d/%s" now.Unix $pageUrl -}}
+  {{- /* Optimize screenshot through weserv: auto format, interlace, width 1200 */ -}}
+  {{- $ogImage = printf "https://images.weserv.nl?url=%s&af&il&w=1200" (querify "url" $screenshotUrl | replaceRE "^url=" "") -}}
 {{- end -}}
 
 {{- /* Fallback to site default image if needed */ -}}
