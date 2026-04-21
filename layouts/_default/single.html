@@ -35,15 +35,15 @@
     <a href="{{ .RelPermalink }}"
        class="flex overflow-hidden w-full max-w-md h-32 transition-all group card md:min-w-80 hover:border-accent">
       <!-- Image on the left for previous -->
-      <div class="flex-shrink-0 w-32 {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
-        {{- if $firstImageInMarkdown }}
+      {{- if $firstImageInMarkdown }}
+      <div class="flex-shrink-0 w-32">
         {{- partial "image.html" (dict
           "image" $firstImageInMarkdown
           "alt" .Title
           "class" "object-cover w-full h-full"
         ) -}}
-        {{- end }}
       </div>
+      {{- end }}
       <div class="flex flex-col gap-2 p-4">
         <div class="flex gap-2 items-center text-sm text-muted">
           <span class="transition-transform group-hover:-translate-x-1">
@@ -78,15 +78,15 @@
     <a href="{{ .RelPermalink }}"
        class="flex overflow-hidden flex-row-reverse self-end w-full max-w-md h-32 transition-all group card md:min-w-80 hover:border-accent">
       <!-- Image on the right for next -->
-      <div class="flex-shrink-0 w-32 {{ if not $firstImageInMarkdown }}cutting-mat-dense{{ end }}">
-        {{- if $firstImageInMarkdown }}
+      {{- if $firstImageInMarkdown }}
+      <div class="flex-shrink-0 w-32">
         {{- partial "image.html" (dict
           "image" $firstImageInMarkdown
           "alt" .Title
           "class" "object-cover w-full h-full"
         ) -}}
-        {{- end }}
       </div>
+      {{- end }}
       <div class="flex flex-col gap-2 p-4 text-right">
         <div class="flex gap-2 justify-end items-center text-sm text-muted">
           <span>Next</span>
