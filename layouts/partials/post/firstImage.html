@@ -3,6 +3,8 @@
 {{- $matches := findRE $imageRegex .RawContent 1 }}
 {{- if $matches }}
   {{- $imagePath := replaceRE $imageRegex "$1" (index $matches 0) }}
+  {{- /* Remove leading ./ if present */ -}}
+  {{- $imagePath = strings.TrimPrefix "./" $imagePath }}
   {{- $image = .Resources.GetMatch $imagePath }}
 {{- end }}
 {{- return $image }}
