@@ -13,21 +13,21 @@
 {{- /* OG Image */ -}}
 {{- /* Get raw image URL: first image for posts, screenshot for other pages */ -}}
 {{- $ogImageRaw := "" -}}
-{{- $ogImage := "" -}}
 {{- if .IsPage -}}
   {{- /* For posts, use first image in content */ -}}
   {{- $firstImage := partial "post/firstImage.html" . -}}
   {{- if $firstImage -}}
     {{- $ogImageRaw = $firstImage.Permalink -}}
-  {{- $ogImage = partial "cloudinaryImageUrl.html" (dict "imageUrl" $ogImageRaw "args" "w_1200,h_630,c_limit,f_auto,q_auto") -}}
   {{- end -}}
 {{- end -}}
 
 {{- /* Fallback to screenshot for any page without an image */ -}}
 {{- if not $ogImageRaw -}}
   {{- $pageUrl := printf "%s%s" .Site.BaseURL .RelPermalink -}}
-  {{- $ogImage = partial "microlinkScreenshotUrl.html" (dict "pageUrl" $pageUrl) -}}
+  {{- $ogImageRaw = partial "microlinkScreenshotUrl.html" (dict "pageUrl" $pageUrl) -}}
 {{- end -}}
+
+{{- $ogImage := partial "cloudinaryImageUrl.html" (dict "imageUrl" $ogImageRaw "args" "w_1200,h_630,c_limit,f_auto,q_auto") -}}
 
 {{- /* Optimize through Cloudinary */ -}}
 
