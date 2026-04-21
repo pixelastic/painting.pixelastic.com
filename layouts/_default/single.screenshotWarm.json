@@ -1,0 +1,19 @@
+{{- /* List of pages to warmup for screenshot generation */ -}}
+{{- $pagesToWarmup := slice
+  ""
+  "page/2/"
+  "page/3/"
+  "tags/terrain/"
+  "tags/miniatures/"
+  "tags/misc/"
+-}}
+
+{{- /* Generate Microlink URLs for each page */ -}}
+{{- $screenshotUrls := slice -}}
+{{- range $pagesToWarmup -}}
+  {{- $pageUrl := printf "%s%s" $.Site.BaseURL . -}}
+  {{- $microlinkUrl := partial "microlinkScreenshotUrl.html" (dict "pageUrl" $pageUrl) -}}
+  {{- $screenshotUrls = $screenshotUrls | append $microlinkUrl -}}
+{{- end -}}
+
+{{- dict "screenshotWarmup" $screenshotUrls | jsonify (dict "indent" "  ") -}}

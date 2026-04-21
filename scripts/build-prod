@@ -6,5 +6,8 @@ if ! command -v hugo >/dev/null; then
   source "$HOME/.gvm/scripts/gvm" >/dev/null
 fi
 
+# Generate unique build ID for cache busting
+export BUILD_ID=$(date +%s)
+
 # Build for production
 hugo --minify --environment production

@@ -1,0 +1,24 @@
+{{- /*
+  Generates a Microlink screenshot URL for a given page URL
+
+  Usage:
+    {{ $url := partial "microlinkScreenshotUrl.html" (dict "pageUrl" "https://example.com") }}
+
+  Parameters:
+    - pageUrl: The full URL to screenshot (required)
+
+  Returns: Microlink API URL that returns the screenshot
+*/ -}}
+
+{{- $pageUrl := .pageUrl -}}
+
+{{- /* Get build ID from environment variable for cache busting */ -}}
+{{- $buildId := getenv "BUILD_ID" | default "dev" -}}
+
+{{- /* Add cache busting query parameter */ -}}
+{{- $pageUrlWithCache := printf "%s?v=%s" $pageUrl $buildId -}}
+
+{{- /* Build Microlink API URL with performance optimizations */ -}}
+{{- $microlinkUrl := printf "https://api.microlink.io?url=%s&screenshot=true&meta=false&scripts=false&embed=screenshot.url" (urlquery $pageUrlWithCache) -}}
+
+{{- return $microlinkUrl -}}

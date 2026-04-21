@@ -1,0 +1,28 @@
+{{- /*
+  Generate optimized URL for a Hugo image resource
+  Uses Cloudinary in production, direct URL in development
+
+  Parameters:
+  - image: (resource) REQUIRED - Hugo resource object
+  - args: (string) Optional Cloudinary transformation arguments (default: "f_auto")
+
+  Returns: Cloudinary URL in production, RelPermalink in development
+
+  Usage:
+  {{ partial "imageUrl.html" (dict "image" $imageResource) }}
+  {{ partial "imageUrl.html" (dict "image" $imageResource "args" "f_auto,w_800") }}
+*/ -}}
+
+{{- $image := .image -}}
+{{- $args := .args | default "f_auto" -}}
+{{- $url := "" -}}
+
+{{- if hugo.IsProduction -}}
+  {{- $fingerprinted := $image | fingerprint "md5" -}}
+  {{- $baseUrl := $fingerprinted.Permalink -}}
+  {{- $url = partial "cloudinaryImageUrl.html" (dict "imageUrl" $baseUrl "args" $args) -}}
+{{- else -}}
+  {{- $url = $image.RelPermalink -}}
+{{- end -}}
+
+{{- $url -}}

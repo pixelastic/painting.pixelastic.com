@@ -34,7 +34,7 @@
   {{- $lqipClass = "lqip lqip-loading" -}}
 
   {{- /* Get the final image URL using Cloudinary helper */ -}}
-  {{- $src = partial "cloudinaryUrl.html" (dict "image" $image) -}}
+  {{- $src = partial "imageUrl.html" (dict "image" $image) -}}
 {{- else -}}
   {{- /* String path, use as-is (no LQIP for external images) */ -}}
   {{- $src = $image -}}

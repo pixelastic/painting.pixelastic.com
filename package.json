@@ -37,6 +37,7 @@
     "open:netlify": "./scripts/open-netlify",
     "open:todo": "./scripts/open-todo",
     "release": "./scripts/release",
+    "screenshot-warm": "node ./scripts/screenshotWarm.js",
     "serve": "./scripts/serve",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch",

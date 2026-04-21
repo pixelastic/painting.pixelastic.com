@@ -1,0 +1,21 @@
+{{- /*
+  Wraps any image URL with Cloudinary for optimization
+
+  Usage:
+    {{ $url := partial "cloudinaryImageUrl.html" (dict "imageUrl" "https://example.com/image.png" "args" "w_1200,h_630,c_limit,f_auto,q_auto") }}
+
+  Parameters:
+    - imageUrl: The source image URL (required)
+    - args: Cloudinary transformation arguments as a comma-separated string (required)
+            Example: "w_1200,h_630,c_limit,f_auto,q_auto"
+
+  Returns: Optimized image URL via Cloudinary
+*/ -}}
+
+{{- $imageUrl := .imageUrl -}}
+{{- $args := .args -}}
+
+{{- /* Build Cloudinary fetch URL */ -}}
+{{- $cloudinaryUrl := printf "https://res.cloudinary.com/pixelastic-painting/image/fetch/%s/%s" $args $imageUrl -}}
+
+{{- return $cloudinaryUrl -}}

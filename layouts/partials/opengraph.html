@@ -11,38 +11,27 @@
 <meta property="og:site_name" content="{{ .Site.Title }}">
 
 {{- /* OG Image */ -}}
-{{- $ogImage := "" -}}
+{{- /* Get raw image URL: first image for posts, screenshot for other pages */ -}}
+{{- $ogImageRaw := "" -}}
 {{- if .IsPage -}}
   {{- /* For posts, use first image in content */ -}}
   {{- $firstImage := partial "post/firstImage.html" . -}}
   {{- if $firstImage -}}
-    {{- $ogImageRaw := $firstImage.Permalink -}}
-    {{- /* Optimize through Cloudinary: max 1200x630px, preserve aspect ratio, auto format, compressed */ -}}
-    {{- $ogImage = printf "https://res.cloudinary.com/pixelastic-painting/image/fetch/w_1200,h_630,c_limit,f_auto,q_auto/%s" $ogImageRaw -}}
-  {{- end -}}
-{{- else -}}
-  {{- /* For non-post pages (home, lists, taxonomies), use screenshot */ -}}
-  {{- /* Always use production URL for screenshots, even in local dev */ -}}
-  {{- $productionBaseURL := "https://painting.pixelastic.com/" -}}
-  {{- $relativePath := strings.TrimPrefix .Site.BaseURL .Permalink -}}
-  {{- $pageUrl := printf "%s%s?v=%d" $productionBaseURL $relativePath now.Unix -}}
-  {{- /* Use Microlink screenshot API (URL-encode the page URL) */ -}}
-  {{- $microlinkUrl := printf "https://api.microlink.io?url=%s&screenshot=true&embed=screenshot.url" (urlquery $pageUrl) -}}
-  {{- /* Optimize through weserv: auto format, interlace, width 1200 */ -}}
-  {{- $ogImage = printf "https://images.weserv.nl?url=%s&af&il&w=1200" (urlquery $microlinkUrl) -}}
-{{- end -}}
-
-{{- /* Fallback to site default image if needed */ -}}
-{{- if not $ogImage -}}
-  {{- if .Site.Params.ogImage -}}
-    {{- $ogImage = .Site.Params.ogImage | absURL -}}
+    {{- $ogImageRaw = $firstImage.Permalink -}}
   {{- end -}}
 {{- end -}}
 
-{{- if $ogImage -}}
+{{- /* Fallback to screenshot for any page without an image */ -}}
+{{- if not $ogImageRaw -}}
+  {{- $pageUrl := printf "%s%s" .Site.BaseURL .RelPermalink -}}
+  {{- $ogImageRaw = partial "microlinkScreenshotUrl.html" (dict "pageUrl" $pageUrl) -}}
+{{- end -}}
+
+{{- /* Optimize through Cloudinary */ -}}
+{{- $ogImage := partial "cloudinaryImageUrl.html" (dict "imageUrl" $ogImageRaw "args" "w_1200,h_630,c_limit,f_auto,q_auto") -}}
+
 <meta property="og:image" content="{{ $ogImage }}">
 <meta property="og:image:alt" content="{{ .Title }}">
-{{- end -}}
 
 {{- /* Article specific tags */ -}}
 {{- if .IsPage -}}

@@ -35,12 +35,26 @@ tag = 'tags'
 
 [outputs]
 home = ['HTML', 'RSS']
+page = ['HTML']
 taxonomy = ['HTML']
 term = ['HTML']
+
+# Make screenshotWarm display as JSON
+[outputFormats.screenshotWarm]
+mediaType = 'application/json'
+baseName = 'screenshotWarm'
+isPlainText = true
 
 [markup]
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = true # Allow HTML in markdown
-[markup.highlight]
-style = 'monokai'
+
+[minify]
+disableJSON = true
+
+# Allow some specific env variables, used for cachebusting of og:image
+# screenshots
+[security]
+[security.funcs]
+getenv = ['^BUILD_ID$']
