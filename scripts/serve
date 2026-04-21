@@ -1,11 +1,13 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 # Serve local website
 
-# Initialize GVM
-[[ -s ~/.gvm/scripts/gvm ]] && source ~/.gvm/scripts/gvm
+# Load hugo from GVM if not available
+if ! command -v hugo >/dev/null; then
+  source "$HOME/.gvm/scripts/gvm" >/dev/null
+fi
 
-# Stop on errors only once GVM is loaded
-set -e
+# Generate unique build ID for cache busting
+export BUILD_ID=$(date +%s)
 
 # Hugo dev server with integrated Tailwind CSS processing
 hugo server \

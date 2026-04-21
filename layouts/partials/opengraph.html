@@ -9,9 +9,6 @@
 {{- $page := .page -}}
 {{- $ogUrl := .currentPageUrl | default $page.Permalink -}}
 
-{{- /* DEBUG: Show URL in title for easy verification */ -}}
-<title>DEBUG: {{ $ogUrl }}</title>
-
 {{- /* Basic OG tags */ -}}
 <meta property="og:title"
       content="{{ if $page.IsHome }}{{ $page.Site.Title }}{{ else }}{{ $page.Title }}{{ end }}">
