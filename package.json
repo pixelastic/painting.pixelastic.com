@@ -16,7 +16,7 @@
   },
   "packageManager": "yarn@4.12.0",
   "devDependencies": {
-    "aberlaas": "2.27.4",
+    "aberlaas": "2.27.6",
     "prettier-plugin-go-template": "0.0.15"
   },
   "dependencies": {
