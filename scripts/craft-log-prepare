@@ -48,5 +48,7 @@ for photo in "$@"; do
   jsonEntries+=("$(jo original="$photo" file="$newName")")
 done
 
-# Output JSON array
-printf '%s\n' "${jsonEntries[@]}" | jo -a
+# Output JSON object with post directory and images array
+local imagesJson="$(printf '%s\n' "${jsonEntries[@]}" | jo -a)"
+echo "$imagesJson" \
+  | jq --arg dir "$postDir" '{postDirectory: $dir, images: .}'

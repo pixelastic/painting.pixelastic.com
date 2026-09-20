@@ -74,8 +74,9 @@ create_photo() {
   [[ "$status" -eq 0 ]]
 
   echo "$output" | jq '.' > /dev/null
-  expect_json_glob '.[0].original' "*2026-09-19 20.45.17.jpg"
-  expect_json '.[0].file' "image-20260919204517000.jpg"
+  expect_json_glob '.images[0].original' "*2026-09-19 20.45.17.jpg"
+  expect_json '.images[0].file' "image-20260919204517000.jpg"
+  expect_json_glob '.postDirectory' "*content/posts/testSlug"
 }
 
 @test "does not modify original Dropbox file" {
@@ -99,7 +100,7 @@ create_photo() {
   [[ -f "$BATS_TMP_DIR/content/posts/testSlug/image-20260919204517000.jpg" ]]
   [[ -f "$BATS_TMP_DIR/content/posts/testSlug/image-20260919211005000.png" ]]
 
-  local count="$(echo "$output" | jq 'length')"
+  local count="$(echo "$output" | jq '.images | length')"
   [[ "$count" -eq 2 ]]
 }
 

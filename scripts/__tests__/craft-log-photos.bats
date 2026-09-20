@@ -24,7 +24,7 @@ create_photo() {
   create_photo "2026-09-15 23.30.00.jpg"
 
   # Range: 20:44 to 23:30 (+2h buffer = 01:30)
-  bats_run_zsh "craft-log-photos 2026-09-15 20.44 23.30"
+  bats_run_zsh "craft-log-photos --from '2026-09-15 20.44' --to '2026-09-15 23.30'"
   [[ "$status" -eq 0 ]]
 
   # Should include 20:45, 21:30, 23:30 but not 14:00
@@ -37,7 +37,7 @@ create_photo() {
 @test "returns empty JSON array when no photos match" {
   create_photo "2026-09-15 14.00.00.jpg"
 
-  bats_run_zsh "craft-log-photos 2026-09-15 20.00 22.00"
+  bats_run_zsh "craft-log-photos --from '2026-09-15 20.00' --to '2026-09-15 22.00'"
   [[ "$status" -eq 0 ]]
   [[ "$output" == "[]" ]]
 }
@@ -46,7 +46,7 @@ create_photo() {
   create_photo "2026-09-14 21.00.00.jpg"
   create_photo "2026-09-15 21.00.00.jpg"
 
-  bats_run_zsh "craft-log-photos 2026-09-15 20.00 22.00"
+  bats_run_zsh "craft-log-photos --from '2026-09-15 20.00' --to '2026-09-15 22.00'"
   [[ "$status" -eq 0 ]]
   [[ "$output" != *"09-14"* ]]
   [[ "$output" == *"09-15"* ]]
@@ -57,7 +57,7 @@ create_photo() {
   create_photo "2026-09-15 22.30.00.jpg"
   create_photo "2026-09-15 23.59.00.jpg"
 
-  bats_run_zsh "craft-log-photos 2026-09-15 22.00 22.00"
+  bats_run_zsh "craft-log-photos --from '2026-09-15 22.00' --to '2026-09-15 22.00'"
   [[ "$status" -eq 0 ]]
   [[ "$output" == *"22.30.00"* ]]
   [[ "$output" == *"23.59.00"* ]]
@@ -72,7 +72,7 @@ create_photo() {
   # Next-day photo at 02.00 is outside buffer
   create_photo "2026-09-16 02.00.00.jpg"
 
-  bats_run_zsh "craft-log-photos 2026-09-15 23.00 23.30"
+  bats_run_zsh "craft-log-photos --from '2026-09-15 23.00' --to '2026-09-15 23.30'"
   [[ "$status" -eq 0 ]]
   [[ "$output" == *"23.45.00"* ]]
   [[ "$output" != *"20.00.00"* ]]
@@ -83,7 +83,7 @@ create_photo() {
 @test "outputs valid JSON array of absolute paths" {
   create_photo "2026-09-15 21.00.00.jpg"
 
-  bats_run_zsh "craft-log-photos 2026-09-15 20.00 22.00"
+  bats_run_zsh "craft-log-photos --from '2026-09-15 20.00' --to '2026-09-15 22.00'"
   [[ "$status" -eq 0 ]]
 
   # Should be valid JSON parseable by jq
