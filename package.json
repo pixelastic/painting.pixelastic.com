@@ -30,6 +30,7 @@
     "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
     "compress": "./scripts/compress",
+    "craft-log:photos": "./scripts/craft-log-photos",
     "install-deps": "./scripts/install-deps",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",

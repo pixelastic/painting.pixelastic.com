@@ -1,0 +1,27 @@
+#!/usr/bin/env zsh
+# List Dropbox photos taken during a craft session time range
+# Outputs a JSON array of absolute file paths
+# Usage:
+# $ craft-log-photos 2026-09-15 20.00 23.30
+set -e
+
+local date="$1"
+local startTime="${2//./:}"
+local lastNoteTime="${3//./:}"
+
+local cameraDirectory="${DROPBOX_CAMERA_DIR:-/home/tim/perso/Dropbox/Chargements appareil photo}"
+
+# Find photos by mtime between start and last_note_time + 2h buffer
+local startTimestamp="$date $startTime"
+local endEpoch=$(( $(date --date="$date $lastNoteTime" +%s) + 7200 ))
+local endTimestamp="$(date --date="@$endEpoch" "+%Y-%m-%d %H:%M")"
+
+local results="$(find "$cameraDirectory" -maxdepth 1 -type f -newermt "$startTimestamp" ! -newermt "$endTimestamp" | sort)"
+
+# No matching photos
+if [[ "$results" == "" ]]; then
+  echo "[]"
+  exit 0
+fi
+
+echo "$results" | jo -a
