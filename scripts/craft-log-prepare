@@ -1,0 +1,52 @@
+#!/usr/bin/env zsh
+# Copy, rename, resize, and compress Dropbox photos into a blog post directory
+# Usage:
+# $ craft-log-prepare --slug myPost photo1.jpg photo2.jpg
+set -e
+
+zparseopts -E -D \
+  -slug:=flagSlug
+
+local slug=${flagSlug[2]}
+
+# --slug is required
+if [[ "$slug" == "" ]]; then
+  echoerr "Error: --slug is required"
+  exit 1
+fi
+
+# No photos provided
+if [[ $# -eq 0 ]]; then
+  echoerr "Error: no photos provided"
+  exit 1
+fi
+
+local postDir="content/posts/$slug"
+mkdir -p "$postDir"
+
+local jsonEntries=()
+
+for photo in "$@"; do
+  local baseName="${photo:t}"
+  local extension="${baseName:e}"
+
+  # Extract timestamp from Dropbox filename: "YYYY-MM-DD HH.MM.SS.ext"
+  local datePart="${baseName:0:10}"
+  local timePart="${baseName:11:8}"
+  local timestamp="${datePart//[-]/}${timePart//[.]/}"
+
+  local newName="image-${timestamp}000.${extension}"
+  local destPath="$postDir/$newName"
+
+  # Copy original to destination (never modify original)
+  cp "$photo" "$destPath"
+
+  # Resize and compress
+  img-resize "$destPath" 1400x1400
+  img-min "$destPath"
+
+  jsonEntries+=("$(jo original="$photo" file="$newName")")
+done
+
+# Output JSON array
+printf '%s\n' "${jsonEntries[@]}" | jo -a

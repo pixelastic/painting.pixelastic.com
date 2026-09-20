@@ -31,6 +31,7 @@
     "ci": "./scripts/ci",
     "compress": "./scripts/compress",
     "craft-log:photos": "./scripts/craft-log-photos",
+    "craft-log:prepare": "./scripts/craft-log-prepare",
     "install-deps": "./scripts/install-deps",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
