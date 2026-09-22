@@ -1,5 +1,5 @@
 ---
-title: "Dungeon & Lasers Wall Molds"
+title: "Craft Log #1: Dungeon & Lasers Wall Molds"
 tags: ["terrain"]
 date: 2026-09-19
 layout: post

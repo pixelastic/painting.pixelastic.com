@@ -1,5 +1,5 @@
 ---
-title: "Foam Bricks and a Yard Sale Find"
+title: "Craft Log #2: Garage Sale Loot and Cutting Bricks"
 tags: ["terrain"]
 date: 2026-09-20
 layout: post
