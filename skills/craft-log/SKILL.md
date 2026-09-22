@@ -7,29 +7,30 @@ description: Use when user says "craft log", "new craft post", or wants to turn 
 
 ## Overview
 
-Turn a Notion vocal session into a published craft/painting blog post. Picks up notes, finds matching photos, prepares images, and writes the article.
+Turn a Notion vocal session into a published craft/painting blog post. Picks up
+notes, finds matching photos, prepares images, and writes the article.
 
 ---
 
 ## Core Workflow
 
-### Step 1 — Find session
+### Step 1 — Find and read session
 
 Call `phone-pickup-list --tag "blog post" --is-processed 0`.
 
-Pick the most recent entry. Present a summary to the user: title, date, brief content description.
+Pick the most recent entry, then call `phone-pickup-read {page_id}` to fetch its full content.
 
-**Ask the user to confirm** this is the correct session before continuing.
+Present to the user:
+- **Title** and **date**
+- A **2-3 sentence summary** of the content (generated from the notes)
 
-### Step 2 — Read notes
-
-Call `phone-pickup-read {page_id}` with the confirmed page ID.
-
-Read the full content. Extract:
+Extract from the content (needed for later steps):
 - `<startTime>`: datetime of the first note, `YYYY-MM-DD HH.MM` format
 - `<endTime>`: datetime of the last note, `YYYY-MM-DD HH.MM` format (may be on the next day)
 
-### Step 3 — Find and triage photos
+**Ask the user to confirm** this is the correct session before continuing.
+
+### Step 2 — Find and triage photos
 
 Call `yarn run craft-log:photos --from "<startTime>" --to "<endTime>"`.
 
@@ -39,7 +40,7 @@ For each photo path returned:
 3. Map it to the nearest note timestamp
 4. Exclude photos unrelated to the craft session
 
-### Step 4 — Prepare images
+### Step 3 — Prepare images
 
 Choose a **camelCase** slug based on the notes content. Max 4 words.
 
@@ -55,7 +56,7 @@ The script outputs JSON:
 }
 ```
 
-### Step 5 — Write article
+### Step 4 — Write article
 
 Write `<postDirectory>/index.md` with:
 
@@ -78,7 +79,7 @@ description: "{short description}"
 - Add descriptive alt text on every image.
 - Sections with `##` headings for distinct phases of the session
 
-### Step 6 — Mark as processed
+### Step 5 — Mark as processed
 
 Call `phone-pickup-done {page_id}`.
 
@@ -88,9 +89,8 @@ Output the post directory path and confirm completion.
 
 ## Checklist
 
-- [ ] `phone-pickup-list --tag "blog post" --is-processed 0` called
-- [ ] Session summary presented, confirmation received
-- [ ] `phone-pickup-read {page_id}` called, date and time range extracted
+- [ ] `phone-pickup-list` and `phone-pickup-read` called, summary presented with title/date/content description
+- [ ] User confirmation received, time range extracted
 - [ ] `yarn run craft-log:photos` called, photos triaged
 - [ ] `yarn run craft-log:prepare --slug {slug}` called, filenames collected
 - [ ] Article written to `content/posts/{slug}/index.md`
